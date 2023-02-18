@@ -21,7 +21,7 @@ body .main .buttons {
   justify-content: center;
   width: 200px;
 }
-body .main button {
+body .main .buttons button {
   min-width: 50px;
   height: 30px;
   font-weight: bold;
@@ -33,7 +33,7 @@ body .main button {
   border-radius: 8px;
   transition: all 600ms;
 }
-body .main button:hover {
+body .main .buttons button:hover {
   color: rgb(47, 150, 47);
   background-color: white;
   cursor: pointer;
@@ -41,12 +41,17 @@ body .main button:hover {
 }
 
 @media all and (max-width: 1000px) {
-  h1 {
+  .main h1 {
     width: 100%;
-    font-size: 60px;
   }
-  p {
+  .main #p1, .main #p2, .main #p3, .main #p4 {
     width: 90%;
-    font-size: 40px;
+  }
+  .main #buttons {
+    width: 95%;
+  }
+  .main #buttons .button {
+    background-color: white;
+    border: 1px solid black;
   }
 }/*# sourceMappingURL=styles.css.map */
