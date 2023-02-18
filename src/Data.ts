@@ -2958,77 +2958,478 @@ export const Paragraphs: IHTML[] = [
         ]
     },
     {
-        id: 113,
+        id: 131,
 
-        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
-        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
-        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
-        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
-        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
-        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
-        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
-        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
-        vous poursuivez votre route.`,
+        text1: `Vous avez parcouru environ cinq cents mètres lorsque vous entendez des
+        cris et des bruits semblables au fracas du tonnerre. En vous approchant,
+        vous apercevez bientôt une clairière que vous connaissez déjà. C'est là
+        que s'élèvent les ruines de Raumas, un ancien temple de la forêt. Une
+        troupe de Gloks dont vous évaluez le nombre à vingt-cinq ou trente sont
+        en train d'attaquer les ruines qu'ils encerclent. D'autres Gloks, plus
+        nombreux encore, sont étendus raides morts ou agonisent parmi les
+        vestiges de marbre du temple. L'assaut des Gloks survivants ne faiblit
+        pas pour autant et ils continuent de mener l'attaque contre les ruines.
+        Qui s'y cache ? Vous l'ignorez. Or, soudain, un éclair jaillit et vient
+        frapper le premier rang des Gloks. Les monstres revêtus de leurs armures
+        sont alors projetés en tous sens, trébuchant et roulant sur eux-mêmes.
+        L'un d'eux, plus grand que les autres et couvert de la tête aux pieds
+        d'une grosse cotte de mailles noire, lance des jurons à ses congénères
+        et les incite à repartir à l'attaque en les frappant à grands coups d'un
+        fouet aux lanières de fer barbelé.`,
+        
+        text2: `Vous dégainez votre arme et vous vous
+        approchez de la clairière en restant à l'abri du feuillage. Vous essayez
+        de voir qui défend ainsi les ruines du temple et, à votre grand
+        étonnement, vous vous apercevez bientôt que c'est un jeune homme seul,
+        guère plus âgé que vous, qui tient ainsi tête aux créatures déchaînées.
+        Vous reconnaissez aussitôt sa toge bleu ciel brodée d'étoiles : c'est un
+        jeune Théurgiste de la Guilde des Magiciens de Toran, un apprenti en
+        magie blanche. Cinq Gloks, la lance brandie, chargent le jeune homme qui
+        bat rapidement en retraite à l'intérieur des ruines. Vous le voyez alors
+        se tourner et lever la main gauche : au même instant, un éclair bleu
+        jaillit du bout de ses doigts et vient frapper les Gloks hurlants. Non
+        loin de l'endroit où vous êtes caché, un autre Glok contourne les ruines
+        en courant et grimpe au sommet d'une des colonnes du temple. Il serre
+        entre ses dents un long poignard à la lame recourbée et s'apprête à
+        sauter sur le jeune sorcier qui se tient debout juste au-dessous de lui.`,
 
-        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
-        Si vous préférez aller à l'est, rendez-vous au 295.`,
+        decision: `Si vous souhaitez crier pour avertir le sorcier du danger qui le menace,
+        rendez-vous au 241. Si vous voulez vous précipiter en avant pour attaquer le Glok
+        au moment où il bondira, rendez-vous au 55. Si vous préférez ramasser une
+        pierre dans les ruines et la jeter à la tête du Glok, rendez-vous au
+        302. Enfin, si vous estimez plus judicieux de quitter ce champ de bataille et de
+        poursuivre votre chemin en retournant dans la forêt, rendez-vous au 101.`,
 
         links: [
             {
-                id: 347
+                id: 241
             },
             {
-                id: 295
+                id: 55
+            },
+            {
+                id: 302
+            },
+            {
+                id: 101
             }
         ]
     },
     {
-        id: 113,
+        id: 132,
 
-        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
-        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
-        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
-        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
-        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
-        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
-        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
-        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
-        vous poursuivez votre route.`,
+        text1: `Le garde du corps vous observe d'un regard soupçonneux et vous claque la
+        porte au nez. Vous entendez parler à l'intérieur de la roulotte puis,
+        soudain, la porte s'ouvre à nouveau et le visage d'un marchand prospère
+        apparaît. Il reconnaît aussitôt votre cape de Seigneur Kaï et vous
+        demande de bien vouloir excuser la conduite de son serviteur. Il vous
+        fait entrer dans la roulotte et vous raconte qu'il a été attaqué
+        plusieurs fois depuis qu'il a quitté le port de Toran, notamment par des
+        Kraans et par des brigands. Son garde du corps a tout de suite pensé que
+        vous pouviez être un bandit, ce qui explique son comportement. La
+        roulotte est remplie de soieries et d'épices. Le marchand vous propose
+        quelque chose à manger et vous acceptez avec gratitude. Après avoir fait
+        un somptueux repas, la fatigue accumulée au cours de vos épreuves a
+        raison de vous et vous sombrez dans un sommeil profond.`,
 
-        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
-        Si vous préférez aller à l'est, rendez-vous au 295.`,
+        decision: `Rendez-vous au 64.`,
 
         links: [
             {
-                id: 347
-            },
-            {
-                id: 295
+                id: 64
             }
         ]
     },
     {
-        id: 113,
+        id: 133,
 
-        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
-        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
-        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
-        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
-        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
-        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
-        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
-        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
-        vous poursuivez votre route.`,
+        text1: `Quand vous vous approchez de la statue, celle-ci commence à se craqueler
+        et, soudain, elle explose devant vous tandis qu'un véritable serpent
+        ailé, débarrassé de son manteau de pierre vous attaque férocement. Il
+        vous faut combattre la créature. Votre adversaire est insensible à la Discipline Kaï de la Puissance
+        Psychique.`,
 
-        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
-        Si vous préférez aller à l'est, rendez-vous au 295.`,
+        text2: `[SERPENT AILÉ] HABILETÉ : 16 / ENDURANCE : 18`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 266.`,
 
         links: [
             {
-                id: 347
+                id: 266
+            }
+        ]
+    },
+    {
+        id: 134,
+
+        text1: `Vos talents de Seigneur Kaï vous permettent de déceler des traces de
+        Gloks tout autour de la clairière. Les empreintes sont fraîches, et il
+        ne fait aucun doute que ces cruels serviteurs des Maîtres des Ténèbres
+        se trouvaient là il y a moins de deux heures.`,
+
+        decision: `Si vous décidez d'inspecter les maisons, rendez-vous au 305.
+        Si vous préférez éviter cette clairière, rendez-vous au 40.`,
+
+        links: [
+            {
+                id: 305
             },
             {
-                id: 295
+                id: 40
+            }
+        ]
+    },
+    {
+        id: 135,
+
+        text1: `Parvenu au bord de l'escarpement de la berge, vous jetez un coup d'œil
+        en contrebas et vous apercevez un enchevêtrement de débris de bois
+        portés là par le courant. Un gros tronc d'arbre, notamment, s'est échoué
+        sur la rive, à côté d'un petit canoë.`,
+
+        decision: `Si vous souhaitez utiliser le tronc d'arbre pour descendre le cours de la rivière,
+        rendez-vous au 223. Si vous préférez vous servir du canoë, rendez-vous au 4.`,
+
+        links: [
+            {
+                id: 223
+            },
+            {
+                id: 4
+            }
+        ]
+    },
+    {
+        id: 136,
+
+        text1: `Les Gloks se rapprochent puis s'accroupissent, prêts à bondir. Vous
+        apercevez les pointes dentelées de leurs lances et vous entendez les
+        sons gutturaux qu'ils produisent en parlant. « Rob Gaye Oring Ahrr oho
+        key ! Pamark élbhûtt ! » s'écrie la plus grande des deux créatures qui
+        vous attaquent aussitôt. Il vous faut combattre les deux Gloks à tour de
+        rôle. Vous ajouterez un point d'HABILETÉ à votre total en raison de
+        l'avantage que vous donne votre position plus élevée sur le terrain.`,
+
+        text2: `[Premier GLOK] HABILETÉ : 13 / ENDURANCE : 10`,
+
+        text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 313`,
+
+        links: [
+            {
+                id: 313
+            }
+        ]
+    },
+    {
+        id: 137,
+
+        text1: `Lorsque la dernière de ces répugnantes créatures meurt enfin, la lumière
+        verdâtre commence à diminuer. Vous constatez alors que dans chacun des
+        crânes fracassés se trouve une Pierre Précieuse. Vous ramassez ces vingt
+        Pierres juste avant que la lueur s'éteigne, plongeant la chambre
+        mortuaire dans une totale obscurité. N'oubliez pas d'inscrire ces
+        Pierres Précieuses sur votre Feuille d'Aventure. Elles prennent place
+        dans votre bourse. Vous vous hâtez de quitter la Crypte et vous
+        poursuivez votre chemin.`,
+
+        decision: `Rendez-vous au 23.`,
+
+        links: [
+            {
+                id: 23
+            }
+        ]
+    },
+    {
+        id: 138,
+
+        text1: `Vous dégainez votre arme et vous vous portez à la rencontre de l'ennemi.
+        Ce sont deux Gloks que vous devrez combattre à tour de rôle.`,
+
+        text2: `[Premier GLOK] HABILETÉ : 13 / ENDURANCE : 10`,
+
+        text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 291.`,
+
+        links: [
+            {
+                id: 291
+            }
+        ]
+    },
+    {
+        id: 139,
+
+        text1: `Il règne dans la cour une intense activité. Des éclaireurs de la
+        cavalerie attendent à côté de leurs chevaux que leurs commandants
+        d'unité, rassemblés au Quartier Général, leur confient des messages à
+        porter. A chaque instant, l'un de ces hommes quitte la cour au galop,
+        porteur d'une dépêche destinée aux officiers en poste dans le camp
+        fortifié. A peine sont-ils partis que d'autres reviennent, à bout de
+        souffle et souvent blessés. Vous avez fait une douzaine de pas dans la
+        cour lorsqu'une voix retentit soudain : « Arrêtez cet homme ! »
+        ordonne-t-elle.`,
+
+        decision: `Rendez-vous au 66.`,
+
+        links: [
+            {
+                id: 66
+            }
+        ]
+    },
+    {
+        id: 140,
+
+        text1: `Vous vous trouvez dans une clairière au centre de laquelle on a élevé
+        une tour branlante à l'aide de troncs d'arbres grossièrement taillés. Au
+        pied de la tour, trois sentiers partent dans différentes directions.`,
+
+        decision: `Si vous souhaitez prendre le sentier qui mène au sud, rendez-vous au 14.
+        Si vous préférez celui qui mène à l'est, rendez-vous au 252. Si le sentier orienté au
+        sud-ouest vous paraît plus attrayant, rendez-vous au 215. Enfin, si l'envie vous prend plutôt de
+        monter dans la tour, rendez-vous au 36.`,
+
+        links: [
+            {
+                id: 14
+            },
+            {
+                id: 252
+            },
+            {
+                id: 215
+            },
+            {
+                id: 36
+            }
+        ]
+    },
+    {
+        id: 141,
+
+        text1: `Votre Sixième Sens vous avertit que quelques-unes des créatures qui ont
+        attaqué le monastère sont restées dans les environs et inspectent les
+        deux chemins, en quête d'éventuels survivants à massacrer. Vous pouvez
+        cependant éviter ces deux sentiers en coupant par les sous-bois de la forêt.`,
+
+        decision: `Si vous souhaitez aller vers le sud, rendez-vous au 56. Si vous préférez
+        vous frayer un chemin dans le feuillage plus touffu qui s'étend au nord-est, rendez-vous au 333.`,
+
+        links: [
+            {
+                id: 56
+            },
+            {
+                id: 333
+            }
+        ]
+    },
+    {
+        id: 142,
+
+        text1: `Vous apercevez les hautes murailles blanches et les tours scintillantes
+        de Holmgard, dont les étendards flottent au vent frais du matin.
+        S'étirant vers l'ouest, le fleuve Eledil jaillit des monts Durncrag et
+        se jette dans le golfe de Holm. Or, soudain, vous distinguez au loin, à
+        l'ombre des montagnes, une immense armée aux uniformes noirs qui marche
+        sans répit vers la capitale. A votre droite, la grand-route mène à
+        Holmgard à travers les plaines. En courant vite, vous pourriez atteindre
+        en une heure le camp fortifié qui se dresse autour de la ville, mais
+        vous seriez la plupart du temps à découvert, offrant aux Kraans une
+        proie facile. A quelque distance devant vous, cependant, une large
+        rivière aux eaux boueuses coule paresseusement en direction du fleuve
+        Eledil dans lequel elle finit par se jeter. Vous pourriez profiter de
+        l'escarpement de ses berges pour nager à couvert et rejoindre ainsi la
+        capitale. À votre gauche, par ailleurs, s'étend le Cimetière des
+        Anciens. En marchant parmi les tombes et les monuments funéraires en
+        ruine, vous pourriez échapper aux regards et vous approcher de votre
+        but, mais c'est là une zone interdite : des forces ténébreuses restent,
+        en effet, tapies dans l'ombre de la nécropole, attendant qu'un passant
+        téméraire s'offre à leurs maléfices.`,
+
+        decision: `Si vous voulez tenter votre chance en empruntant la grand-route, rendez-vous au 58.
+        Si vous pensez avoir plus de chance d'atteindre la capitale par la rivière, rendez-vous au 135.
+        Enfin, si vous êtes suffisamment courageux pour vous risquer dans le Cimetière des Anciens,
+        rendez-vous au 102.`,
+
+        links: [
+            {
+                id: 58
+            },
+            {
+                id: 135
+            },
+            {
+                id: 102
+            }
+        ]
+    },
+    {
+        id: 143,
+
+        text1: `Vous sortez bientôt de la forêt pour arriver sur une grande route :
+        c'est celle qui relie le port de Toran à la capitale. Vous lancez votre
+        cheval au galop : si tout va bien vous devriez avoir atteint Holmgard
+        dans la matinée.`,
+
+        decision: `Rendez-vous au 149.`,
+
+        links: [
+            {
+                id: 149
+            }
+        ]
+    },
+    {
+        id: 144,
+
+        text1: `Vous vous frayez un chemin à coups de coude dans la foule qui se presse
+        sur la grand-rue. Vous apercevez un peu plus loin la silhouette massive
+        de la citadelle qui abrite le Palais du Roi. Les habitants de Holmgard,
+        saisis de panique, courent en tous sens, tandis que retentissent les
+        cris des Kraans qui tournoient dans le ciel de la ville. Dans la
+        bousculade, quelqu'un vous vole l'un des objets contenus dans votre Sac
+        à Dos. Si vous n'avez plus de Sac à Dos, c'est une arme qu'on vous
+        dérobe. Rayez l'objet ou l'arme perdue de votre Feuille d'Aventure
+        (c'est vous qui choisissez ce qu'on vous a volé). Un cheval emballé, qui
+        tire une charrette, passe devant vous à toute allure et vous heurte en
+        vous projetant contre une porte cochère. Vous êtes à moitié assommé et
+        vous perdez 2 points D'ENDURANCE. Vous vous relevez en titubant, mais,
+        au même moment, la porte s'ouvre à la volée et un vieil homme décrépit
+        se précipite sur vous en brandissant un couteau à viande. Il est fou à
+        lier et il vous faut le combattre ou tenter de fuir.`,
+
+        decision: `Si vous choisissez de le combattre, rendez-vous au 63. Si vous
+        préférez essayer d'éviter l'affrontement, rendez-vous au 217.`,
+
+        links: [
+            {
+                id: 63
+            },
+            {
+                id: 217
+            }
+        ]
+    },
+    {
+        id: 145,
+
+        text1: `Vous avez l'impression d'avoir été renversé par un chariot. Vous tombez
+        en avant et vous perdez connaissance en ressentant une terrible douleur
+        dans le dos, et avec un goût désagréable dans la bouche : celui de la
+        poussière qui recouvre la route.`,
+
+        decision: `Rendez-vous au 165.`,
+
+        links: [
+            {
+                id: 165
+            }
+        ]
+    },
+    {
+        id: 146,
+
+        text1: `Vous avez parcouru deux kilomètres à cheval lorsque vous êtes soudain
+        jeté à bas de votre monture par une flèche qui vient de vous écorcher le
+        front. Vous perdez 3 points d'ENDURANCE. Tandis que vous vous relevez,
+        vous voyez surgir de la forêt, des deux côtés de la route, une bande de
+        Drakkarims qui vous ont tendu une embuscade. Il vous faut prendre la
+        fuite au plus vite en courant vous cacher parmi les arbres.`,
+
+        decision: `Rendez-vous au 154.`,
+
+        links: [
+            {
+                id: 154
+            }
+        ]
+    },
+    {
+        id: 147,
+
+        text1: `Après avoir marché pendant quelques minutes, vous passez devant une
+        petite hutte couverte de mousse qui a été bâtie à l'écart du chemin.
+        Vous avez faim et il vous faut prendre un Repas, sinon, vous perdez 3
+        points d'ENDURANCE. Vous constatez bientôt que le chemin tourne vers l'est.`,
+
+        decision: `Si vous voulez continuer à le suivre, rendez-vous au 42.
+        Si vous préférez revenir sur vos pas, rendez-vous au 28.`,
+
+        links: [
+            {
+                id: 42
+            },
+            {
+                id: 28
+            }
+        ]
+    },
+    {
+        id: 148,
+
+        text1: `Vous ouvrez la porte d'un coup de pied et vous vous ruez à l'intérieur
+        de la ferme. Un Kraan s'élève dans les airs en poussant un cri de
+        victoire : il tient une victime dans ses serres pointues. Vous reprenez
+        votre équilibre et vous jetez un coup d'œil autour de vous : l'endroit
+        est désert. En vous approchant de la cheminée, vous trouvez un Marteau
+        de Guerre posé contre le mur. Vous pouvez le prendre si vous le désirez.`,
+
+        decision: `Si vous souhaitez rester dans cette ferme, rendez-vous au 81.
+        Si vous pensez que vous serez plus en sécurité dans la forêt, vous pouvez courir
+        vous y réfugier en vous rendant au 320. Enfin, si vous souhaitez inspecter plus
+        avant la pièce dans laquelle vous vous trouvez, rendez-vous au 199.`,
+
+        links: [
+            {
+                id: 81
+            },
+            {
+                id: 320
+            },
+            {
+                id: 199
+            }
+        ]
+    },
+    {
+        id: 149,
+
+        text1: `Tandis que vous parcourez la grand-route à cheval, la lumière du jour
+        diminue de plus en plus ; bientôt, il fera complètement nuit et vous ne
+        pourrez plus voir les ennemis qui vous attendent dans l'ombre. Vous
+        décidez donc de vous arrêter en lisière de la forêt et de vous cacher là
+        jusqu'au matin. Vous pourrez par la même occasion prendre quelque repos.
+        Vous vous aménagez une cachette sûre et vous vous y installez,
+        emmitouflé dans votre cape verte de Seigneur Kaï. Quelques instants plus
+        tard, vous avez sombré dans un sommeil sans rêves.`,
+
+        decision: `Rendez-vous au 256.`,
+
+        links: [
+            {
+                id: 256
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
             }
         ]
     },
