@@ -1234,4 +1234,895 @@ export const Paragraphs: IHTML[] = [
             }
         ]
     },
+    {
+        id: 51,
+
+        text1: `Après avoir escaladé en toute hâte la berge boisée de la rivière, vous
+        apercevez un peu plus loin la palissade en rondins du camp fortifié
+        dressé autour de la capitale. La bataille fait rage à trois kilomètres
+        environ et le mur en rondins s'est écroulé en plusieurs endroits, là où
+        les Maîtres des Ténèbres ont porté leur attaque. Le camp est presque
+        désert, la plupart des soldats ayant dû le quitter pour rejoindre le
+        champ de bataille. Une porte est aménagée dans la palissade.`,
+
+        decision: `Si vous souhaitez vous en approcher, rendez-vous au 288.
+        Si vous préférez escalader le mur de rondins, rendez-vous au 221.`,
+
+        links: [
+            {
+                id: 288
+            },
+            {
+                id: 221
+            }
+        ]
+    },
+    {
+        id: 52,
+
+        text1: `À présent que vous vous êtes approché, vous vous apercevez qu'il ne
+        s'agit pas là de voix humaines. On dirait plutôt des grognements et des
+        cris d'animaux.`,
+
+        decision: `Si vous maîtrisez la Discipline Kaï de la Communication
+        animale, rendez-vous au 225. Sinon, montez sur le
+        tronc de l'arbre pour aller voir qui se cache derrière. Rendez-vous pour
+        cela au 250.`,
+
+        links: [
+            {
+                id: 225,
+                condition: "Communication animale"
+            },
+            {
+                id: 250
+            }
+        ]
+    },
+    {
+        id: 53,
+
+        text1: `Une douleur fulgurante vous déchire soudain la jambe droite : vous venez
+        de vous tordre la cheville et vous trébuchez en tombant tête la
+        première. Entraîné par le poids de votre corps, vous roulez alors sur
+        vous-même le long du flanc de la colline avant d'atterrir enfin dans un
+        fossé où vous perdez connaissance. Vous êtes réveillé par une autre
+        douleur: quelque chose s'enfonce dans votre poitrine. C'est le fer de la
+        lance d'un Glok. La créature vous plaque au sol en vous gratifiant d'un
+        sourire diabolique, et, d'un geste instinctif, vous essayez de saisir
+        votre arme, mais elle a disparu. Vous êtes désormais sans défense contre
+        les Gloks cruels et avant que toute lumière s'éteigne, vous apercevez
+        dans une ultime vision l'extrémité de la lance qui s'abat à présent sur
+        votre gorge. Votre mission vient de prendre fin.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 54,
+
+        text1: `Il semble que le ciel soit resté sourd à vos prières car un instant plus
+        tard, une lance siffle à vos oreilles et vient se planter dans le cou de
+        votre cheval. Celui-ci pousse un hennissement de douleur puis s'abat en
+        avant. Vous roulez tous deux dans la poussière du chemin et vous vous
+        retrouvez coincé sous le cadavre de votre monture. Avant de fermer les
+        yeux à jamais, vous avez le temps de saisir une dernière vision : les
+        fers de lance que les Gloks vous auront, dans quelques secondes,
+        enfoncés profondément dans la poitrine. Votre mission a échoué.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 55,
+
+        text1: `Au moment où le Glok bondit, vous vous ruez sur lui et vous le frappez
+        de votre arme, l'empêchant ainsi d'atterrir sur le dos du jeune sorcier.
+        Vous profitez de votre avantage pour frapper à nouveau la créature qui
+        se débat et l'effet de surprise de votre attaque vous permet d'ajouter 4
+        points à votre total d'HABILETÉ pendant toute la durée de ce combat.
+        N'oubliez pas cependant de ramener ce total à son niveau antérieur dès
+        la fin de l'affrontement.`,
+
+        text2: `[GLOK] HABILETÉ : 9 / ENDURANCE : 9`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 325`,
+
+        links: [
+            {
+                id: 325
+            },
+        ]
+    },
+    {
+        id: 56,
+
+        text1: `Vous entendez un cri au-dessus des arbres : c'est un Kraan, une de ces
+        grandes créatures volantes et sanguinaires qui comptent parmi les plus
+        redoutables serviteurs des Maîtres des Ténèbres. Vous plongez aussitôt
+        dans l'épaisseur des fougères pour vous cacher jusqu'à ce que le cri du
+        monstre se soit évanoui au lointain.`,
+
+        decision: `Rendez-vous à présent au 222.`,
+
+        links: [
+            {
+                id: 222
+            }
+        ]
+    },
+    {
+        id: 57,
+
+        text1: `La cabane n'a qu'une seule pièce meublée d'une table de bois, de deux
+        bancs et d'un lit fait de bottes de paille attachées ensemble. Un tapis
+        brodé orne le plancher et plusieurs bouteilles contenant des liquides de
+        différentes couleurs sont posées sur la table.`,
+
+        decision: `Si vous souhaitez
+        examiner ces bouteilles, rendez-vous au 164. Si vous voulez soulever le tapis, rendez-vous au 109.
+        Si vous préférez quitter la cabane et inspecter l'écurie, rendez-vous au 308.`,
+
+        links: [
+            {
+                id: 164
+            },
+            {
+                id: 109
+            },
+            {
+                id: 308
+            }
+        ]
+    },
+    {
+        id: 58,
+
+        text1: `Vous vous lancez sur la route au pas de course en maintenant une allure
+        régulière. A l'ouest, l'armée des Maîtres des Ténèbres ressemble à une
+        immense tache d'encre noire qui se serait répandue entre les montagnes.
+        Vous courez depuis vingt minutes environ lorsque vous apercevez à votre
+        droite une meute de Loups Maudits qui avancent en file indienne le long
+        d'une corniche.`,
+
+        decision: `Si vous souhaitez vous plaquer contre les rochers qui
+        bordent la route et attendre qu'ils soient passés, rendez-vous au 286. Si vous préférez continuer à courir en
+        tirant votre épée pour vous préparer à toute éventualité, rendez-vous au 160.`,
+
+        links: [
+            {
+                id: 286
+            },
+            {
+                id: 160
+            }
+        ]
+    },
+    {
+        id: 59,
+
+        text1: `Scrutant l'obscurité, vous distinguez quelques marches taillées
+        grossièrement dans la terre et vous vous apercevez que cette grotte est
+        en fait l'entrée d'un tunnel. Vous descendez prudemment les marches
+        glissantes et vous découvrez au bas de cet escalier de fortune une
+        petite boîte en argent posée sur une étagère.`,
+
+        decision: `Si vous souhaitez ouvrir la boîte, rendez-vous au 124. Si vous préférez
+        ressortir et poursuivre votre chemin, rendez-vous au 106. Si vous choisissez enfin de vous enfoncer
+        plus avant dans le tunnel, rendez-vous au 211.`,
+
+        links: [
+            {
+                id: 124
+            },
+            {
+                id: 106
+            },
+            {
+                id: 211
+            }
+        ]
+    },
+    {
+        id: 60,
+
+        text1: `Avant que les ténèbres vous engloutissent, vous apercevez l'éclat d'une
+        longue lame de couteau. Votre nom s'ajoutera à la liste des victimes du
+        Sage et de son fils, le Voleur, celui-là même qui vient de vous trancher
+        la gorge. Votre mission est terminée.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 61,
+
+        text1: `Vous atteignez enfin la palissade en rondins du camp fortifié qui a été
+        dressé autour de la ville. Et tandis que vous courez vers le poste de
+        garde, vous entendez les soldats pousser des acclamations enthousiastes
+        : les Dieux en soient loués, ils vous ont reconnu en dépit de vos
+        vêtements déchirés et de votre triste apparence ! Votre cape est en
+        lambeaux, votre visage écorché et taché de sang, et vous êtes couvert de
+        la tête aux pieds de la poussière du cimetière. Pataugeant dans un petit
+        ruisseau qu'il vous faut traverser, vous avancez en titubant vers l'une
+        des entrées du camp. Peu à peu, la vision que vous venez d'avoir dans le
+        cimetière vous apparaît dans toute son horreur ; vous êtes épuisé,
+        affaibli, glacé et, juste avant de perdre connaissance, vous vous
+        laissez tomber dans les bras tendus de deux soldats accourus à votre
+        rencontre.`,
+
+        decision: `Rendez-vous au 268.`,
+
+        links: [
+            {
+                id: 268
+            }
+        ]
+    },
+    {
+        id: 62,
+
+        text1: `Les « soldats » sont étendus raides morts à vos pieds. C'étaient des
+        brigands qui détroussaient les réfugiés de Toran et pillaient les
+        maisons et les fermes abandonnées de la région. En fouillant leurs
+        cadavres, vous trouvez 28 Pièces d'Or et deux
+        Sacs à Dos qui contiennent des provisions équivalant à
+        trois Repas. Ils étaient armés d'une Arbalète et de
+        Trois Epées. L'Arbalète a été endommagée au cours du combat, mais les
+        trois Epées sont intactes, et vous pouvez en emporter
+        une si vous le souhaitez. Vous modifiez, en conséquence, votre Feuille
+        d'Aventure, vous rangez soigneusement vos nouvelles acquisitions et vous
+        jetez un coup d'œil en direction de l'ouest pour voir si la voie est
+        libre. Enfin, vous vous remettez en route vers le camp fortifié, dressé
+        à l'extérieur de la ville.`,
+
+        decision: `Rendez-vous au 288.`,
+
+        links: [
+            {
+                id: 288
+            }
+        ]
+    },
+    {
+        id: 63,
+
+        text1: `Le vieil homme vous insulte à grands cris. Il vous rend responsable de
+        la guerre en maudissant les Seigneurs Kaï qui sont, selon lui, les
+        agents des Maîtres des Ténèbres. Impossible de lui faire entendre
+        raison, il va falloir le combattre.`,
+
+        text2: `[VIEIL HOMME FOU] HABILETÉ : 11 / ENDURANCE : 10`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 269.`,
+
+        links: [
+            {
+                id: 269
+            }
+        ]
+    },
+    {
+        id: 64,
+
+        text1: `Vous êtes réveillé par les cris d'un Kraan qui tournoie au-dessus de la
+        roulotte. Il est tôt et le ciel est clair. A moins de cinq cents mètres,
+        vous apercevez alors une meute de Loups Maudits qui s'avancent le long
+        de la route, prêts à attaquer. Il va falloir agir vite.`,
+
+        decision: `Si vous décidez de ramasser vos affaires et de courir vous cacher à l'abri des arbres,
+        rendez-vous au 188. Si vous préférez détacher
+        l'un des chevaux de la roulotte et foncer vers la meute en espérant
+        pouvoir la traverser et vous enfuir, rendez-vous au 16.`,
+
+        links: [
+            {
+                id: 188
+            },
+            {
+                id: 16
+            }
+        ]
+    },
+    {
+        id: 65,
+
+        text1: `Tous vos sens vous avertissent que cet endroit est maléfique. Il faut
+        vous en éloigner au plus vite.`,
+
+        decision: `Rendez-vous au 104.`,
+
+        links: [
+            {
+                id: 104
+            }
+        ]
+    },
+    {
+        id: 66,
+
+        text1: `Surpris, vous faites volte-face et vous voyez courir vers vous un
+        robuste sergent accompagné de deux soldats. Tous trois brandissent leurs
+        épées, prêts à frapper. A votre tour, vous dégainez votre arme car,
+        apparemment, ils vont vous attaquer sans prendre la peine de poser des
+        questions. Mais, soudain, le sergent ordonne à ses hommes de s'arrêter.
+        Il a, en effet, reconnu votre cape de Seigneur Kaï. Tous trois remettent
+        aussitôt leurs épées au fourreau et se confondent en excuses. Le sergent
+        vous accompagne ensuite vers l'Entrée Principale et envoie un de ses
+        hommes chercher le capitaine de la garde. Vous êtes bientôt accueilli
+        par un soldat de haute taille et de belle allure qui écoute
+        attentivement votre récit. Lorsque vous avez fini de lui raconter votre
+        périlleux voyage jusqu'à la capitale, vous remarquez qu'il a les larmes
+        aux yeux. Il vous demande alors de le suivre et vous parcourez les
+        salons et les couloirs somptueux du palais royal. Tout ici n'est que
+        splendeur et magnificence. Enfin, vous arrivez devant une haute porte
+        sculptée gardée par deux soldats revêtus d'armures en argent. Dans
+        quelques instants, vous serez devant le Roi.`,
+
+        decision: `Rendez-vous au 350.`,
+
+        links: [
+            {
+                id: 350
+            }
+        ]
+    },
+    {
+        id: 67,
+
+        text1: `Votre Sens de l'Orientation vous permet de découvrir des traces fraîches
+        laissées par les pattes d'un animal. Ces empreintes suivent le chemin
+        orienté au sud. Vous reconnaissez là les traces d'un Ours Noir. C'est un
+        animal connu pour sa férocité et vous estimez préférable d'emprunter le
+        sentier qui mène vers l'est.`,
+
+        decision: `Rendez-vous au 140.`,
+
+        links: [
+            {
+                id: 140
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 69,
+
+        text1: `Vous vous trouvez à proximité d'un village ami.`,
+
+        decision: `Contournez les Brosses à Potence et rendez-vous au 272.`,
+
+        links: [
+            {
+                id: 272
+            }
+        ]
+    },
+    {
+        id: 70,
+
+        text1: `Vous arrivez à un petit pont. Un chemin longe le cours d'eau en
+        direction de l'est, et un autre sentier beaucoup plus étroit s'enfonce
+        dans une forêt touffue menant vers le sud.`,
+
+        decision: `Si vous souhaitez aller à
+        l'est, rendez-vous au 28. Si vous préférez prendre
+        la direction du sud, rendez-vous au 157. Enfin,
+        si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 8.`,
+
+        links: [
+            {
+                id: 28
+            },
+            {
+                id: 157
+            },
+            {
+                id: 8,
+                condition: "Sixième Sens"
+            }
+        ]
+    },
+    {
+        id: 71,
+
+        text1: `Vous êtes étourdi, mais indemne. Vous avez fait une chute de cinq mètres
+        en passant à travers le plafond d'un caveau souterrain. Les murs en sont
+        parfaitement lisses, et il vous est impossible d'y grimper. Un tunnel
+        voûté part du caveau en direction de l'est. À l'entrée de ce tunnel se
+        trouve le sarcophage de quelque ancien seigneur.`,
+
+        decision: `Si vous souhaitez ouvrir ce sarcophage dans l'espoir d'y découvrir des objets de valeur,
+        rendez-vous au 242. Si vous préférez quitter le tombeau et suivre le tunnel, rendez-vous au 104.
+        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 65.`,
+
+        links: [
+            {
+                id: 242
+            },
+            {
+                id: 104
+            },
+            {
+                id: 65,
+                condition: "Sixième Sens"
+            }
+        ]
+    },
+    {
+        id: 72,
+
+        text1: `Il vous faut affronter un Glok grimaçant chevauchant sa monture à la
+        gueule hérissée de dents pointues. Vous devez les combattre tous deux en
+        les considérant comme un seul et même adversaire.`,
+
+        text2: `[GLOK+ LOUP MAUDIT] HABILETÉ : 15 / ENDURANCE : 24`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 265.`,
+
+        links: [
+            {
+                id: 265
+            }
+        ]
+    },
+    {
+        id: 73,
+
+        text1: `Vous ramenez votre cape autour de vos épaules et vous vous fondez dans
+        les rochers et les feuillages. Puis vous observez attentivement les
+        nouveaux arrivants et vous vous apercevez alors avec un frisson
+        d'horreur qu'il ne s'agit pas du tout de soldats du Roi. Ce sont, en
+        fait, des Drakkarims qui comptent parmi les plus cruels serviteurs des
+        Maîtres des Ténèbres. Ils se sont déguisés en gardes de l'armée royale
+        pour n'être pas reconnus et pouvoir ainsi traverser la forêt sans
+        encombre. Votre initiation aux Disciplines Kaï vous a sauvé la vie et
+        vous remerciez intérieurement vos maîtres. Quelques instants plus tard,
+        vous avez quitté la rive du cours d'eau et vous vous enfoncez dans la
+        forêt en prenant garde à ne pas faire de bruit.`,
+
+        decision: `Rendez-vous au 243.`,
+
+        links: [
+            {
+                id: 243
+            }
+        ]
+    },
+    {
+        id: 74,
+
+        text1: `Les Kraans et leurs maîtres atterrissent sur le chemin, à trois mètres à
+        peine de l'endroit où vous vous êtes caché. Les Gloks sautent alors de
+        leurs montures volantes à la peau couverte d'écaillés et s'avancent vers
+        vous, la lance levée : ils vous ont vu.`,
+
+        decision: `Si vous décidez de les combattre, rendez-vous au 138.
+        Si vous préférez prendre la fuite en courant dans la forêt, rendez-vous au 281.`,
+
+        links: [
+            {
+                id: 138
+            },
+            {
+                id: 281
+            }
+        ]
+    },
+    {
+        id: 75,
+
+        text1: `En jetant un coup d'œil prudent, vous apercevez trois hommes vêtus de
+        vert qui chevauchent le long de la rive. Ce sont des gardes-frontières ;
+        ils appartiennent à un régiment royal chargé de surveiller les
+        frontières ouest du pays. L'un de ces hommes est blessé ; il est affalé
+        sur l'encolure de son cheval. Une vingtaine de Loups Maudits suivent de
+        près les trois soldats. Ils sont montés par des Gloks qui tirent des
+        flèches en direction des gardesfrontières. Bientôt, l'un de ces derniers
+        tombe de son cheval et roule sur la rive : une flèche noire l'a atteint
+        à la jambe droite et s'est profondément enfoncée dans sa cuisse.`,
+
+        decision: `Si vous souhaitez vous porter au secours de ce soldat, rendez-vous au 260.
+        Si vous préférez rester caché et vous laisser dériver au fil du courant, rendez-vous au 163.`,
+
+        links: [
+            {
+                id: 260
+            },
+            {
+                id: 163
+            }
+        ]
+    },
+    {
+        id: 76,
+
+        text1: `La Pierre dégage une intense chaleur et vous brûle la main. Vous perdez
+        2 points d'ENDURANCE. Vous enveloppez alors la Pierre dans un pan de
+        votre cape et vous la laissez tomber dans une poche de votre tunique.
+        Une Pierre Précieuse de cette taille doit valoir des centaines de
+        Couronnes ! Vous vous réjouissez de votre bonne fortune et vous remontez
+        sur votre cheval que vous lancez au galop sur le chemin orienté au sud.`,
+
+        decision: `Rendez-vous au 118.`,
+
+        links: [
+            {
+                id: 118
+            }
+        ]
+    },
+    {
+        id: 77,
+
+        text1: `Les Gloks sont des créatures des montagnes peu habituées à poursuivre
+        leurs proies dans les forêts, et vous parvenez bientôt à les distancer.
+        Leurs grognements et leurs jurons s'évanouissent au lointain : ils ont
+        abandonné la course. Vous faites alors une courte halte pour reprendre
+        votre souffle et vérifier votre équipement. Puis vous vous remettez en
+        route après avoir soigneusement rangé les quelques objets que vous avez
+        réussi à arracher aux décombres du monastère. L'image de ses ruines
+        fumantes vous revient en mémoire, et vous serrez les dents tandis que la
+        forêt s'épaissit autour de vous.`,
+
+        decision: `Rendez-vous au 19.`,
+
+        links: [
+            {
+                id: 19
+            }
+        ]
+    },
+    {
+        id: 78,
+
+        text1: `Au moment où la roulotte passe devant vous, vous faites un bond en avant
+        et vous parvenez à vous y agripper; vous vous retrouvez sur l'échelon
+        inférieur d'un petit escabeau qui permet d'accéder à la porte arrière du
+        véhicule. Vous vous redressez avec précaution en vous efforçant de
+        maintenir votre prise et, soudain, la partie supérieure de la porte qui
+        vous fait face s'ouvre à la volée. Le visage furieux d'un garde du corps
+        apparaît alors dans l'encadrement.`,
+
+        decision: `Si vous souhaitez lui expliquer que
+        vous êtes un Seigneur Kaï, porteur d'un message urgent destiné au Roi,
+        rendez-vous au 132. Si vous choisissez de lui
+        offrir de l'Or pour payer votre voyage jusqu'à la capitale, rendez-vous
+        au 12. Enfin, si vous décidez d'attaquer le garde avec votre arme, rendez-vous au 220.`,
+
+        links: [
+            {
+                id: 132
+            },
+            {
+                id: 12
+            },
+            {
+                id: 220
+            }
+        ]
+    },
+    {
+        id: 79,
+
+        text1: `Vous arrivez à un petit pont qui traverse un ruisseau au cours rapide.
+        De l'autre côté du pont, le chemin s'oriente au sud. Vous décidez de
+        franchir le pont et de suivre le sentier.`,
+
+        decision: `Rendez-vous au 204`,
+
+        links: [
+            {
+                id: 204
+            }
+        ]
+    },
+    {
+        id: 80,
+
+        text1: `Vous trébuchez en arrière et vous franchissez la porte d'entrée à
+        reculons, les mains crispées sur votre poitrine en feu. De la fumée
+        jaillit de la boutique et il vous faut prendre la fuite avant que le
+        Sage et son Voleur vous attrapent. Vous parvenez à rejoindre la
+        grand-rue et vous vous fondez dans la foule.`,
+
+        decision: `Rendez-vous au 7.`,
+
+        links: [
+            {
+                id: 7
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
+    {
+        id: 68,
+
+        text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
+
+        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
+        l'est, rendez-vous au 15.`,
+
+        links: [
+            {
+                id: 130
+            },
+            {
+                id: 15
+            }
+        ]
+    },
 ]

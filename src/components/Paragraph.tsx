@@ -1,6 +1,6 @@
 import { FC, useState } from "react"
 import { Paragraphs } from "../Data"
-import { ILink } from "../Interfaces";
+import { IClient, ILink } from "../Interfaces";
 
 export const Paragraph: FC = () => {
 
@@ -8,9 +8,18 @@ export const Paragraph: FC = () => {
 
     const [paragraph, setParagraph] = useState<number>(0)
 
+    const client: IClient = {
+        id: 123,
+        skills: [
+            "Sixième Sens",
+            "Guérison",
+            "Communication animale"
+        ]
+    }
+
     const handleClick = (link: ILink): void => {
 
-        if (link.condition === undefined) {
+        if (link.condition === undefined || client.skills.includes(link.condition)) {
             setParagraph(link.id)
         }
         else {

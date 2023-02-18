@@ -11,3 +11,8 @@ export interface IHTML {
     decision: string,
     links: ILink[]
 }
+
+export interface IClient {
+    id: number,
+    skills: string[]
+}
