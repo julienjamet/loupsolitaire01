@@ -1,9 +1,12 @@
 export interface ILink {
     id: number,
-    condition?: string | undefined
+    skill?: string | undefined,
+    object?: string | undefined,
+    gold?: number | undefined,
+    fight?: boolean | undefined
 }
 
-export interface IHTML {
+export interface IParagraph {
     id: number,
     text1: string,
     text2?: string | undefined,
@@ -14,5 +17,7 @@ export interface IHTML {
 
 export interface IClient {
     id: number,
-    skills: string[]
+    skills: string[],
+    objects: string[],
+    gold: number
 }

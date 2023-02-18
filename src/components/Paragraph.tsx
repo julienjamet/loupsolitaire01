@@ -4,26 +4,28 @@ import { IClient, ILink } from "../Interfaces";
 
 export const Paragraph: FC = () => {
 
-    document.documentElement.scrollTop = 0;
-
     const [paragraph, setParagraph] = useState<number>(0)
 
     const client: IClient = {
         id: 123,
-        skills: [
-            "Sixième Sens",
-            "Guérison",
-            "Communication animale"
-        ]
+        skills: ["Sixième Sens"],
+        objects: [],
+        gold: 0
     }
 
     const handleClick = (link: ILink): void => {
 
-        if (link.condition === undefined || client.skills.includes(link.condition)) {
-            setParagraph(link.id)
+        if (link.skill !== undefined && !client.skills.includes(link.skill)) {
+            alert(`Vous ne maîtrisez pas la discipline Kaï : ${link.skill} !`)
+        }
+        else if (link.object !== undefined && !client.objects.includes(link.object)) {
+            alert(`Vous ne possédez pas l'objet : ${link.object} !`)
+        }
+        else if (link.gold !== undefined && client.gold < link.gold) {
+            alert(`Vous ne possédez pas assez d'Or !`)
         }
         else {
-            alert(`Vous ne maîtrisez pas la discipline Kaï : ${link.condition} !`)
+            setParagraph(link.id)
         }
     }
 

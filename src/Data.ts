@@ -1,6 +1,6 @@
-import { IHTML } from "./Interfaces";
+import { IParagraph } from "./Interfaces";
 
-export const Paragraphs: IHTML[] = [
+export const Paragraphs: IParagraph[] = [
     {
         id: 0,
 
@@ -108,7 +108,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 141,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ],
     },
@@ -183,7 +183,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 218,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -304,7 +304,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 236,
-                condition: "Vordak stone"
+                object: "Pierre de Vordak"
             },
             {
                 id: 292
@@ -365,7 +365,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 262,
-                condition: "10 or"
+                gold: 10
             },
             {
                 id: 247
@@ -517,7 +517,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 114,
-                condition: "Camouflage"
+                skill: "Camouflage"
             },
             {
                 id: 29
@@ -548,7 +548,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 69,
-                condition: "Orientation"
+                skill: "Orientation"
             }
         ]
     },
@@ -648,7 +648,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 151,
-                condition: "Maîtrise psychique de la Matière"
+                skill: "Maîtrise Psychique de la Matière"
             },
             {
                 id: 326
@@ -949,7 +949,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 282,
-                condition: "Camouflage"
+                skill: "Camouflage"
             }
         ]
     },
@@ -1158,7 +1158,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 296,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -1272,7 +1272,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 225,
-                condition: "Communication Animale"
+                skill: "Communication Animale"
             },
             {
                 id: 250
@@ -1638,7 +1638,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 8,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -1664,7 +1664,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 65,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -1932,7 +1932,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 45,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -2051,7 +2051,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 216,
-                condition: "Guérison"
+                skill: "Guérison"
             },
             {
                 id: 31
@@ -2121,7 +2121,7 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 198,
-                condition: "Sixième Sens"
+                skill: "Sixième Sens"
             }
         ]
     },
@@ -2410,7 +2410,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 298,
-                condition: "Communication Animale"
+                skill: "Communication Animale"
             },
             {
                 id: 335
@@ -2592,7 +2592,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 298,
-                condition: "Communication Animale"
+                skill: "Communication Animale"
             },
             {
                 id: 335
@@ -2879,7 +2879,7 @@ export const Paragraphs: IHTML[] = [
         le chemin. Lorsque la bête répugnante se trouve tout près de vous, son
         haleine fétide vous fait grimacer. Le monstre pousse un rugissement et
         vous saisit la tête entre ses pattes palmées. Vous entendez alors un
-        craquement: votre colonne vertébrale vient de se briser à hauteur de
+        craquement : votre colonne vertébrale vient de se briser à hauteur de
         votre cou. C'est d'ailleurs le dernier son qui vous parvient en ce bas
         monde, car vous mourez à l'instant même. Votre mission s'achève ici.`,
 
@@ -2905,7 +2905,7 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 297,
-                condition: "Chasse"
+                skill: "Chasse"
             },
             {
                 id: 336
@@ -3413,6 +3413,760 @@ export const Paragraphs: IHTML[] = [
         links: [
             {
                 id: 256
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 151,
+
+        text1: `En vous concentrant sur le trou de la serrure, vous pourrez peut-être
+        actionner le mécanisme interne et repousser le pêne par votre seule
+        force mentale. Vous ferez ensuite léviter la broche pour la libérer de
+        ses attaches. En opérant ainsi à distance, vous resterez hors d'atteinte
+        des pièges éventuels qui pourraient se déclencher lors de l'ouverture de
+        la serrure.`,
+
+        decision: `Pour savoir si votre Maîtrise Psychique de la Matière se
+        révélera efficace dans le cas présent, rendez-vous au 87.`,
+
+        links: [
+            {
+                id: 87
+            }
+        ]
+    },
+    {
+        id: 152,
+
+        text1: `L'herboriste vous offre tout un choix de potions : certaines d'entre
+        elles accroissent votre force, d'autres vous rendent invisible, d'autres
+        encore vous donnent la faculté de vous faufiler partout, et il en est
+        même qui vous permettent de prendre une forme gazeuse. Ensuite, l'homme
+        ouvre un tiroir au bas de son comptoir et vous montre une magnifique
+        Baguette Magique. D'après lui, il s'agit là d'une arme puissante qui
+        vous permettra de combattre efficacement toute créature malfaisante en
+        vous rendant vous-même invulnérable aux coups de vos adversaires. Pour
+        mieux vous en convaincre, il vous invite à lire une inscription magique
+        gravée sur la baguette.`,
+
+        decision: `Si vous souhaitez vous pencher par-dessus le comptoir pour lire l'étrange
+        inscription, rendez-vous au 49. Si vous vous intéressez davantage aux potions, rendez-vous au 231.`,
+
+        links: [
+            {
+                id: 49
+            },
+            {
+                id: 231
+            }
+        ]
+    },
+    {
+        id: 153,
+
+        text1: `Au loin se dressent les hautes murailles blanches et les tours
+        scintillantes de Holmgard dont les étendards flottent au vent frais du
+        matin. S'étirant vers l'ouest, le fleuve Eledil jaillit des monts
+        Durncrag et se jette dans le golfe de Holm. Or, soudain, vous distinguez
+        au pied des montagnes une immense armée aux uniformes noirs qui s'avance
+        inexorablement vers la capitale. A votre droite, la grand-route mène à
+        Holmgard à travers les plaines. En vous lançant au galop, vous pourriez
+        atteindre en moins d'une heure le camp fortifié qui entoure la ville,
+        mais vous seriez la plupart du temps à découvert, offrant aux Kraans une
+        proie facile.`,
+        
+        text2: `À quelque distance devant vous, cependant, une large
+        rivière aux eaux boueuses coule paresseusement en direction du fleuve
+        Eledil dans lequel elle finit par se jeter. Vous pourriez abandonner
+        votre cheval et profiter de l'escarpement de ses berges pour nager à
+        couvert jusqu'aux abords de la capitale.`,
+        
+        text3: `Il existe enfin une troisième voie : à votre gauche s'étend,
+        en effet, le Cimetière des Anciens. Si vous marchiez parmi les tombes et les monuments funéraires en ruine,
+        vous n'auriez aucun mal à vous approcher de votre but en échappant aux
+        regards, mais c'est là une zone interdite car des forces ténébreuses
+        restent tapies dans l'ombre de la nécropole et attendent qu'un passant
+        téméraire s'offre à leurs maléfices.`,
+
+        decision: `Si vous souhaitez tenter votre chance en empruntant la grand-route,
+        rendez-vous au 202. Si vous pensez que vous pourrez plus facilement atteindre
+        la capitale par la rivière, rendez-vous au 135. Si, enfin, vous vous sentez suffisamment
+        courageux pour affronter les terribles périls du Cimetière des Anciens, rendez-vous au 329.`,
+
+        links: [
+            {
+                id: 202
+            },
+            {
+                id: 135
+            },
+            {
+                id: 329
+            }
+        ]
+    },
+    {
+        id: 154,
+
+        text1: `Votre blessure vous donne le tournis et vous titubez parmi les arbres
+        comme un aveugle. Soudain, vous tombez en avant comme si le sol s'était
+        dérobé sous vos pieds; c'est, d'ailleurs, ce qui s'est passé : vous
+        venez d'être précipité tête la première dans un piège à ours. Vous levez
+        alors les yeux et vous distinguez les silhouettes de quatre Drakkarims
+        qui tendent leurs arcs en vous visant de leurs flèches. Ils tirent tous
+        les quatre en même temps et vous entendez des grognements de triomphe
+        s'échapper de leurs lèvres, tordues en un rictus répugnant. Les quatre
+        flèches s'enfoncent profondément dans votre poitrine et toute lumière
+        s'éteint. Votre mission a échoué.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 155,
+
+        text1: `À votre approche, leur conversation s'interrompt. Vous constatez par
+        l'expression de leurs visages que tous ces gens ont reconnu en vous un
+        Seigneur Kaï. Alors, lentement, l'un des hommes tend la main vers vous
+        en un geste amical. «Seigneur, dit-il, nous avons entendu dire que le
+        Monastère Kaï avait été détruit et tous ceux qui l'occupaient
+        impitoyablement massacrés. Heureusement, votre présence ici montre qu'il
+        s'agissait là de fausses rumeurs. Nous avions peur que tout ne soit
+        perdu. » Vous préférez ne pas leur révéler que le Monastère a bel et
+        bien été anéanti : ce serait, en effet, enlever tout espoir à ces hommes
+        et à ces femmes qui ont fui la ville de Toran dévastée par les armées
+        ennemies. Ils ont dû abandonner tous leurs biens et les voilà qui errent
+        sur les chemins pour tenter d'échapper à la guerre, en espérant que les
+        Seigneurs Kaï conduiront à la victoire l'armée du Sommerlund.`,
+        
+        text2: `Vous apprenez par leurs récits que le port de Toran a été attaqué par mer et
+        par air et que les armées des Maîtres des Ténèbres surpassaient
+        largement en nombre la garnison de la ville. En dépit de la vaillance
+        dont ils ont fait preuve, les soldats du Roi ont ainsi dû s'incliner.
+        Vous essayez de rassurer de votre mieux ces malheureux réfugiés en
+        affirmant que le Sommerlund ne tombera jamais aux mains des
+        envahisseurs. Puis vous leur souhaitez bonne chance au long de leur
+        exode et vous reprenez vous-même votre chemin.`,
+
+        decision: `Rendez-vous au 70.`,
+
+        links: [
+            {
+                id: 70
+            }
+        ]
+    },
+    {
+        id: 156,
+
+        text1: `Des flèches noires se fichent dans la boue tout autour de vous. D'autres
+        Gloks ont fait leur apparition sur la berge escarpée de la rivière et
+        vous tirent dessus. De ce côté du cours d'eau, il n'y a pas d'arbres
+        pour vous mettre à l'abri.`,
+
+        decision: `Si vous souhaitez plonger dans l'eau de la
+        rivière et nager au fil du courant, rendez-vous au 294. Si vous préférez
+        traverser le cours d'eau à la nage pour aller vous mettre à couvert des arbres,
+        sur la rive opposée, rendez-vous au 245.`,
+
+        links: [
+            {
+                id: 294
+            },
+            {
+                id: 245
+            }
+        ]
+    },
+    {
+        id: 157,
+
+        text1: `La forêt s'éclaircit et vous apercevez bientôt une route un peu plus
+        loin. Une véritable foule occupe toute la largeur de la chaussée et des
+        hommes et des femmes tirent des carrioles remplies d'objets, de meubles
+        ou de vêtements. Ce sont des réfugiés qui fuient le nord du royaume.`,
+
+        decision: `Si vous souhaitez vous joindre à ces réfugiés qui pourront peut-être vous
+        donner des informations sur ce qui se passe dans le nord, rendez-vous au 30. Si vous préférez
+        poursuivre votre route vers le sud, mais en restant à l'abri des arbres, rendez-vous au 167.`,
+
+        links: [
+            {
+                id: 30
+            },
+            {
+                id: 167
+            }
+        ]
+    },
+    {
+        id: 158,
+
+        text1: `La clé s'adapte parfaitement à la serrure que vous n'avez aucun mal à
+        ouvrir. Vous faites pivoter la porte sur ses gonds et vous vous
+        retrouvez face à face avec un vieillard étrange qui porte un bâton à la
+        main droite. Soudain, un éclair jaillit du bâton et vous frappe en
+        pleine poitrine. Vous perdez 6 points d'ENDURANCE. Haletant de douleur,
+        vous avez malgré tout (si vous n'êtes pas mort sur le coup) la force de
+        bousculer le vieil homme d'un coup d'épaule et de monter quatre à quatre
+        un escalier plutôt raide qui mène à la lumière du jour. Vous avez grimpé
+        la moitié des marches lorsque le vieillard fait jaillir un nouvel éclair
+        de son bâton. Utilisez la Table de Hasard pour obtenir un chiffre. Si
+        vous tirez entre 0 et 5, l'éclair vous rate et vient exploser contre le
+        mur. Si vous tirez entre 6 et 9, l'éclair vous frappe dans le dos et
+        vous perdez 4 points d'ENDURANCE supplémentaires. Si vous avez survécu,
+        vous émergez à la lumière du jour en maudissant votre mauvaise fortune.
+        Vous avez découvert, par malchance, le temple secret d'une secte de
+        druides malfaisants et vous auriez pu tout aussi bien y laisser votre
+        peau. Vous vous hâtez à présent de rejoindre le sentier qui redescend de
+        l'autre côté de la colline.`,
+
+        decision: `Rendez-vous au 106.`,
+
+        links: [
+            {
+                id: 106
+            }
+        ]
+    },
+    {
+        id: 159,
+
+        text1: `Le marchand refuse votre offre : il ne vous laissera pas monter dans la
+        roulotte. Et, soudain, il claque des doigts à l'adresse d'un de ses
+        gardes du corps qui empoigne aussitôt le pommeau de son arme.`,
+
+        decision: `Si vous souhaitez le combattre, rendez-vous au 191. Si
+        vous préférez sauter de la roulotte, rendez-vous au 234.`,
+
+        links: [
+            {
+                id: 191
+            },
+            {
+                id: 234
+            }
+        ]
+    },
+    {
+        id: 160,
+
+        text1: ``,
+
+        decision: `Utilisez la Table de Hasard pour obtenir un chiffre : Si vous tirez
+        entre 0 et 4, vous avez été repéré. Rendez-vous alors au 286. Si vous tirez
+        entre 5 et 9, ils ne vous ont pas vu et poursuivent leur chemin en s'éloignant de vous.
+        Rendez-vous dans ce cas au 10.`,
+
+        links: [
+            {
+                id: 286
+            },
+            {
+                id: 10
+            }
+        ]
+    },
+    {
+        id: 161,
+
+        text1: `Au moment où vous vous asseyez, le Serpent de Pierre se met à bouger.
+        Une sueur froide perle à votre front et vous empoignez votre arme d'une
+        main tremblante, prêt à vous défendre contre une attaque éventuelle. Une
+        langue rouge et fourchue jaillit alors de la tête de cette étrange
+        statue et vient plonger dans la coupe de lumière verte posée sur le
+        dossier du trône, au-dessus de vous. Lentement, la langue fourchue
+        ressort de la coupe en tenant une Clé d'Or qu'elle laisse tomber sur vos
+        genoux. Un instant plus tard, un panneau glisse dans le mur est de la
+        pièce, découvrant l'entrée d'un passage secret. Vous prenez la Clé
+        (notez-la sur votre Feuille d'Aventure dans la case Objets Spéciaux) et
+        vous vous hâtez de quitter les lieux par cette sortie inattendue.`,
+
+        decision: `Rendez-vous au 209.`,
+
+        links: [
+            {
+                id: 209
+            }
+        ]
+    },
+    {
+        id: 162,
+
+        text1: `Vous vous approchez de ces hommes et vous les appelez. Mais lorsqu'ils
+        se tournent vers vous, votre sang se glace et vous sentez votre cœur
+        battre à tout rompre, car ce sont des Drakkarims déguisés. En vous
+        voyant, ils se précipitent sur vous, vous ligotent pieds et poignets et
+        vous traînent derrière eux le long d'un sentier. Ils vous prennent votre
+        Sac à Dos et vos Armes, mais ils ne fouillent pas les poches de votre
+        cape et ne trouvent pas vos Pièces d'Or. Vous les entendez jacasser d'un
+        air menaçant tandis qu'ils vous emportent ainsi vers leur repaire : de
+        toute évidence, ils sont en train de décider du sort qu'ils vous
+        réservent, et vos perspectives d'avenir ne semblent pas des plus
+        réjouissantes.`,
+
+        decision: `Si vous possédez la Discipline Kaï de la Maîtrise
+        Psychique de la Matière, rendez-vous au 258. Sinon, rendez-vous au 127.`,
+
+        links: [
+            {
+                id: 258,
+                skill: "Maîtrise Psychique de la Matière"
+            },
+            {
+                id: 127
+            }
+        ]
+    },
+    {
+        id: 163,
+
+        text1: `Au bout d'une demi-heure environ, vous sentez que le courant devient
+        plus fort. Un peu plus loin, le cours de la rivière forme un méandre et
+        ses eaux s'agitent en un puissant tourbillon qui vous emportera au fond
+        si vous vous laissez entraîner. Vous décidez donc de nager vers la rive
+        droite et de poursuivre votre chemin à pied. Votre équipement est au
+        complet, vous n'avez rien perdu dans les eaux de la rivière.`,
+
+        decision: `Rendez-vous au 321.`,
+
+        links: [
+            {
+                id: 321
+            }
+        ]
+    },
+    {
+        id: 164,
+
+        text1: `Vous débouchez prudemment chacune des bouteilles et vous reniflez son
+        contenu. Il semble s'agir là de différentes sortes de vin. Mais soudain,
+        une autre bouteille, plus petite, coincée parmi les autres, attire votre
+        attention. Elle est remplie d'un liquide de couleur orange dont l'odeur
+        vous est familière : c'est de l'Essence d'Alether, une puissante potion
+        qui a la propriété d'accroître votre force. Vous pouvez conserver cette
+        fiole et en boire le contenu au début d'un combat : votre total
+        d'HABILETÉ augmentera alors de 2 points pendant toute la durée de
+        l'affrontement. Cette quantité d'essence d'Alether ne représente qu'une
+        seule dose, vous ne pourrez donc en faire usage qu'une fois. Inscrivez
+        cette Potion dans la case Objets Spéciaux de votre Feuille d'Aventure,
+        et n'oubliez pas de l'effacer lorsque vous l'aurez bue.`,
+
+        decision: `Vous décidez à présent d'inspecter l'écurie en vous rendant au 308.`,
+
+        links: [
+            {
+                id: 308
+            }
+        ]
+    },
+    {
+        id: 165,
+
+        text1: `Vous vous réveillez tremblant de fièvre. Des images floues défilent
+        devant vos yeux puis s'effacent. Votre dos vous fait terriblement mal et
+        vous hurlez de douleur. Quelques instants plus tard, vous sentez sur
+        votre front le contact frais d'un linge humide et vous apercevez à
+        travers la brume de votre cerveau le visage inquiet d'une jeune femme.
+        Un vieillard lui murmure quelque chose à l'oreille, puis disparaît de
+        votre champ de vision. La jeune fille s'agenouille alors près de vous et
+        vous chuchote quelques mots de réconfort, mais bientôt, la lumière
+        s'évanouit à nouveau et vous replongez dans les ténèbres.`,
+
+        decision: `Rendez-vous au 212.`,
+
+        links: [
+            {
+                id: 212
+            }
+        ]
+    },
+    {
+        id: 166,
+
+        text1: `Vous êtes en présence d'une force hautement maléfique. Un être puissant
+        et invisible essaie de soumettre votre esprit, et il vous faut
+        rassembler toute votre énergie pour vous défendre. Cette lutte intense
+        vous met en grand danger de perdre la raison. Vous traversez une longue
+        et pénible épreuve au cours de laquelle toutes sortes d'apparitions
+        terrifiantes, surnaturelles, fantasmagoriques essaient de vous attirer
+        dans leur monde de folie. La tentation et l'horreur se mélangent dans
+        votre tête et ce n'est qu'à grand-peine que vous parvenez à sortir
+        vainqueur de ce véritable calvaire. Vous perdez 4 points d'ENDURANCE et
+        vous entrez dans le tunnel d'un pas chancelant.`,
+
+        decision: `Rendez-vous au 104.`,
+
+        links: [
+            {
+                id: 104
+            }
+        ]
+    },
+    {
+        id: 167,
+
+        text1: `Vous avez parcouru environ deux kilomètres lorsque vous apercevez deux
+        jambes qui dépassent de derrière un gros rocher.`,
+
+        decision: `Si vous voulez vous approcher pour voir de quoi il retourne, rendez-vous au 88.
+        Si vous préférez passer votre chemin et continuer droit devant, rendez-vous au 264.
+        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens (et que vous
+        désirez en faire usage), rendez-vous au 178.`,
+
+        links: [
+            {
+                id: 88
+            },
+            {
+                id: 264
+            },
+            {
+                id: 178,
+                skill: "Sixième Sens"
+            }
+        ]
+    },
+    {
+        id: 168,
+
+        text1: `Vous vous hissez au sommet de la luxueuse roulotte et vous vous
+        installez au milieu des malles et des valises. La nuit bientôt tombera
+        sur la grand-route. Un vent frais souffle de l'ouest, qui vous oblige à
+        bien serrer votre cape autour de vous pour n'avoir pas trop froid.
+        Au-dessous, à l'intérieur de la roulotte, vous entendez des gens parler
+        et une délicieuse odeur de viande rôtie vous monte aux narines. Elle
+        vient vous rappeler que vous avez très faim et qu'il vous faut prendre
+        un Repas, sinon, vous perdrez 3 points d'ENDURANCE. La fatigue a tôt
+        fait d'avoir raison de vous et vous finissez par sombrer dans un sommeil
+        agité.`,
+
+        decision: `Rendez-vous au 64.`,
+
+        links: [
+            {
+                id: 64
+            }
+        ]
+    },
+    {
+        id: 169,
+
+        text1: `Lorsque vous passez devant les crânes, chacun d'eux pivote lentement sur
+        lui-même comme pour suivre le moindre de vos mouvements. Vous vous
+        trouvez à présent au milieu de cette chambre mortuaire et, soudain, vous
+        entendez un bruit d'os qui se brise. Des formes monstrueuses éclosent
+        alors des crânes en déployant des ailes semblables à celles des
+        chauves-souris. Dix de ces créatures à la peau gluante vous attaquent
+        aussitôt, et il vous faut les combattre en les considérant comme un seul
+        et même adversaire.`,
+
+        text2: `[MONSTRES DES CRYPTES] HABILETÉ : 16 / ENDURANCE : 16`,
+
+        decision: `Après avoir livré le premier assaut (obligatoire), vous aurez le droit
+        de prendre la fuite en courant dans le couloir. Rendez-vous pour cela au 23.
+        Si vous décidez de combattre et que vous êtes vainqueur, rendez-vous au 137.`,
+
+        links: [
+            {
+                id: 23
+            },
+            {
+                id: 137
+            }
+        ]
+    },
+    {
+        id: 170,
+
+        text1: `Le tunnel est sombre et il y fait beaucoup plus froid qu'au-dehors. Vous
+        avancez prudemment en tâtonnant la paroi et au bout de trois minutes
+        passées dans une obscurité totale, vous sentez soudain une odeur
+        répugnante de viande pourrie. Si vous disposez d'une Torche et d'un
+        Briquet d'Amadou, vous pourrez vous en servir pour vous éclairer.`,
+
+        text2: `Soudain, une lourde masse tombe du plafond du tunnel et atterrit sur
+        votre dos. Sous le choc, vos jambes fléchissent et vous vous retrouvez à
+        genoux. C'est un Gluâtre des Profondeurs qui vient de vous attaquer en
+        essayant de vous étrangler de ses longs tentacules visqueux. Si vous n'avez
+        pas de Torche pour vous éclairer, vous devrez réduire de 3 points votre total
+        d'HABILETÉ pendant toute la durée du combat. Le Gluâtre est insensible aux
+        Disciplines Kaï de la Puissance Psychique et de la Communication Animale.`,
+
+        text3: `[GLÛATRE DES PROFONDEURS] HABILETÉ : 17 / ENDURANCE : 7`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 319.`,
+
+        links: [
+            {
+                id: 319
+            }
+        ]
+    },
+    {
+        id: 171,
+
+        text1: `Vous avez atteint la lisière du bois lorsque votre cheval se cabre
+        soudain en poussant un hennissement de douleur. Le Kraan a enfoncé ses
+        serres pointues dans les pattes arrière de votre monture et tente de
+        vous désarçonner à grands coups d'aile. Pendant ce temps, le Glok
+        diabolique lance de petits cris triomphants en brandissant sa lance.
+        Vous sautez à terre et vous courez vous mettre à l'abri parmi les
+        arbres, laissant là votre malheureux cheval qui agonise entre les
+        griffes du Kraan.`,
+
+        decision: `Rendez-vous au 303.`,
+
+        links: [
+            {
+                id: 303
+            }
+        ]
+    },
+    {
+        id: 172,
+
+        text1: `La nuit tombe et l'obscurité bientôt vous engloutit. Il serait vain de
+        poursuivre votre route car vous vous perdriez à coup sûr. Vous attachez
+        donc votre cheval à un arbre, vous vous étendez sur le sol en vous
+        emmitouflant dans votre cape de Seigneur Kaï et vous sombrez dans un
+        sommeil sans rêves. Au matin, vous êtes réveillé par des bruits de
+        galops lointains. De l'autre côté du lac, vous distinguez des
+        silhouettes noires de Drakkarims et une meute de Loups Maudits. Un Kraan
+        apparaît également au-dessus des arbres et se pose sur le toit de la
+        petite cabane. Il est monté par une créature vêtue de rouge. Un instant
+        plus tard, le monstre redoutable reprend son vol et traverse le lac en
+        se dirigeant vers l'endroit où vous êtes caché.`,
+
+        decision: `Si vous souhaitez vous
+        enfoncer plus profondément dans la forêt afin d'échapper au Kraan,
+        rendez-vous au 239. Si vous maîtrisez la
+        Discipline Kaï du Camouflage et que vous désirez en faire usage pour
+        vous dissimuler aux regards, vous et votre cheval, rendez-vous au 114.
+        Enfin, si vous préférez vous préparer à combattre l'ignoble créature,
+        rendez-vous au 29.`,
+
+        links: [
+            {
+                id: 239
+            },
+            {
+                id: 114,
+                skill: "Camouflage"
+            },
+            {
+                id: 29
+            }
+        ]
+    },
+    {
+        id: 173,
+
+        text1: `Lorsque vous atteignez la porte, un énorme bloc de pierre tombant du
+        plafond s'écrase au sol, juste derrière vous. Vous faites volte-face et
+        vous constatez que la sortie est à présent entièrement obstruée.`,
+
+        decision: `Si vous possédez une Clé d'Argent, vous pouvez vous en servir pour essayer
+        d'ouvrir la porte. Rendez-vous pour cela au 158.
+        Si vous n'avez pas cette Clé, rendez-vous au 259.`,
+
+        links: [
+            {
+                id: 158,
+                object: "Clé d'Argent"
+            },
+            {
+                id: 259
+            }
+        ]
+    },
+    {
+        id: 174,
+
+        text1: `Après vous être laissé dériver pendant environ une heure, vous remarquez
+        que le courant devient plus fort. Vous apercevez alors à quelque
+        distance un tourbillon que forment les eaux de la rivière à hauteur d'un
+        méandre. Les flots vous entraînent vers ce puissant remous qui pourrait
+        bien signifier pour vous la noyade pure et simple. Il ne vous reste plus
+        qu'à plonger dans les eaux boueuses pour regagner la berge.
+        Malheureusement, tandis que vous nagez en vous éloignant du courant,
+        votre Sac à Dos se détache et tombe au fond de l'eau ainsi que vos
+        Armes. C'est donc privé de votre équipement que vous atteignez la rive
+        boisée sur laquelle vous parvenez à vous hisser tant bien que mal.`,
+
+        decision: `Rendez-vous au 190.`,
+
+        links: [
+            {
+                id: 190
+            }
+        ]
+    },
+    {
+        id: 175,
+
+        text1: `De la main, vous faites signe aux cavaliers en qui vous reconnaissez des
+        Gardes-Frontières de l'armée du Roi. Ils font partie du régiment chargé
+        de surveiller les frontières occidentales du Royaume, souvent menacées.
+        Mais le soulagement que vous éprouvez à rencontrer des alliés est de
+        courte durée, car vous vous apercevez bientôt que ces soldats sont, en
+        fait, poursuivis par des Gloks hurlants qui chevauchent des Loups
+        Maudits. Des flèches noires tombent en pluie tout autour des
+        Gardes-Frontières tandis que leurs terribles poursuivants gagnent du
+        terrain.`,
+
+        decision: `Si vous voulez essayer de vous cacher là où vous êtes,
+        rendez-vous au 41. Si vous préférez traverser la rivière à la nage pour vous
+        réfugier sur l'autre berge, rendez-vous au 116. Enfin, si vous maîtrisez la Discipline
+        Kaï du Camouflage, rendez-vous au 182.`,
+
+        links: [
+            {
+                id: 41
+            },
+            {
+                id: 116
+            },
+            {
+                id: 182,
+                skill: "Camouflage"
+            }
+        ]
+    },
+    {
+        id: 176,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 150,
+
+        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
+        délicieux (il n'y en a pas assez cependant pour constituer un repas
+        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
+        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
+        vous êtes en train de prendre du retard.`,
+
+        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+
+        links: [
+            {
+                id: 83
             }
         ]
     },
