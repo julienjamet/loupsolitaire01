@@ -1265,14 +1265,14 @@ export const Paragraphs: IHTML[] = [
         cris d'animaux.`,
 
         decision: `Si vous maîtrisez la Discipline Kaï de la Communication
-        animale, rendez-vous au 225. Sinon, montez sur le
+        Animale, rendez-vous au 225. Sinon, montez sur le
         tronc de l'arbre pour aller voir qui se cache derrière. Rendez-vous pour
         cela au 250.`,
 
         links: [
             {
                 id: 225,
-                condition: "Communication animale"
+                condition: "Communication Animale"
             },
             {
                 id: 250
@@ -2313,6 +2313,722 @@ export const Paragraphs: IHTML[] = [
             },
             {
                 id: 257
+            }
+        ]
+    },
+    {
+        id: 101,
+
+        text1: `Le tumulte de la bataille se dissipe derrière vous, mais, dans le
+        silence qui lui succède, une voix intérieure vous traite de poltron et
+        vous reproche d'avoir abandonné un homme en danger. Vous essayez alors
+        de faire taire votre conscience en vous disant que votre mission est
+        beaucoup plus importante, car ce n'est pas seulement la vie de ce jeune
+        magicien qui est menacée, mais celle de tous vos compatriotes si vous
+        n'atteignez pas vivant la capitale du royaume. Or soudain, vous
+        apercevez un peu plus loin une meute de Gloks : vous vous mettez
+        aussitôt à couvert pour leur échapper, mais il est trop tard, ils vous
+        ont vu et il ne vous reste plus qu'à vous enfuir en courant aussi vite
+        que possible.`,
+
+        decision: `Rendez-vous au 281.`,
+
+        links: [
+            {
+                id: 281
+            }
+        ]
+    },
+    {
+        id: 102,
+
+        text1: `Vous descendez le flanc rocheux de la colline en direction du Cimetière
+        des Anciens et vous apercevez au loin l'étrange nuage de brume qui
+        baigne en permanence ces lieux grisâtres et lugubres. Ce brouillard
+        maléfique, qui jamais ne se lève, est si dense qu'il empêche le soleil
+        de briller sur les tombes. Lorsque vous arrivez à proximité du
+        cimetière, l'air se rafraîchit et devient bientôt glacial. Avec un
+        sentiment de terreur, vous pénétrez alors dans cette sinistre nécropole.`,
+
+        decision: `Rendez-vous au 284.`,
+
+        links: [
+            {
+                id: 284
+            }
+        ]
+    },
+    {
+        id: 103,
+
+        text1: `Le chemin, couvert de broussailles, bifurque bientôt et un autre sentier
+        permet d'aller vers l'est.`,
+
+        decision: `Si vous souhaitez emprunter ce nouveau chemin orienté à l'est, rendez-vous au 13.
+        Si vous préférez poursuivre votre route en direction du nord-est, rendez-vous au 287.`,
+
+        links: [
+            {
+                id: 13
+            },
+            {
+                id: 287
+            }
+        ]
+    },
+    {
+        id: 104,
+
+        text1: `Les parois sont humides et couvertes de moisissure. Il règne ici une
+        odeur de renfermé qui vous étouffe à moitié et des toiles d'araignées
+        vous balaient le visage. Vous sentez la peur vous serrer la gorge tandis
+        que le tunnel s'obscurcit, mais vous continuez cependant d'avancer et
+        vous arrivez bientôt à un croisement : le tunnel aboutit à un couloir
+        orienté nord-sud.`,
+
+        decision: `Si vous souhaitez aller au nord, rendez-vous au 26. Si vous préférez prendre la direction du sud,
+        rendez-vous au 100.`,
+
+        links: [
+            {
+                id: 26
+            },
+            {
+                id: 100
+            }
+        ]
+    },
+    {
+        id: 105,
+
+        text1: `Un peu plus loin, vous apercevez un corbeau, d'un noir de jais, perché
+        sur la branche d'un vieux chêne.`,
+
+        decision: `Si vous maîtrisez la Discipline Kaï de la Communication Animale,
+        vous pouvez appeler cet oiseau en vous rendant au 298. Sinon, rendez-vous au 335.`,
+
+        links: [
+            {
+                id: 298,
+                condition: "Communication Animale"
+            },
+            {
+                id: 335
+            }
+        ]
+    },
+    {
+        id: 106,
+
+        text1: `Vous arrivez un peu plus tard au bord d'un ruisseau aux eaux glacées,
+        agitées d'un fort courant. Son eau blanche d'écume court parmi les rocs
+        moussus et disparaît au loin, en direction de l'est.`,
+
+        decision: `Si vous désirez longer ce ruisseau vers l'est, rendez-vous au 263.
+        Si vous préférez en remonter le cours, rendez-vous au 334.`,
+
+        links: [
+            {
+                id: 263
+            },
+            {
+                id: 334
+            }
+        ]
+    },
+    {
+        id: 107,
+
+        text1: `Vous traversez la pièce en courant et vous vous servez de votre arme
+        pour fracasser les crânes qui se brisent en mille morceaux. Chacun des
+        crânes est rempli d'une gelée grise et bouillonnante qui se met à
+        trembler et à changer de forme. A la surface luisante de cette étrange
+        substance apparaissent bientôt des ailes de chauves-souris et des
+        ventouses. Saisi d'horreur et de dégoût, vous vous précipitez alors vers
+        le couloir et vous quittez les lieux au moment même où une lourde herse
+        s'abat à l'entrée de la pièce dont elle interdit désormais l'accès.`,
+
+        decision: `Rendez-vous au 23.`,
+
+        links: [
+            {
+                id: 23
+            }
+        ]
+    },
+    {
+        id: 108,
+
+        text1: `Tout semble se dérouler au ralenti tandis que vous décrivez dans les
+        airs un grand arc de cercle. Dans la rue au-dessous, vous distinguez la
+        foule qui grouille sur toute la largeur de la chaussée et vous
+        apercevez, sur votre droite, un nid de moineaux, blotti dans une
+        gouttière. Vous entendez alors leurs pépiements affolés lorsque vous
+        atterrissez avec fracas sur le toit d'en face. C'est malheureusement la
+        dernière chose que vous entendrez, car les tuiles cèdent sous le choc et
+        vous passez au travers des quatre étages de l’Auberge de la Pantoufle
+        Verte. Inutile de préciser que vous vous êtes rompu le cou plusieurs
+        fois et qu'il ne reste de vous qu'un misérable petit tas de chair et
+        d'os brisés. Votre mission s'achève ici, en même temps que votre vie.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 109,
+
+        text1: `Sous le tapis, vous ne trouvez que de la poussière !`,
+
+        decision: `Vous pouvez à présent examiner les bouteilles en vous rendant au 164.
+        Vous pouvez également quitter la cabane et inspecter l'écurie ; vous vous rendrez
+        alors au 308.`,
+
+        links: [
+            {
+                id: 164
+            },
+            {
+                id: 308
+            }
+        ]
+    },
+    {
+        id: 110,
+
+        text1: `Vous lancez la pierre de toutes vos forces en visant la tête du Glok,
+        mais la créature se baisse et votre projectile lui siffle aux oreilles
+        sans l'atteindre. Il vous faut agir vite si vous voulez sauver le
+        Sorcier.`,
+
+        decision: `Rendez-vous au 55`,
+
+        links: [
+            {
+                id: 55
+            }
+        ]
+    },
+    {
+        id: 111,
+
+        text1: `Quelques minutes après avoir quitté le croisement, vous apercevez un peu
+        plus loin une petite cabane en rondins à côté d'une écurie. Vous vous
+        approchez et vous jetez un coup d'œil dans la cabane à travers le
+        carreau d'une fenêtre. L'endroit semble désert.`,
+
+        decision: `Si vous souhaitez entrer dans la cabane, rendez-vous au 57. Si vous
+        préférez inspecter l'écurie, rendez-vous au 308.`,
+
+        links: [
+            {
+                id: 57
+            },
+            {
+                id: 308
+            }
+        ]
+    },
+    {
+        id: 112,
+
+        text1: `Soudain, le gros rocher derrière lequel vous vous êtes caché roule sur
+        lui-même, poussé par deux Gloks hurlants qui vous font face et qui ont
+        visiblement l'intention de vous tuer. L'entrée de la grotte est étroite,
+        et vous ne pouvez combattre qu'un Glok à la fois. Vous devrez donc les
+        affronter à tour de rôle.`,
+
+        text2: `[Premier GLOK] HABILETÉ : 13 / ENDURANCE : 10`,
+
+        text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
+
+        decision: `Si vous êtes vainqueur, vous pouvez explorer la grotte plus avant en
+        vous rendant au 33. Mais vous pouvez également quitter les lieux et descendre le flanc de la
+        colline ; rendez-vous pour cela au 248.`,
+
+        links: [
+            {
+                id: 33
+            },
+            {
+                id: 248
+            }
+        ]
+    },
+    {
+        id: 113,
+
+        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
+        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
+        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
+        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
+        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
+        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
+        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
+        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
+        vous poursuivez votre route.`,
+
+        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
+        Si vous préférez aller à l'est, rendez-vous au 295.`,
+
+        links: [
+            {
+                id: 347
+            },
+            {
+                id: 295
+            }
+        ]
+    },
+    {
+        id: 114,
+
+        text1: `Un peu plus loin, vous apercevez un corbeau, d'un noir de jais, perché
+        sur la branche d'un vieux chêne.`,
+
+        decision: `Si vous maîtrisez la Discipline Kaï de la Communication Animale, vous pouvez
+        appeler cet oiseau en vous rendant au 298. Sinon, rendez-vous au 335.`,
+
+        links: [
+            {
+                id: 298,
+                condition: "Communication Animale"
+            },
+            {
+                id: 335
+            }
+        ]
+    },
+    {
+        id: 115,
+
+        text1: `Vous entrez d'un pas chancelant dans la première maison et vous vous
+        écroulez sur le sol, complètement épuisé. Vous sentez alors une odeur de
+        viande cuite et vous apercevez une marmite suspendue au-dessus des
+        braises d'un feu mourant. Une grande table de chêne est dressée au
+        centre de la pièce : de toute évidence, le ou les habitants de cette
+        maison l'ont quittée en toute hâte le matin même. Au milieu de la table
+        sont posées une cruche d'eau et une miche de pain.`,
+
+        decision: `Si vous voulez prendre rapidement un Repas, rendez-vous au 150.
+        Si vous souhaitez inspecter la maison, rendez-vous au 177. Si vous préférez quitter les lieux dès
+        maintenant et reprendre votre course, rendez-vous au 83.`,
+
+        links: [
+            {
+                id: 150
+            },
+            {
+                id: 177
+            },
+            {
+                id: 83
+            }
+        ]
+    },
+    {
+        id: 116,
+
+        text1: `Des flèches noires s'abattent tout autour de vous lorsque vous vous
+        hissez hors de l'eau boueuse. Vous vous précipitez vers les arbres pour
+        vous mettre à couvert et attendre que les Gloks aient quitté la rive
+        opposée. Vous reprenez ensuite votre chemin en direction de la capitale.`,
+
+        decision: `Rendez-vous au 321.`,
+
+        links: [
+            {
+                id: 321
+            }
+        ]
+    },
+    {
+        id: 117,
+
+        text1: `L'homme est grièvement blessé, et sa mort est proche. Si vous maîtrisez
+        la Discipline Kaï de la Guérison, vous pouvez soulager quelque peu la
+        douleur de ses plaies, mais il est si mal en point que vos seuls talents
+        ne suffiront pas à le tirer d'affaire. Bientôt, l'homme perd à nouveau
+        connaissance. Vous essayez alors de l'installer aussi confortablement
+        que possible en l'allongeant sous un grand chêne, puis vous repartez en
+        direction du nord-est en vous frayant un chemin dans la forêt touffue.`,
+
+        decision: `Rendez-vous au 330.`,
+
+        links: [
+            {
+                id: 330
+            }
+        ]
+    },
+    {
+        id: 118,
+
+        text1: `Vous lancez votre cheval au galop le long du chemin droit. Vous
+        apercevez à l'horizon les contours de Holmgard dont les hautes murailles
+        et les tours scintillent sous les rayons du soleil. Le sentier que vous
+        suivez rejoint bientôt une grande route orientée nord-sud. C'est la voie
+        principale qui relie le port de Toran à la capitale. Vous prenez donc la
+        direction de Holmgard en surveillant le ciel clair de peur que n'y
+        apparaisse la silhouette d'un Kraan.`,
+
+        decision: `Rendez-vous au 224.`,
+
+        links: [
+            {
+                id: 224
+            }
+        ]
+    },
+    {
+        id: 119,
+
+        text1: `Les Brosses à Potence déchirent votre cape et vous écorchent bras et
+        jambes tandis que vous vous frayez un chemin dans leur enchevêtrement
+        d'épines. Un quart d'heure plus tard, vous sortez enfin des buissons et
+        vous poursuivez votre route d'un pas chancelant, mais parmi les arbres
+        cette fois. Les plaies occasionnées par les Brosses à Potence vous
+        coûtent 2 points d'ENDURANCE, à déduire de votre total actuel. Alors que
+        vous continuez d'avancer, vous vous sentez pris de vertiges et vos
+        paupières vous semblent lourdes. Bientôt, vous arrivez au bord d'une
+        pente escarpée et couverte d'arbres.`,
+
+        decision: `Si vous souhaitez vous laisser
+        glisser le long de cette pente en prenant bien garde à ne pas tomber,
+        rendez-vous au 226. Si, en revanche, vous ne voulez pas prendre le risque de descendre
+        la pente dans l'état de somnolence où vous êtes, vous marcherez le long du bord en vous rendant au 38.`,
+
+        links: [
+            {
+                id: 226
+            },
+            {
+                id: 38
+            }
+        ]
+    },
+    {
+        id: 120,
+
+        text1: `Vous entendez les Gloks fous et sanguinaires tuer les autres chevaux de
+        la roulotte. Vous jetez alors un coup d'œil par-dessus votre épaule : le
+        Kraan s'est mis à tournoyer dans les airs. A-t-il l'intention de vous
+        attaquer ou s'intéresse-t-il à autre chose ? L'ombre noire qui grandit
+        bientôt tout autour de vous ne laisse plus subsister le moindre doute :
+        c'est bien après vous qu'il en a. Le Kraan, en vérité, est même en train
+        de fondre en piqué à une vitesse fulgurante !`,
+
+        decision: `Si vous souhaitez attendre
+        qu'il soit presque sur vous pour sauter au même moment de votre cheval,
+        rendez-vous au 84. Si vous préférez galoper vers les arbres pour vous
+        mettre à couvert, rendez-vous au 171. Si, enfin, il vous semble plus judicieux
+        de baisser la tête et de prier le ciel de vous protéger, tandis que vous galoperez droit devant,
+        rendez-vous au 54.`,
+
+        links: [
+            {
+                id: 84
+            },
+            {
+                id: 171
+            },
+            {
+                id: 54
+            }
+        ]
+    },
+    {
+        id: 121,
+
+        text1: `Après quelques minutes de marche, vous apercevez la silhouette d'un
+        homme vêtu de rouge qui se tient debout au milieu du chemin. Il vous
+        tourne le dos, et un capuchon lui couvre la tête. Le corbeau noir que
+        vous avez vu un peu plus tôt est perché sur son bras tendu.`,
+
+        decision: `Si vous souhaitez appeler cet homme, rendez-vous au 343.
+        Si vous préférez vous approcher de lui avec prudence, rendez-vous au 309.
+        Enfin, si vous estimez plus judicieux de dégainer votre arme et de l'attaquer, rendez-vous au 283.`,
+
+        links: [
+            {
+                id: 343
+            },
+            {
+                id: 309
+            },
+            {
+                id: 283
+            }
+        ]
+    },
+    {
+        id: 122,
+
+        text1: `Dès que le cheval sent que vous communiquez directement avec lui, il se
+        calme. Vous vous approchez alors de ce magnifique étalon et vous lui
+        caressez la tête d'un geste rassurant. Vous sentez à présent qu'il ne
+        sait plus très bien s'il doit avoir peur ou pas. Vous montez ensuite sur
+        son dos et vous le lancez sur le chemin, en prenant cette fois encore la
+        direction du sud.`,
+
+        decision: `Rendez-vous au 206.`,
+
+        links: [
+            {
+                id: 206
+            }
+        ]
+    },
+    {
+        id: 123,
+
+        text1: `Lorsque la créature meurt, son corps se dissout en une espèce de liquide
+        verdâtre et répugnant. Vous remarquez alors que les herbes et les
+        plantes sur lesquelles se répand cette substance fumante se ratatinent
+        et meurent aussitôt. Une Pierre Précieuse de bonne taille apparaît parmi
+        les herbes, près du corps en décomposition. Plus loin sur le sentier,
+        vous apercevez une meute de Gloks qui se précipitent vers vous.`,
+
+        decision: `Si vous souhaitez ramasser la Pierre Précieuse, rendez-vous au 304.
+        Si vous préférez partir à l'instant en prenant vos jambes à votre cou, rendez-vous au 2.`,
+
+        links: [
+            {
+                id: 304
+            },
+            {
+                id: 2
+            }
+        ]
+    },
+    {
+        id: 124,
+
+        text1: `Dans la boîte, vous trouvez 15 Pièces d'Or et une Clé d'Argent. Si vous
+        souhaitez conserver la Clé, inscrivez-la sur votre Feuille d'Aventure
+        dans la case Objets Spéciaux.`,
+
+        decision: `Vous pouvez continuer à explorer le tunnel en vous rendant au 211.
+        Vous pouvez également descendre le flanc de la colline en vous rendant au 106.`,
+
+        links: [
+            {
+                id: 211
+            },
+            {
+                id: 106
+            }
+        ]
+    },
+    {
+        id: 125,
+
+        text1: `Le chemin mène à une grande clairière. Vous remarquez aussitôt sur le
+        sol d'étranges empreintes de pattes griffues. De toute évidence, des
+        Kraans se sont posés ici même. A en juger par le nombre d'empreintes et
+        la surface qu'elles couvrent, ce sont au moins cinq de ces répugnantes
+        créatures qui se sont rassemblées là dans les dernières douze heures. De
+        l'autre côté de la clairière, deux chemins s'enfoncent dans la forêt.
+        L'un est orienté à l'ouest, l'autre au sud.`,
+
+        decision: `Si vous souhaitez emprunter le sentier orienté au sud, rendez-vous au 27.
+        Si vous préférez prendre celui qui va vers l'ouest, rendez-vous au 214. Enfin, si vous
+        maîtrisez la Discipline Kaï de l'Orientation, rendez-vous au 301.`,
+
+        links: [
+            {
+                id: 27
+            },
+            {
+                id: 214
+            },
+            {
+                id: 301
+            }
+        ]
+    },
+    {
+        id: 126,
+
+        text1: `Vous chevauchez de plus en plus loin dans la forêt et, dans votre for
+        intérieur, vous remerciez le Prince de vous avoir donné un si bon
+        cheval, car bien que le sol soit entièrement recouvert d'un
+        enchevêtrement de buissons et de racines, l'étalon blanc n'a jamais fait
+        le moindre faux pas. Bientôt les Loups Maudits sont loin derrière vous
+        et vous arrêtez votre cheval. La lumière commence à décliner, il fait
+        presque nuit, à présent.`,
+
+        decision: `Si vous souhaitez poursuivre votre chemin dans la même direction, rendez-vous au 46.
+        Si vous préférez aller à gauche (dans une direction parallèle au chemin que vous
+        avez laissé loin derrière), rendez-vous au 143.`,
+
+        links: [
+            {
+                id: 46
+            },
+            {
+                id: 143
+            }
+        ]
+    },
+    {
+        id: 127,
+
+        text1: `Après avoir marché pendant une heure, les Drakkarims s'arrêtent soudain
+        tandis qu'une énorme créature couverte d'écailles grises s'approche sur
+        le chemin. Lorsque la bête répugnante se trouve tout près de vous, son
+        haleine fétide vous fait grimacer. Le monstre pousse un rugissement et
+        vous saisit la tête entre ses pattes palmées. Vous entendez alors un
+        craquement: votre colonne vertébrale vient de se briser à hauteur de
+        votre cou. C'est d'ailleurs le dernier son qui vous parvient en ce bas
+        monde, car vous mourez à l'instant même. Votre mission s'achève ici.`,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 128,
+
+        text1: `Vous écartez prudemment le feuillage, et une vision d'horreur s'offre
+        aussitôt à vous : un peu plus loin, dans une petite clairière, trois
+        Gloks ont attaché un homme à un poteau et sont en train de mettre le feu
+        à un tas de broussailles disposé à ses pieds. Sa tunique est celle d'un
+        Garde-Frontière, il appartient au régiment chargé de surveiller les
+        frontières occidentales du royaume, en bordure des monts Durncrag.
+        L'homme a reçu une sévère correction et il est à demi inconscient.`,
+
+        decision: `Si vous maîtrisez la Discipline Kaï de la Chasse, rendez-vous au 297.
+        Dans le cas contraire, vous n'avez plus qu'à attaquer les Gloks pour sauver la vie du soldat.
+        Rendez-vous alors au 336.`,
+
+        links: [
+            {
+                id: 297,
+                condition: "Chasse"
+            },
+            {
+                id: 336
+            }
+        ]
+    },
+    {
+        id: 129,
+
+        text1: `Vous parvenez devant la porte principale de la ville et vous contemplez
+        avec révérence les murs gigantesques qui se dressent devant vous. Hautes
+        de soixante mètres, les murailles de Holmgard ont résisté tout à la fois
+        au Temps et aux Maîtres des Ténèbres. L'officier et vous-même parcourez
+        au pas de course le tunnel d'une centaine de mètres de long qui traverse
+        le poste fortifié et vous arrivez enfin devant l'entrée de la grande
+        Tour de Guet. Des civils et des soldats en grand nombre courent en tous
+        sens, chacun s'activant à sa tâche.`,
+
+        decision: `Si vous souhaitez continuer à suivre l'officier, rendez-vous au 3.
+        Si vous pensez que vous arriverez plus vite à la citadelle qui abrite le Palais du Roi en
+        vous débrouillant tout seul, rendez-vous au 144.`,
+
+        links: [
+            {
+                id: 3
+            },
+            {
+                id: 144
+            }
+        ]
+    },
+    {
+        id: 130,
+
+        text1: `Vous parvenez bientôt à une petite clairière. En son centre, vous
+        trouvez un banc taillé dans le tronc d'un arbre. Vous avez faim, et il
+        vous faut prendre un Repas, sinon, vous perdrez 3 points d'ENDURANCE.`,
+
+        decision: `Lorsque vous avez fini de manger, vous pourrez quitter la clairière par
+        le sud en vous rendant au 28. Mais si vous préférez emprunter le sentier plus étroit qui mène vers l'est en
+        s'enfonçant dans la forêt, rendez-vous au 201.`,
+
+        links: [
+            {
+                id: 28
+            },
+            {
+                id: 201
+            }
+        ]
+    },
+    {
+        id: 113,
+
+        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
+        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
+        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
+        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
+        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
+        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
+        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
+        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
+        vous poursuivez votre route.`,
+
+        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
+        Si vous préférez aller à l'est, rendez-vous au 295.`,
+
+        links: [
+            {
+                id: 347
+            },
+            {
+                id: 295
+            }
+        ]
+    },
+    {
+        id: 113,
+
+        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
+        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
+        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
+        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
+        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
+        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
+        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
+        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
+        vous poursuivez votre route.`,
+
+        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
+        Si vous préférez aller à l'est, rendez-vous au 295.`,
+
+        links: [
+            {
+                id: 347
+            },
+            {
+                id: 295
+            }
+        ]
+    },
+    {
+        id: 113,
+
+        text1: `Vous avez marché pendant plus d'une demi-heure lorsque vous apercevez
+        des fleurs d'un rouge vif qui poussent sur un monticule. Vous
+        reconnaissez aussitôt cette plante : c'est du Laumspur, une herbe rare
+        très recherchée pour ses vertus curatives. Vous cueillez alors une bonne
+        poignée de cette herbe que vous rangez dans votre Sac à Dos. Elle vous
+        servira à récupérer des points d'ENDURANCE lorsque vous en mangerez.
+        Chaque dose de Laumspur vous rendra 3 points d'ENDURANCE et vous avez
+        cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
+        vous poursuivez votre route.`,
+
+        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
+        Si vous préférez aller à l'est, rendez-vous au 295.`,
+
+        links: [
+            {
+                id: 347
+            },
+            {
+                id: 295
             }
         ]
     },
