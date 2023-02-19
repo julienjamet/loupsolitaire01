@@ -4,11 +4,14 @@ import { IClient, ILink } from "../Interfaces";
 
 export const Paragraph: FC = () => {
 
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+
     const [paragraph, setParagraph] = useState<number>(0)
 
     const client: IClient = {
         id: 123,
-        skills: ["Sixième Sens"],
+        skills: [],
         objects: [],
         gold: 0
     }
@@ -38,6 +41,7 @@ export const Paragraph: FC = () => {
 
             {Paragraphs[paragraph].text2 && <p id="p2">{Paragraphs[paragraph].text2}</p>}
             {Paragraphs[paragraph].text3 && <p id="p3">{Paragraphs[paragraph].text3}</p>}
+            {Paragraphs[paragraph].text4 && <p id="p3">{Paragraphs[paragraph].text4}</p>}
 
             <p id="p4">{Paragraphs[paragraph].decision}</p>
 

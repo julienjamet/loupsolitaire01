@@ -4054,13 +4054,35 @@ export const Paragraphs: IParagraph[] = [
     {
         id: 176,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Vous vous cachez derrière d'épais buissons en espérant que le Loup
+        Maudit et son cavalier ne verront pas votre cheval blanc. Par chance,
+        votre ruse réussit et les malfaisantes créatures passent devant vous
+        sans vous remarquer, puis s'éloignent le long du sentier que vous venez
+        de quitter.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Si vous souhaitez attaquer les autres Loups Maudits et leurs
+        cavaliers, rendez-vous au 253. Si vous préférez
+        poursuivre votre chemin en vous enfonçant plus avant dans la forêt,
+        rendez-vous au 126.`,
+
+        links: [
+            {
+                id: 253
+            },
+            {
+                id: 126
+            }
+        ]
+    },
+    {
+        id: 177,
+
+        text1: `Vous fouillez tous les placards de la maisonnette, mais vous ne trouvez
+        rien qui puisse vous être de quelque utilité. Vous estimez alors que
+        vous avez perdu suffisamment de temps et vous décidez de vous remettre
+        en chemin au plus vite.`,
+
+        decision: `Rendez-vous au 83.`,
 
         links: [
             {
@@ -4069,122 +4091,700 @@ export const Paragraphs: IParagraph[] = [
         ]
     },
     {
-        id: 150,
+        id: 178,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Votre Sixième Sens vous permet de reconnaître à distance les bottes et
+        les guêtres d'un soldat de l'armée royale. Vous sentez également que cet
+        homme est blessé et qu'il a besoin d'aide.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Si vous souhaitez lui porter secours, rendez-vous au 88. Si vous préférez
+        l'abandonner à son sort et poursuivre votre chemin, rendez-vous au 264.`,
 
         links: [
             {
-                id: 83
+                id: 88
+            },
+            {
+                id: 264
             }
         ]
     },
     {
-        id: 150,
+        id: 179,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Vous avez été repéré par les gardes qui vous mettent en joue avec leurs arbalètes.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Si vous souhaitez lever les mains et avancer vers eux, rendez-vous au 318.
+        Si vous préférez prendre vos jambes à votre cou pour vous cacher parmi les arbres, rendez-vous au 51.`,
 
         links: [
             {
-                id: 83
+                id: 318
+            },
+            {
+                id: 51
             }
         ]
     },
     {
-        id: 150,
+        id: 180,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Ils vous voient lever votre arme et vous attaquent aussitôt. Si vous
+        souhaitez engager le combat, vous les affronterez à tour de rôle.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        text2: `[CHEF DES SOLDATS] HABILETÉ : 15 / ENDURANCE : 22`,
+
+        text3: `[Premier SOLDAT] HABILETÉ : 13 / ENDURANCE : 20`,
+
+        text4: `[Deuxième SOLDAT] HABILETÉ : 12 / ENDURANCE : 20`,
+
+        decision: `Si vous parvenez à les tuer tous les trois, rendez-vous au 62.
+        Si vous souhaitez prendre la fuite, rendez-vous au 22.`,
 
         links: [
             {
-                id: 83
+                id: 62
+            },
+            {
+                id: 22
             }
         ]
     },
     {
-        id: 150,
+        id: 181,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Instinctivement, vous plongez en avant pour éviter le carreau de l'arbalète.
+        Le brigand tire et vous sentez la manche de votre tunique se déchirer tandis que le projectile
+        vous écorche le bras gauche. Vous remerciez les Dieux de vous avoir protégé et vous prenez
+        vos jambes à votre cou. Les autres bandits n'ont pas d'arbalètes ni d'arcs et ils ont tôt fait
+        d'abandonner la poursuite. Quelques instants plus tard, ils sont loin derrière vous et vous êtes sauf.
+        Vous avez perdu votre Équipement, mais pas la vie. Vous faites une brève halte pour panser l'écorchure
+        causée par le carreau d'arbalète puis vous vous remettez en route en direction de la capitale.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Rendez-vous au 288.`,
 
         links: [
             {
-                id: 83
+                id: 288
             }
         ]
     },
     {
-        id: 150,
+        id: 182,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `Trois Gardes-Frontières de l'armée royale galopent le long de la rive, suivis de près par des Gloks
+        chevauchant leurs terribles montures, des Loups Maudits. Votre science du Camouflage vous a cependant évité
+        d'être vu et les Gloks diaboliques continuent leur poursuite sans même jeter un coup d'œil du côté de la rivière.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Rendez-vous au 174.`,
 
         links: [
             {
-                id: 83
+                id: 174
             }
         ]
     },
     {
-        id: 150,
+        id: 183,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
 
         links: [
             {
-                id: 83
+                id: 97
+            },
+            {
+                id: 200
             }
         ]
     },
     {
-        id: 150,
+        id: 184,
 
-        text1: `Bien qu'elle soit un peu trop cuite, cette nourriture a un goût
-        délicieux (il n'y en a pas assez cependant pour constituer un repas
-        complet) et l'eau claire étanche votre soif. Vous avez passé environ une
-        demi-heure dans cette maison lorsque vous vous rendez soudain compte que
-        vous êtes en train de prendre du retard.`,
+        text1: `La roulotte a échappé à tout contrôle et cahote dangereusement sur le bas-côté de la route, parmi les pierres
+        et les nids-de-poule. Vous parvenez cependant, au prix de bien des efforts, à ramener sur la chaussée les chevaux saisis
+        de panique et à arrêter l'attelage. En fouillant rapidement le véhicule, vous découvrez 40 Pièces d'Or, une Epée et une
+        quantité de nourriture équivalant à 4 Repas. Si vous souhaitez conserver l'une ou l'autre de ces trouvailles (ou toutes ensemble),
+        inscrivez-les sur votre Feuille d'Aventure. Les épreuves que vous avez subies vous ont épuisé, et il vous faut prendre un Repas.
+        Vous plongerez ensuite dans un sommeil profond.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
+        decision: `Rendez-vous au 64.`,
 
         links: [
             {
-                id: 83
+                id: 64
             }
         ]
     },
+    {
+        id: 185,
+
+        text1: `Vous plissez les yeux et vous scrutez le feuillage des arbres pour voir s'il ne s'y cache pas un archer.
+        Votre attente ne dure guère car, quelques instants plus tard, une douleur fulgurante vous déchire la poitrine et
+        vous êtes projeté en arrière sous le choc de trois flèches qui vous transpercent le corps. Deux de ces flèches se
+        sont enfoncées profondément dans votre thorax et la troisième s'est plantée dans votre cuisse. Avant de sombrer
+        dans les ténèbres, vous contemplez dans une ultime vision le feuillage des arbres qui forme un dôme au-dessus de
+        vous et une libellule qui vient se poser sur la boucle de votre ceinture. Votre mission s'achève ici. `,
+
+        decision: ``,
+
+        links: []
+    },
+    {
+        id: 186,
+
+        text1: `Les Kakarmis disparaissent bientôt dans l'épaisseur des sousbois et vous vous retrouvez seul, perdu de surcroît.
+        Vous avez marché pendant près de deux heures lorsque vous entendez soudain le bruit d'une eau qui court. Vous décidez d'aller
+        dans la direction d'où provient ce bruit.`,
+
+        decision: `Rendez-vous au 106.`,
+
+        links: [
+            {
+                id: 106
+            }
+        ]
+    },
+    {
+        id: 187,
+
+        text1: `Deux têtes au pelage ras apparaissent derrière le tronc. Les deux créatures jettent un coup d'œil à votre arme et poussent
+        un cri d'effroi. Elles bondissent alors loin du tronc et s'enfuient dans la forêt.`,
+
+        decision: `Si vous souhaitez vous lancer à leur poursuite, rendez-vous au 186.
+        Si vous préférez les laisser partir et continuer votre chemin, rendez-vous au 228.`,
+
+        links: [
+            {
+                id: 186
+            },
+            {
+                id: 228
+            }
+        ]
+    },
+    {
+        id: 188,
+
+        text1: `L'ombre du Kraan grandit tout autour de vous et, soudain, le monstre vous frappe dans le dos en vous jetant à terre sous la force
+        de son attaque. Utilisez la Table de Hasard pour obtenir un chiffre : si vous tirez un chiffre entre 0 et 6, le Kraan a déchiré de ses serres
+        pointues la toile de votre Sac à Dos. Tout votre Équipement se répand alors sur le sol et il ne vous reste plus qu'à le rayer de votre 
+        Feuille d'Aventure. Si vous tirez un chiffre entre 7 et 9, votre Sac à Dos est intact, mais vous avez été blessé aux deux bras et vous perdez
+        3 points d'ENDURANCE avant de courir vous mettre à l'abri des arbres.`,
+
+        decision: `Rendez-vous au 303 dans l'un et l'autre cas.`,
+
+        links: [
+            {
+                id: 303
+            }
+        ]
+    },
+    {
+        id: 189,
+
+        text1: `Grâce à votre entraînement de Seigneur Kaï et à la promptitude de vos réflexes, vous avez échappé à ce marécage qui aurait pu se
+        révéler tout aussi meurtrier qu'un Kraan ou un Drakkarim. Vous êtes contrarié d'avoir perdu du temps et vous vous hâtez de poursuivre votre
+        chemin parmi les arbres, en direction du sud. Un peu plus loin devant vous, un large chemin mène également vers le sud.`,
+
+        decision: `Rendez-vous au 118.`,
+
+        links: [
+            {
+                id: 118
+            }
+        ]
+    },
+    {
+        id: 190,
+
+        text1: `Vous parcourez cinq kilomètres le long de la rivière et vous découvrez alors une épave de péniche. Il semble que quelqu'un y ait élu
+        domicile car vous apercevez, au travers d'un trou dans le pont, un lit et des ustensiles de cuisine.`,
+
+        decision: `Si vous voulez fouiller cette péniche, rendez-vous au 20. Si vous préférez poursuivre votre chemin, rendez-vous au 273.`,
+
+        links: [
+            {
+                id: 20
+            },
+            {
+                id: 273
+            }
+        ]
+    },
+    {
+        id: 191,
+
+        text1: `Le garde du corps dégaine un long cimeterre et s'apprête à vous attaquer.`,
+        
+        text2: `[GARDE DU CORPS] HABILETÉ : 11 / ENDURANCE : 21`,
+
+        decision: `Si vous êtes vainqueur, rendez-vous au 24. Si vous souhaitez prendre la fuite au cours du combat,
+        vous pourrez sauter de la roulotte en vous rendant au 234.`,
+
+        links: [
+            {
+                id: 24
+            },
+            {
+                id: 234
+            }
+        ]
+    },
+    {
+        id: 192,
+
+        text1: `Vous distinguez la gueule hérissée de dents pointues d'un Loup Maudit et vous entendez les cris monstrueux des Gloks.
+        Deux d'entre eux viennent droit sur vous, mais votre cheval vous sauve d'une mort certaine en sautant sur les Loups Maudits qu'il
+        projette à terre à grands coups de sabot. Vous frappez un Glok à toute volée et votre arme lui ouvre la tête. Alors, soudain,
+        comme par miracle, vous vous retrouvez galopant sur la grand-route : vous avez réussi à traverser la meute hurlante qui se trouve
+        à présent derrière vous. Vous sentez, cependant, une présence menaçante au-dessus de votre tête : c'est celle d'un Kraan qui vient
+        de prendre son envol.`,
+
+        decision: `Si vous souhaitez quitter la grandroute pour vous réfugier à l'abri des arbres de la forêt, rendez-vous au 171.
+        Si vous préférez continuer tout droit en galopant à bride abattue sans vous occuper du Kraan, rendez-vous au 120.`,
+
+        links: [
+            {
+                id: 171
+            },
+            {
+                id: 120
+            }
+        ]
+    },
+    {
+        id: 193,
+
+        text1: `La bête sauvage et son cavalier sont étendus raides morts à vos pieds. Vous remarquez alors un rouleau de Parchemin glissé
+        dans la ceinture du Glok. Vous pouvez le prendre et le noter sur votre Feuille d'Aventure dans la case Objets Spéciaux. Les autres
+        Loups Maudits se précipitent dans votre direction, le long du sentier.`,
+
+        decision: `Si vous souhaitez les combattre, rendez-vous au 253.
+        Si vous préférez vous enfuir dans la forêt, rendez-vous au 126.`,
+
+        links: [
+            {
+                id: 253
+            },
+            {
+                id: 126
+            }
+        ]
+    },
+    {
+        id: 194,
+
+        text1: `Vous courez à toutes jambes en direction du chariot. La panique s'est répandue parmi la foule, tandis que les Kraan attaquent
+        et emportent leurs malheureuses victimes dans un ciel obscurci par leurs immenses ailes noires. Un Kraan, plus grand encore que les autres,
+        vole au-dessus du chariot et trois Gloks hurlants sautent de son dos pour atterrir à califourchon sur les chevaux de l'attelage. Il vous
+        faut combattre les trois créatures ou quitter le chariot pour aller vous réfugier dans une ferme proche.`,
+
+        decision: `Si vous souhaitez combattre les Gloks, rendez-vous au 208. Si vous préférez courir vous réfugier dans la ferme, rendez-vous au 148.`,
+
+        links: [
+            {
+                id: 208
+            },
+            {
+                id: 148
+            }
+        ]
+    },
+    {
+        id: 195,
+
+        text1: `Vous essuyez votre arme qui ruisselle du sang de l'ours et vous remarquez l'entrée d'une grotte cachée derrière les rochers d'où
+        a surgi la bête sauvage.`,
+
+        decision: `Si vous souhaitez explorer cette grotte, rendez-vous au 59. Si vous préférez poursuivre votre chemin, rendez-vous au 106.`,
+
+        links: [
+            {
+                id: 59
+            },
+            {
+                id: 106
+            }
+        ]
+    },
+    {
+        id: 196,
+
+        text1: `Vous suivez l'homme dans une petite bibliothèque contiguë. Il pousse alors l'un des nombreux livres alignés sur les étagères et vous
+        entendez un déclic. Aussitôt, tout un pan d'étagères glisse sur lui-même, découvrant un passage secret.`,
+
+        decision: `Si vous souhaitez suivre cet homme dans le passage, rendez-vous au 332. Si vous ne voulez pas pénétrer dans ce sombre couloir, vous
+        quittez les lieux et vous retournez dans la rue en vous rendant au 144.`,
+
+        links: [
+            {
+                id: 332
+            },
+            {
+                id: 144
+            }
+        ]
+    },
+    {
+        id: 197,
+
+        text1: `Le Drakkarim est étendu raide mort au fond de l'embarcation. Il est porteur d'un sabre et de 6 Pièces d'Or que vous pouvez vous
+        approprier si tel est votre désir. Vous jetez ensuite le corps de votre adversaire dans l'eau du lac et vous le regardez disparaître dans
+        ses profondeurs glacées. Vous ramassez ensuite la perche et vous poussez le bateau sur l'autre rive où vous l'abandonnez.`,
+
+        decision: `Rendez-vous au 172.`,
+
+        links: [
+            {
+                id: 172
+            }
+        ]
+    },
+    {
+        id: 198,
+
+        text1: `Vous sentez qu'il y a quelqu'un d'autre derrière le paravent et que toute cette boutique baigne dans une aura maléfique.
+        Soyez sur vos gardes, il se passe ici quelque chose de louche.`,
+
+        decision: `Si vous souhaitez retourner dans la rue, rendez-vous au 7.
+        Si vous préférez examiner les articles exposés dans la vitrine du comptoir, rendez-vous au 152.`,
+
+        links: [
+            {
+                id: 7
+            },
+            {
+                id: 152
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        decision: `Rendez-vous ensuite au 81.`,
+
+        links: [
+            {
+                id: 81
+            }
+        ]
+    },
+    {
+        id: 200,
+
+        text1: `La nuit tombe et les ombres de la forêt s'étirent. Vous vous apprêtez à faire halte pour vous reposer lorsque vous apercevez à travers
+        les arbres une foule qui avance sur une large route orientée au sud. En vous approchant, vous distinguez une roulotte tirée par six grands
+        chevaux ; le véhicule occupe le milieu de la chaussée et se déplace à grande vitesse parmi les piétons et les autres voitures à chevaux.
+        C'est peut-être là votre chance d'atteindre la capitale plus vite que prévu.`,
+
+        decision: `Si vous souhaitez sauter sur la roulotte, rendez-vous au 78. Si vous maîtrisez la Discipline Kaï du Camouflage, vous pourrez
+        vous accrocher à la roulotte et vous dissimuler parmi les bagages attachés sur le toit en vous rendant au 168.`,
+
+        links: [
+            {
+                id: 78
+            },
+            {
+                id: 168,
+                skill: "Camouflage"
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+    {
+        id: 183,
+
+        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
+        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
+        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
+
+        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
+
+        links: [
+            {
+                id: 97
+            },
+            {
+                id: 200
+            }
+        ]
+    },
+
 ]
