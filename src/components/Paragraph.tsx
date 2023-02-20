@@ -11,7 +11,7 @@ export const Paragraph: FC = () => {
 
     const client: IClient = {
         id: 123,
-        skills: [],
+        skills: ["Guérison", "Sixième Sens", "Communication Animale", "Maîtrise Psychique de la Matière", "Camouflage", "Orientation"],
         objects: [],
         gold: 0
     }
@@ -43,14 +43,14 @@ export const Paragraph: FC = () => {
             {Paragraphs[paragraph].text3 && <p id="p3">{Paragraphs[paragraph].text3}</p>}
             {Paragraphs[paragraph].text4 && <p id="p3">{Paragraphs[paragraph].text4}</p>}
 
-            <p id="p4">{Paragraphs[paragraph].decision}</p>
-
             <div className="buttons" id="buttons">
-                {Paragraphs[paragraph].links.map((link) => (
-                    <button className="button" onClick={() => handleClick(link)}>
-                        {link.id}
-                    </button>
-                ))}
+                {Paragraphs[paragraph].links.map((link) => {
+                    if (link.skill === undefined || client.skills.includes(link.skill)) {
+                        return <button className="button" onClick={() => handleClick(link)}>
+                            {link.text}
+                        </button>
+                    }
+                })}
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 export interface ILink {
     id: number,
+    text: string,
     skill?: string | undefined,
     object?: string | undefined,
     gold?: number | undefined,
@@ -12,7 +13,6 @@ export interface IParagraph {
     text2?: string | undefined,
     text3?: string | undefined,
     text4?: string | undefined,
-    decision: string,
     links: ILink[]
 }
 

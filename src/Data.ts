@@ -68,11 +68,10 @@ export const Paragraphs: IParagraph[] = [
             le Loup Silencieux est devenu Loup Solitaire et les envahisseurs feront
             tout pour vous empêcher d'atteindre le Palais du Roi.`,
 
-        decision: `Rendez-vous au 1.`,
-
         links: [
             {
-                id: 1
+                id: 1,
+                text: "Continuer"
             }
         ]
     },
@@ -95,19 +94,18 @@ export const Paragraphs: IParagraph[] = [
             chemin aboutit à une bifurcation. Là, deux autres sentiers mènent l'un
             et l'autre à une grande forêt en empruntant deux directions différentes.`,
 
-        decision: `Si vous souhaitez prendre le sentier de droite, rendez-vous
-            au 85. Si vous préférez suivre celui de gauche, rendez-vous au 275.
-            Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 141.`,
-
         links: [
             {
-                id: 85
+                id: 85,
+                text: "Prendre le sentier de droite"
             },
             {
-                id: 275
+                id: 275,
+                text: "Prendre le sentier de gauche"
             },
             {
                 id: 141,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ],
@@ -120,16 +118,14 @@ export const Paragraphs: IParagraph[] = [
         presque semés lorsque vous trébuchez soudain en tombant tête la première
         dans un enchevêtrement de branches basses.`,
 
-        decision: `Utilisez la Table de Hasard
-        pour obtenir un chiffre. Si vous tirez entre 0 et 4, rendez-vous au 343.
-        Entre 5 et 9, rendez-vous au 276.`,
-
         links: [
             {
-                id: 343
+                id: 343,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 276
+                id: 276,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -144,16 +140,14 @@ export const Paragraphs: IParagraph[] = [
         le suivre jusqu'à la citadelle. Il porte la toge blanche et pourpre en
         usage à la cour du Roi.`,
 
-        decision: `Si vous souhaitez suivre cet homme, rendez-vous
-        au 196. Si vous préférez décliner son offre et
-        retourner dans les rues populeuses, rendez-vous au 144.`,
-
         links: [
             {
-                id: 196
+                id: 196,
+                text: "Suivre cet homme"
             },
             {
-                id: 144
+                id: 144,
+                text: "Décliner son offre et retourner dans les rues"
             }
         ]
     },
@@ -170,19 +164,18 @@ export const Paragraphs: IParagraph[] = [
         entendez des chevaux galoper dans votre direction, le long de la rive
         gauche.`,
 
-        decision: `Si vous souhaitez vous cacher au fond du canoë, rendez-vous au 75.
-        Si vous préférez au contraire attirer l'attention des cavaliers, rendez-vous au 175.
-        Si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 218.`,
-
         links: [
             {
-                id: 75
+                id: 75,
+                text: "Vous cacher au fond du canoë"
             },
             {
-                id: 175
+                id: 175,
+                text: "Attirer l'attention des cavaliers"
             },
             {
                 id: 218,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -198,11 +191,10 @@ export const Paragraphs: IParagraph[] = [
         éloigneriez de la capitale et vous décidez donc de prendre à droite, en
         direction du sud.`,
 
-        decision: `Rendez-vous au 111.`,
-
         links: [
             {
-                id: 111
+                id: 111,
+                text: "Continuer"
             }
         ]
     },
@@ -214,15 +206,14 @@ export const Paragraphs: IParagraph[] = [
         être vu. Bientôt, vous reconnaissez l'uniforme blanc de l'armée du
         Sommerlund : ce sont des soldats de la Garde du Roi.`,
 
-        decision: `Si vous souhaitez les appeler, rendez-vous au 183. Si vous préférez les laisser passer et
-        poursuivre votre chemin à travers la forêt, rendez-vous au 200.`,
-
         links: [
             {
-                id: 183
+                id: 183,
+                text: "Les appeler"
             },
             {
-                id: 200
+                id: 200,
+                text: "Les laisser passer et poursuivre votre chemin à travers la forêt"
             }
         ]
     },
@@ -258,16 +249,14 @@ export const Paragraphs: IParagraph[] = [
         courant sur toute la longueur du toit, puis vous vous élancez, le regard
         fixé sur la maison d'en face.`,
 
-        decision: `Utilisez la Table de Hasard pour obtenir
-        un chiffre. Si vous tirez un chiffre entre 0 et 2, rendez-vous au 108.
-        Entre 3 et 9, rendez-vous au 25.`,
-
         links: [
             {
-                id: 108
+                id: 108,
+                text: "Table de hasard : 0 - 2"
             },
             {
-                id: 25
+                id: 25, 
+                text: "Table de hasard : 3 - 9"
             }
         ]
     },
@@ -278,11 +267,10 @@ export const Paragraphs: IParagraph[] = [
         le sud. Mais votre simple bon sens vous rappelle également que le chemin
         le plus court pour rejoindre la capitale passe précisément par le sud.`,
 
-        decision: `Rendez-vous au 70 pour établir votre itinéraire.`,
-
         links: [
             {
-                id: 70
+                id: 70,
+                text: "Établir votre itinéraire"
             }
         ]
     },
@@ -298,16 +286,15 @@ export const Paragraphs: IParagraph[] = [
         êtes en présence d'une force maléfique plus ancienne et plus puissante
         encore que celle des Maîtres des Ténèbres.`,
 
-        decision: `Si vous possédez une Pierre de Vordak, rendez-vous au 236. Sinon, rendez-vous
-        au 292.`,
-
         links: [
             {
                 id: 236,
+                text: "Vous possédez une Pierre de Vordak",
                 object: "Pierre de Vordak"
             },
             {
-                id: 292
+                id: 292,
+                text: "Vous ne possédez pas de Pierre de Vordak"
             }
         ]
     },
@@ -317,17 +304,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous êtes en sueur et vos jambes vous font mal. Un peu plus loin, vous
         apercevez quelques maisonnettes rassemblées.`,
 
-        decision: `Si vous souhaitez entrer
-        dans l'une de ces maisonnettes pour y prendre quelque repos, rendez-vous
-        au 115. Si vous préférez poursuivre votre chemin,
-        rendez-vous au 83.`,
-
         links: [
             {
-                id: 115
+                id: 115,
+                text: "Entrer dans l'une de ces maisonnettes pour y prendre du repos"
             },
             {
-                id: 83
+                id: 83,
+                text: "Poursuivre votre chemin"
             }
         ]
     },
@@ -340,11 +324,10 @@ export const Paragraphs: IParagraph[] = [
         perdre une seconde, vous vous dirigez vers l'Entrée Principale, située
         de l'autre côté de la cour.`,
 
-        decision: `Rendez-vous au 139.`,
-
         links: [
             {
-                id: 139
+                id: 139,
+                text: "Continuer"
             }
         ]
     },
@@ -357,18 +340,15 @@ export const Paragraphs: IParagraph[] = [
         l'allure prospère apparaît devant vous. Il exige 10 Couronnes pour prix
         de votre transport.`,
 
-        decision: `Si vous avez ces 10 Couronnes et que vous désirez
-        les lui donner, rendez-vous au 262. Si vous
-        n'avez pas cette somme, ou si vous ne souhaitez pas la lui payer,
-        rendez-vous au 247.`,
-
         links: [
             {
                 id: 262,
+                text: "Payer les 10 Couronnes",
                 gold: 10
             },
             {
-                id: 247
+                id: 247,
+                text: "Refuser"
             }
         ]
     },
@@ -382,16 +362,14 @@ export const Paragraphs: IParagraph[] = [
         l'arbre offre de nombreux points d'appui et il ne doit pas être trop
         difficile de grimper là-haut.`,
 
-        decision: `Si vous souhaitez escalader cet arbre pour
-        inspecter la maison, rendez-vous au 307. Si vous
-        préférez poursuivre votre chemin, rendez-vous au 213.`,
-
         links: [
             {
-                id: 307
+                id: 307,
+                text: "Escalader cet arbre pour inspecter la maison"
             },
             {
-                id: 213
+                id: 213,
+                text: "Poursuivre votre chemin"
             }
         ]
     },
@@ -403,16 +381,14 @@ export const Paragraphs: IParagraph[] = [
         vous entendez un grognement sonore qui s'élève de derrière un rocher
         situé à votre gauche.`,
 
-        decision: `Si vous voulez dégainer votre arme et vous
-        préparer à combattre, rendez-vous au 43. Si vous préférez prendre la fuite en courant
-        le plus vite possible au bas de la colline, rendez-vous au 106.`,
-
         links: [
             {
-                id: 43
+                id: 43,
+                text: "Dégainer votre arme et vous préparer à combattre"
             },
             {
-                id: 106
+                id: 106,
+                text: "Prendre la fuite en courant le plus vite possible au bas de la colline"
             }
         ]
     },
@@ -428,19 +404,18 @@ export const Paragraphs: IParagraph[] = [
         Epée si vous le désirez en n'oubliant pas de l'inscrire
         sur votre Feuille d'Aventure.`,
 
-        decision: `Trois chemins permettent de quitter la
-        clairière : si vous voulez aller à l'est, rendez-vous au 207. A l'ouest, rendez-vous au 201.
-        Au sud, rendez-vous au 35.`,
-
         links: [
             {
-                id: 207
+                id: 207,
+                text: "Aller à l'est"
             },
             {
-                id: 201
+                id: 201,
+                text: "Aller à l'ouest"
             },
             {
-                id: 35
+                id: 35,
+                text: "Aller au sud"
             }
         ]
     },
@@ -455,11 +430,10 @@ export const Paragraphs: IParagraph[] = [
         mètres, la lance pointée en avant. Face à face à présent, vous foncez
         les uns vers les autres.`,
 
-        decision: `Rendez-vous au 192.`,
-
         links: [
             {
-                id: 192
+                id: 192,
+                text: "Continuer"
             }
         ]
     },
@@ -477,19 +451,18 @@ export const Paragraphs: IParagraph[] = [
         text3: `Si vous parvenez à tuer votre adversaire, hâtez-vous de descendre le
         flanc opposé de la colline afin d'éviter les Gloks.`,
 
-        decision: `Utilisez la Table de
-        Hasard pour obtenir un chiffre. Si vous tirez le 0, rendez-vous au 53.
-        Si vous tirez 1 ou 2, rendez-vous au 274. Si vous tirez entre 3 et 9, rendez-vous au 331.`,
-
         links: [
             {
-                id: 53
+                id: 53,
+                text: "Table de hasard : 0"
             },
             {
-                id: 274
+                id: 274,
+                text: "Table de hasard : 1 - 2"
             },
             {
-                id: 331
+                id: 331,
+                text: "Table de hasard : 3 - 9"
             }
         ]
     },
@@ -505,22 +478,19 @@ export const Paragraphs: IParagraph[] = [
         nouveau son vol et traverse le lac en s'approchant de l'endroit où vous
         êtes caché.`,
 
-        decision: `Si vous souhaitez vous enfoncer plus profondément dans la
-        forêt, rendez-vous au 239. Si vous maîtrisez la
-        Discipline Kaï du Camouflage, rendez-vous au 114.
-        Si vous préférez combattre la créature, rendez-vous au
-        29.`,
-
         links: [
             {
-                id: 239
+                id: 239,
+                text: "Vous enfoncer plus profondément dans la forêt"
             },
             {
                 id: 114,
+                text: "Utiliser votre Discipline Kaï du Camouflage",
                 skill: "Camouflage"
             },
             {
-                id: 29
+                id: 29,
+                text: "Combattre la créature"
             }
         ]
     },
@@ -533,21 +503,18 @@ export const Paragraphs: IParagraph[] = [
         en effet la propriété, lorsqu'on s'y pique, de provoquer faiblesse et
         engourdissement.`,
 
-        decision: `Vous pouvez éviter les Dents de Sommeil en revenant sur
-        le sentier. Rendez-vous alors au 272. Vous pouvez
-        au contraire essayer de vous frayer un chemin parmi ces buissons pour
-        pénétrer plus profondément dans la forêt. Rendez-vous dans ce cas au 119.
-        Enfin, si vous maîtrisez la Discipline Kaï de l'Orientation, rendez-vous au 69.`,
-
         links: [
             {
-                id: 272
+                id: 272,
+                text: "Revenir sur le sentier"
             },
             {
-                id: 119
+                id: 119, 
+                text: "Essayer de vous frayer un chemin parmi ces buissons pour pénétrer plus profondément dans la forêt"
             },
             {
                 id: 69,
+                text: "Utiliser votre Discipline Kaï de l'Orientation",
                 skill: "Orientation"
             }
         ]
@@ -563,11 +530,10 @@ export const Paragraphs: IParagraph[] = [
         ces objets (ou tous les trois), n'oubliez pas de les inscrire sur votre
         Feuille d'Aventure.`,
 
-        decision: `Rendez-vous ensuite au 272.`,
-
         links: [
             {
-                id:272
+                id: 272,
+                text: "Continuer"
             }
         ]
     },
@@ -575,9 +541,7 @@ export const Paragraphs: IParagraph[] = [
         id: 21,
 
         text1: `Vous avez parcouru trois kilomètres à cheval parmi les arbres touffus
-        lorsque le sol devient soudain marécageux.`,
-
-        decision: `Utilisez la Table de Hasard
+        lorsque le sol devient soudain marécageux. Utilisez la Table de Hasard
         pour obtenir un chiffre : Si vous tirez un chiffre inférieur à 5, votre
         cheval s'est enfoncé jusqu'au ventre dans une boue épaisse. Si le
         chiffre obtenu est égal ou supérieur à 5, vous parvenez à vous éloigner
@@ -597,10 +561,12 @@ export const Paragraphs: IParagraph[] = [
 
         links: [
             {
-                id:189
+                id: 189,
+                text: "!! Table de hasard multiple !! Voir texte"
             },
             {
-                id: 312
+                id: 312,
+                text: "!! Table de hasard multiple !! Voir texte"
             }
         ]
     },
@@ -609,18 +575,16 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `D'un coup d'épaule, vous bousculez le chef et vous vous enfuyez à toutes
         jambes le long de la route. Vous entendez aussitôt derrière vous le
-        déclic menaçant d'une arbalète que l'on tend.`,
-
-        decision: `Un frisson vous parcourt
-        l'échine et vous saisissez d'un geste prompt votre Table de Hasard afin
-        de tirer un chiffre. Si vous obtenez entre 0 et 4, rendez-vous au 181. Entre 5 et 9, rendez-vous au 145.`,
+        déclic menaçant d'une arbalète que l'on tend. Un frisson vous parcourt l'échine.`,
 
         links: [
             {
-                id: 181
+                id: 181,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 145
+                id: 145,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -637,21 +601,20 @@ export const Paragraphs: IParagraph[] = [
         serrure de la porte. Une broche sculptée semble fermer le panneau, mais
         un trou de serrure apparaît également.`,
 
-        decision: `Si vous souhaitez retirer la
-        broche, rendez-vous au 337. Si vous possédez la
-        Discipline Kaï de la Maîtrise Psychique de la Matière, rendez-vous au 151. Enfin, si vous avez une Clé d'Or,
-        rendez-vous au 326.`,
-
         links: [
             {
-                id: 337
+                id: 337,
+                text: "Retirer la broche"
             },
             {
                 id: 151,
+                text: "Utiliser votre Discipline Kaï de la Maîtrise Psychique de la Matière",
                 skill: "Maîtrise Psychique de la Matière"
             },
             {
-                id: 326
+                id: 326,
+                text: "Utiliser votre Clé d'Or",
+                object: "Clé d'Or"
             }
         ]
     },
@@ -662,17 +625,14 @@ export const Paragraphs: IParagraph[] = [
         attaque ! » s'exclame-t-il. Puis il se jette au-dehors par une fenêtre
         circulaire.`,
 
-        decision: `Si vous souhaitez sauter à votre tour de la roulotte,
-        rendez-vous au 234. Si vous préférez essayer
-        d'attraper les rênes des chevaux pour prendre le contrôle de
-        l'attelage, rendez-vous au 184.`,
-
         links: [
             {
-                id: 234
+                id: 234,
+                text: "Sauter de la roulotte"
             },
             {
-                id: 184
+                id: 184,
+                text: "Essayer d'attraper les rênes des chevaux pour prendre le contrôle de l'attelage"
             }
         ]
     },
@@ -694,11 +654,10 @@ export const Paragraphs: IParagraph[] = [
         confusion, vous vous glissez à l'intérieur de la citadelle juste avant
         que les gardes aient refermé les lourds battants métalliques.`,
 
-        decision: `Rendez-vous au 139.`,
-
         links: [
             {
-                id: 139
+                id: 139,
+                text: "Continuer"
             }
         ]
     },
@@ -709,15 +668,14 @@ export const Paragraphs: IParagraph[] = [
         droit en direction de l'est. Au loin, vous apercevez une étrange lueur
         verdâtre.`,
 
-        decision: `Si vous souhaitez continuer dans cette direction, rendez-vous
-        au 249. Si vous préférez rebrousser chemin et prendre le couloir orienté au sud, rendez-vous au 100.`,
-
         links: [
             {
-                id: 249
+                id: 249,
+                text: "Continuer dans cette direction"
             },
             {
-                id: 100
+                id: 100,
+                text: "Rebrousser chemin et prendre le couloir orienté au sud"
             }
         ]
     },
@@ -730,15 +688,14 @@ export const Paragraphs: IParagraph[] = [
         en approchez, vous entendez des voix qui s'élèvent de l'autre côté du
         tronc massif.`,
 
-        decision: `Si vous souhaitez passer à l'attaque, rendez-vous au 250. Si vous préférez écouter ce que disent
-        ces voix, rendez-vous au 52.`,
-
         links: [
             {
-                id: 250
+                id: 250,
+                text: "Passer à l'attaque"
             },
             {
-                id: 52
+                id: 52,
+                text: "Écouter ces voix"
             }
         ]
     },
@@ -748,15 +705,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Une centaine de mètres plus loin, le sentier en croise un autre orienté
         nord-sud.`,
 
-        decision: `Si vous souhaitez prendre la direction du nord, rendez-vous au 130. Si vous préférez aller au sud,
-        rendez-vous au 147.`,
-
         links: [
             {
-                id: 130
+                id: 130,
+                text: "Prendre la direction du nord"
             },
             {
-                id: 147
+                id: 147,
+                text: "Aller au sud"
             }
         ]
     },
@@ -777,11 +733,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[VORDAK] HABILETÉ : 17 / ENDURANCE : 25`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 270.`,
-
         links: [
             {
-                id: 270
+                id: 270,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -796,16 +752,14 @@ export const Paragraphs: IParagraph[] = [
         roues s'est coincée dans une ornière profonde. Les enfants, saisis de
         panique, se mettent à hurler.`,
 
-        decision: `Si vous souhaitez aider ces enfants,
-        rendez-vous au 194. Si vous préférez vous mettre
-        à l'abri des arbres, rendez-vous au 261.`,
-
         links: [
             {
-                id: 194
+                id: 194,
+                text: "Aider ces enfants"
             },
             {
-                id: 261
+                id: 261,
+                text: "Vous mettre à l'abri des arbres"
             }
         ]
     },
@@ -817,11 +771,10 @@ export const Paragraphs: IParagraph[] = [
         alors de sa cape et vous poursuivez votre chemin en vous enfonçant plus
         profondément dans la forêt.`,
 
-        decision: `Rendez-vous au 264.`,
-
         links: [
             {
-                id: 264
+                id: 264,
+                text: "Continuer"
             }
         ]
     },
@@ -835,15 +788,14 @@ export const Paragraphs: IParagraph[] = [
         Gloks s'écarte de ses compagnons et revient sur ses pas, lançant sa
         monture en direction de l'endroit où vous vous trouvez.`,
 
-        decision: `Si vous souhaitez vous cacher dans les sous-bois et le laisser passer,
-        rendez-vous au 176. Si vous préférez le combattre, rendez-vous au 340.`,
-
         links: [
             {
-                id: 176
+                id: 176,
+                text: "Vous cacher dans les sous-bois et le laisser passer"
             },
             {
-                id: 340
+                id: 340,
+                text: "Le combattre"
             }
         ]
     },
@@ -858,11 +810,10 @@ export const Paragraphs: IParagraph[] = [
         endroit où quelque bête sauvage a probablement établi sa tanière, puis
         vous descendez le flanc de la colline.`,
 
-        decision: `Rendez-vous au 248.`,
-
         links: [
             {
-                id: 248
+                id: 248,
+                text: "Continuer"
             }
         ]
     },
@@ -882,11 +833,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[VORDAK] HABILETÉ : 17 / ENDURANCE : 25`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 328.`,
-
         links: [
             {
-                id: 328
+                id: 328,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -901,11 +852,10 @@ export const Paragraphs: IParagraph[] = [
         décidez donc d'emprunter ce nouveau chemin en prenant la direction de
         l'est.`,
 
-        decision: `Rendez-vous au 207.`,
-
         links: [
             {
-                id: 207
+                id: 207,
+                text: "Continuer"
             }
         ]
     },
@@ -913,9 +863,7 @@ export const Paragraphs: IParagraph[] = [
         id: 36,
 
         text1: `Le bois de l'échelle qui monte à la vieille tour de guet est pourri et
-        plusieurs barreaux cèdent sous votre poids.`,
-
-        decision: `Utilisez la Table de Hasard
+        plusieurs barreaux cèdent sous votre poids. Utilisez la Table de Hasard
         pour obtenir un chiffre. Si vous tirez un chiffre égal ou inférieur à 4,
         vous tombez. Vous perdez donc 2 points d'ENDURANCE et vous vous rendez
         au 140. Si ce chiffre est supérieur à 4, vous ne
@@ -923,10 +871,12 @@ export const Paragraphs: IParagraph[] = [
 
         links: [
             {
-                id: 140
+                id: 140,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 323
+                id: 323,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -939,16 +889,14 @@ export const Paragraphs: IParagraph[] = [
         Vous découvrez une autre entrée dans le mur est, gardée, elle aussi, par
         deux soldats en armes.`,
 
-        decision: `Si vous voulez vous approcher d'eux et leur
-        raconter votre histoire, rendez-vous au 289. Si
-        vous maîtrisez la Discipline Kaï du Camouflage, rendez-vous au 282.`,
-
         links: [
             {
-                id: 289
+                id: 289,
+                text: "Vous approcher d'eux et leur raconter votre histoire"
             },
             {
                 id: 282,
+                text: "Utiliser votre Discipline Kaï du Camouflage",
                 skill: "Camouflage"
             }
         ]
@@ -964,15 +912,14 @@ export const Paragraphs: IParagraph[] = [
         vous reprenez votre marche. Quelques instants plus tard, vous sentez une
         odeur de bois brûlé qui semble venir du nord.`,
 
-        decision: `Si vous souhaitez aller voir d'où vient cette odeur, rendez-vous au 128.
-        Si vous préférez ne pas y prêter attention, rendez-vous au 347.`,
-
         links: [
             {
-                id: 128
+                id: 128,
+                text: "Aller voir d'où vient cette odeur"
             },
             {
-                id: 347
+                id: 347,
+                text: "Ne pas y prêter attention"
             }
         ]
     },
@@ -994,11 +941,10 @@ export const Paragraphs: IParagraph[] = [
         capitale, au port de Toran. Vous remerciez les Kakarmis et vous prenez
         congé d'eux.`,
 
-        decision: `Rendez-vous ensuite au 228.`,
-
         links: [
             {
-                id: 228
+                id: 228,
+                text: "Continuer"
             }
         ]
     },
@@ -1010,11 +956,10 @@ export const Paragraphs: IParagraph[] = [
         éventuelle de l'ennemi. Bientôt, vous rejoignez le sentier et vous vous
         éloignez en hâte du Bois des Brumes.`,
 
-        decision: `Rendez-vous au 105.`,
-
         links: [
             {
-                id: 105
+                id: 105,
+                text: "Continuer"
             }
         ]
     },
@@ -1028,17 +973,14 @@ export const Paragraphs: IParagraph[] = [
         à l'aide de leurs arcs. Un instant plus tard, une pluie de flèches
         noires s'abat sur vous.`,
 
-        decision: `Si vous voulez essayer de vous enfuir en
-        pagayant le plus vite possible le long de la rivière, rendez-vous au
-        174. Si vous préférez gagner la rive opposée
-        ettenter de vous cacher à l'abri des arbres, rendez-vous au 116.`,
-
         links: [
             {
-                id: 174
+                id: 174,
+                text: "Essayer de vous enfuir en pagayant le plus vite possible le long de la rivière"
             },
             {
-                id: 116
+                id: 116,
+                text: "Gagner la rive opposée et tenter de vous cacher à l'abri des arbres"
             }
         ]
     },
@@ -1048,24 +990,22 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous suivez le sentier pendant environ une heure et vous arrivez alors à
         un croisement.`,
 
-        decision: `Si vous souhaitez continuer vers l'est, rendez-vous au
-        86. Si vous préférez aller au nord, rendez-vous au
-        238. Si vous choisissez de vous aventurer au sud,
-        rendez-vous au 157. Enfin, s'il vous semble plus
-        judicieux de prendre la direction de l'ouest, rendez-vous au 147.`,
-
         links: [
             {
-                id: 86
+                id: 86,
+                text: "Continuer vers l'est"
             },
             {
-                id: 238
+                id: 238,
+                text: "Aller vers le nord"
             },
             {
-                id: 157
+                id: 157,
+                text: "Vous aventurer au sud"
             },
             {
-                id: 147
+                id: 147,
+                text: "Prendre la direction de l'ouest"
             }
         ]
     },
@@ -1080,18 +1020,15 @@ export const Paragraphs: IParagraph[] = [
       
         text2: `[OURS NOIR] HABILETÉ : 16 / ENDURANCE : 10`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 195. Au
-        bout du troisième assaut, vous avez réussi à vous placer de telle sorte
-        qu'il vous est possible de vous enfuir en courant au bas de la colline.
-        Si vous souhaitez vous échapper après avoir livré ces trois assauts
-        obligatoires, rendez-vous au 106.`,
-
         links: [
             {
-                id: 195
+                id: 195,
+                text: "Combat",
+                fight: true
             },
             {
-                id: 106
+                id: 106,
+                text: "Fuite après trois assauts"
             }
         ]
     },
@@ -1102,16 +1039,14 @@ export const Paragraphs: IParagraph[] = [
         instable à cet endroit, se dérobe sous vos pas : vous perdez l'équilibre
         et vous tombez tête la première au bas de la pente.`,
 
-        decision: `Utilisez la Table de
-        Hasard pour obtenir un chiffre : si vous tirez un chiffre entre 0 et 4,
-        rendez-vous au 277. Entre 5 et 9, rendez-vous au 338.`,
-
         links: [
             {
-                id: 277
+                id: 277,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 338
+                id: 338,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -1128,11 +1063,10 @@ export const Paragraphs: IParagraph[] = [
         décidez alors de combattre ces trois hommes, sinon ils vous tueront dès
         que vous aurez lâché votre arme.`,
 
-        decision: `Rendez-vous au 180.`,
-
         links: [
             {
-                id: 180
+                id: 180,
+                text: "Continuer"
             }
         ]
     },
@@ -1145,19 +1079,18 @@ export const Paragraphs: IParagraph[] = [
         vous et vous offre de vous faire traverser le lac sur son bateau, vous
         et votre cheval, pour la somme de 2 Couronnes.`,
 
-        decision: `Si vous acceptez son offre, rendez-vous au 246.
-        Si vous préférez refuser et contourner le lac à cheval, rendez-vous au 90.
-        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 296.`,
-
         links: [
             {
-                id: 246
+                id: 246,
+                text: "Accepter son offre"
             },
             {
-                id: 90
+                id: 90,
+                text: "Refuser et contourner le lac à cheval"
             },
             {
                 id: 296,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -1170,16 +1103,14 @@ export const Paragraphs: IParagraph[] = [
         noire se dessine devant vous : c'est un Kraan qui tournoie dans le ciel
         tandis que les Gloks, dans votre dos, gagnent peu à peu du terrain.`,
 
-        decision: `Souhaitez-vous attendre les Gloks pour les affronter en prenant avantage
-        de votre position élevée ? Rendez-vous dans ce cas au 136. Préférez-vous serrer les dents et poursuivre
-        l'escalade jusqu'au sommet ? Vous vous rendrez alors au 322.`,
-
         links: [
             {
-                id: 136
+                id: 136,
+                text: "Attendre les Gloks pour les affronter en prenant avantage de votre position élevée"
             },
             {
-                id: 322
+                id: 322,
+                text: "Serrer les dents et poursuivre l'escalade jusqu'au sommet"
             }
         ]
     },
@@ -1191,11 +1122,10 @@ export const Paragraphs: IParagraph[] = [
         des serviteurs des Maîtres des Ténèbres. Il vous faut prendre aussitôt
         la fuite avant qu'ils vous aperçoivent.`,
 
-        decision: `Rendez-vous au 243.`,
-
         links: [
             {
-                id: 243
+                id: 243,
+                text: "Continuer"
             }
         ]
     },
@@ -1204,15 +1134,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Tandis que vous lisez l'inscription, une ombre se dessine derrière le paravent.`,
 
-        decision: `Utilisez la Table de Hasard pour obtenir un chiffre : Si vous
-        tirez un chiffre entre 0 et 4, rendez-vous au 339. Entre 5 et 9, rendez-vous au 60.`,
-
         links: [
             {
-                id: 339
+                id: 339,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 60
+                id: 60,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -1221,16 +1150,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Vous entendez les échos d'un combat qui se déroule à quelque distance.`,
 
-        decision: `Si vous souhaitez poursuivre votre chemin vers le nord en direction de
-        la bataille, rendez-vous au 97. Si vous préférez éviter ce combat, prenez une autre direction en vous
-        rendant au 243.`,
-
         links: [
             {
-                id: 97
+                id: 97,
+                text: "Poursuivre votre chemin vers le nord en direction de la bataille"
             },
             {
-                id: 243
+                id: 243,
+                text: "Éviter ce combat et prendre une autre direction"
             }
         ]
     },
@@ -1245,15 +1172,14 @@ export const Paragraphs: IParagraph[] = [
         désert, la plupart des soldats ayant dû le quitter pour rejoindre le
         champ de bataille. Une porte est aménagée dans la palissade.`,
 
-        decision: `Si vous souhaitez vous en approcher, rendez-vous au 288.
-        Si vous préférez escalader le mur de rondins, rendez-vous au 221.`,
-
         links: [
             {
-                id: 288
+                id: 288,
+                text: "Vous en approcher"
             },
             {
-                id: 221
+                id: 221,
+                text: "Escalader le mur en rondins"
             }
         ]
     },
@@ -1264,18 +1190,15 @@ export const Paragraphs: IParagraph[] = [
         s'agit pas là de voix humaines. On dirait plutôt des grognements et des
         cris d'animaux.`,
 
-        decision: `Si vous maîtrisez la Discipline Kaï de la Communication
-        Animale, rendez-vous au 225. Sinon, montez sur le
-        tronc de l'arbre pour aller voir qui se cache derrière. Rendez-vous pour
-        cela au 250.`,
-
         links: [
             {
                 id: 225,
+                text: "Utiliser votre Discipline Kaï de la Communication Animale",
                 skill: "Communication Animale"
             },
             {
-                id: 250
+                id: 250,
+                text: "Monter sur le tronc de l'arbre pour aller voir qui se cache derrière"
             }
         ]
     },
@@ -1295,8 +1218,6 @@ export const Paragraphs: IParagraph[] = [
         dans une ultime vision l'extrémité de la lance qui s'abat à présent sur
         votre gorge. Votre mission vient de prendre fin.`,
 
-        decision: ``,
-
         links: []
     },
     {
@@ -1310,8 +1231,6 @@ export const Paragraphs: IParagraph[] = [
         yeux à jamais, vous avez le temps de saisir une dernière vision : les
         fers de lance que les Gloks vous auront, dans quelques secondes,
         enfoncés profondément dans la poitrine. Votre mission a échoué.`,
-
-        decision: ``,
 
         links: []
     },
@@ -1328,11 +1247,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[GLOK] HABILETÉ : 9 / ENDURANCE : 9`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 325`,
-
         links: [
             {
-                id: 325
+                id: 325,
+                text: "Combat",
+                fight: true
             },
         ]
     },
@@ -1345,11 +1264,10 @@ export const Paragraphs: IParagraph[] = [
         dans l'épaisseur des fougères pour vous cacher jusqu'à ce que le cri du
         monstre se soit évanoui au lointain.`,
 
-        decision: `Rendez-vous à présent au 222.`,
-
         links: [
             {
-                id: 222
+                id: 222,
+                text: "Continuer"
             }
         ]
     },
@@ -1361,19 +1279,18 @@ export const Paragraphs: IParagraph[] = [
         brodé orne le plancher et plusieurs bouteilles contenant des liquides de
         différentes couleurs sont posées sur la table.`,
 
-        decision: `Si vous souhaitez
-        examiner ces bouteilles, rendez-vous au 164. Si vous voulez soulever le tapis, rendez-vous au 109.
-        Si vous préférez quitter la cabane et inspecter l'écurie, rendez-vous au 308.`,
-
         links: [
             {
-                id: 164
+                id: 164,
+                text: "Examiner ces bouteilles"
             },
             {
-                id: 109
+                id: 109,
+                text: "Soulever le tapis"
             },
             {
-                id: 308
+                id: 308,
+                text: "Quitter la cabane et inspecter l'écurie"
             }
         ]
     },
@@ -1387,16 +1304,14 @@ export const Paragraphs: IParagraph[] = [
         droite une meute de Loups Maudits qui avancent en file indienne le long
         d'une corniche.`,
 
-        decision: `Si vous souhaitez vous plaquer contre les rochers qui
-        bordent la route et attendre qu'ils soient passés, rendez-vous au 286. Si vous préférez continuer à courir en
-        tirant votre épée pour vous préparer à toute éventualité, rendez-vous au 160.`,
-
         links: [
             {
-                id: 286
+                id: 286,
+                text: "Vous plaquer contre les rochers qui bordent la route et attendre qu'ils soient passés"
             },
             {
-                id: 160
+                id: 160,
+                text: "Continuer à courir en tirant votre épée pour vous préparer à toute éventualité"
             }
         ]
     },
@@ -1409,19 +1324,18 @@ export const Paragraphs: IParagraph[] = [
         glissantes et vous découvrez au bas de cet escalier de fortune une
         petite boîte en argent posée sur une étagère.`,
 
-        decision: `Si vous souhaitez ouvrir la boîte, rendez-vous au 124. Si vous préférez
-        ressortir et poursuivre votre chemin, rendez-vous au 106. Si vous choisissez enfin de vous enfoncer
-        plus avant dans le tunnel, rendez-vous au 211.`,
-
         links: [
             {
-                id: 124
+                id: 124,
+                text: "Ouvrir la boîte"
             },
             {
-                id: 106
+                id: 106,
+                text: "Ressortir et poursuivre votre chemin"
             },
             {
-                id: 211
+                id: 211,
+                text: "Vous enfoncer plus avant dans le tunnel"
             }
         ]
     },
@@ -1432,8 +1346,6 @@ export const Paragraphs: IParagraph[] = [
         longue lame de couteau. Votre nom s'ajoutera à la liste des victimes du
         Sage et de son fils, le Voleur, celui-là même qui vient de vous trancher
         la gorge. Votre mission est terminée.`,
-
-        decision: ``,
 
         links: []
     },
@@ -1454,11 +1366,10 @@ export const Paragraphs: IParagraph[] = [
         laissez tomber dans les bras tendus de deux soldats accourus à votre
         rencontre.`,
 
-        decision: `Rendez-vous au 268.`,
-
         links: [
             {
-                id: 268
+                id: 268,
+                text: "Continuer"
             }
         ]
     },
@@ -1479,11 +1390,10 @@ export const Paragraphs: IParagraph[] = [
         libre. Enfin, vous vous remettez en route vers le camp fortifié, dressé
         à l'extérieur de la ville.`,
 
-        decision: `Rendez-vous au 288.`,
-
         links: [
             {
-                id: 288
+                id: 288,
+                text: "Continuer"
             }
         ]
     },
@@ -1497,11 +1407,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[VIEIL HOMME FOU] HABILETÉ : 11 / ENDURANCE : 10`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 269.`,
-
         links: [
             {
-                id: 269
+                id: 269,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -1513,17 +1423,14 @@ export const Paragraphs: IParagraph[] = [
         vous apercevez alors une meute de Loups Maudits qui s'avancent le long
         de la route, prêts à attaquer. Il va falloir agir vite.`,
 
-        decision: `Si vous décidez de ramasser vos affaires et de courir vous cacher à l'abri des arbres,
-        rendez-vous au 188. Si vous préférez détacher
-        l'un des chevaux de la roulotte et foncer vers la meute en espérant
-        pouvoir la traverser et vous enfuir, rendez-vous au 16.`,
-
         links: [
             {
-                id: 188
+                id: 188,
+                text: "Ramasser vos affaires et courir vous cacher à l'abri des arbres"
             },
             {
-                id: 16
+                id: 16,
+                text: "Détacher l'un des chevaux de la roulotte et foncer vers la meute en espérant pouvoir la traverser et vous enfuir"
             }
         ]
     },
@@ -1533,11 +1440,10 @@ export const Paragraphs: IParagraph[] = [
         text1: `Tous vos sens vous avertissent que cet endroit est maléfique. Il faut
         vous en éloigner au plus vite.`,
 
-        decision: `Rendez-vous au 104.`,
-
         links: [
             {
-                id: 104
+                id: 104,
+                text: "Continuer"
             }
         ]
     },
@@ -1562,11 +1468,10 @@ export const Paragraphs: IParagraph[] = [
         sculptée gardée par deux soldats revêtus d'armures en argent. Dans
         quelques instants, vous serez devant le Roi.`,
 
-        decision: `Rendez-vous au 350.`,
-
         links: [
             {
-                id: 350
+                id: 350,
+                text: "Continuer"
             }
         ]
     },
@@ -1579,11 +1484,10 @@ export const Paragraphs: IParagraph[] = [
         animal connu pour sa férocité et vous estimez préférable d'emprunter le
         sentier qui mène vers l'est.`,
 
-        decision: `Rendez-vous au 140.`,
-
         links: [
             {
-                id: 140
+                id: 140,
+                text: "Continuer"
             }
         ]
     },
@@ -1592,15 +1496,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Bientôt, le chemin que vous suivez en croise un autre orienté est-ouest.`,
 
-        decision: `Si vous souhaitez aller à l'ouest, rendez-vous au 130. Si vous préférez prendre la direction de
-        l'est, rendez-vous au 15.`,
-
         links: [
             {
-                id: 130
+                id: 130,
+                text: "Aller à l'ouest"
             },
             {
-                id: 15
+                id: 15,
+                text: "Prendre la direction de l'est"
             }
         ]
     },
@@ -1609,11 +1512,10 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Vous vous trouvez à proximité d'un village ami.`,
 
-        decision: `Contournez les Brosses à Potence et rendez-vous au 272.`,
-
         links: [
             {
-                id: 272
+                id: 272,
+                text: "Contourner les Brosses à Potence"
             }
         ]
     },
@@ -1624,20 +1526,18 @@ export const Paragraphs: IParagraph[] = [
         direction de l'est, et un autre sentier beaucoup plus étroit s'enfonce
         dans une forêt touffue menant vers le sud.`,
 
-        decision: `Si vous souhaitez aller à
-        l'est, rendez-vous au 28. Si vous préférez prendre
-        la direction du sud, rendez-vous au 157. Enfin,
-        si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 8.`,
-
         links: [
             {
-                id: 28
+                id: 28,
+                text: "Aller à l'est"
             },
             {
-                id: 157
+                id: 157,
+                text: "Prendre la direction du sud"
             },
             {
                 id: 8,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -1651,19 +1551,18 @@ export const Paragraphs: IParagraph[] = [
         voûté part du caveau en direction de l'est. À l'entrée de ce tunnel se
         trouve le sarcophage de quelque ancien seigneur.`,
 
-        decision: `Si vous souhaitez ouvrir ce sarcophage dans l'espoir d'y découvrir des objets de valeur,
-        rendez-vous au 242. Si vous préférez quitter le tombeau et suivre le tunnel, rendez-vous au 104.
-        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 65.`,
-
         links: [
             {
-                id: 242
+                id: 242,
+                text: "Ouvrir ce sarcophage dans l'espoir d'y découvrir des objets de valeur"
             },
             {
-                id: 104
+                id: 104,
+                text: "Quitter le tombeau et suivre le tunnel"
             },
             {
                 id: 65,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -1677,11 +1576,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[GLOK+ LOUP MAUDIT] HABILETÉ : 15 / ENDURANCE : 24`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 265.`,
-
         links: [
             {
-                id: 265
+                id: 265,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -1700,11 +1599,10 @@ export const Paragraphs: IParagraph[] = [
         vous avez quitté la rive du cours d'eau et vous vous enfoncez dans la
         forêt en prenant garde à ne pas faire de bruit.`,
 
-        decision: `Rendez-vous au 243.`,
-
         links: [
             {
-                id: 243
+                id: 243,
+                text: "Continuer"
             }
         ]
     },
@@ -1716,15 +1614,14 @@ export const Paragraphs: IParagraph[] = [
         leurs montures volantes à la peau couverte d'écaillés et s'avancent vers
         vous, la lance levée : ils vous ont vu.`,
 
-        decision: `Si vous décidez de les combattre, rendez-vous au 138.
-        Si vous préférez prendre la fuite en courant dans la forêt, rendez-vous au 281.`,
-
         links: [
             {
-                id: 138
+                id: 138,
+                text: "Les combattre"
             },
             {
-                id: 281
+                id: 281,
+                text: "Prendre la fuite en courant dans la forêt"
             }
         ]
     },
@@ -1741,15 +1638,14 @@ export const Paragraphs: IParagraph[] = [
         tombe de son cheval et roule sur la rive : une flèche noire l'a atteint
         à la jambe droite et s'est profondément enfoncée dans sa cuisse.`,
 
-        decision: `Si vous souhaitez vous porter au secours de ce soldat, rendez-vous au 260.
-        Si vous préférez rester caché et vous laisser dériver au fil du courant, rendez-vous au 163.`,
-
         links: [
             {
-                id: 260
+                id: 260,
+                text: "Vous porter au secours de ce soldat"
             },
             {
-                id: 163
+                id: 163,
+                text: "Rester caché et vous laisser dériver au fil du courant"
             }
         ]
     },
@@ -1763,11 +1659,10 @@ export const Paragraphs: IParagraph[] = [
         Couronnes ! Vous vous réjouissez de votre bonne fortune et vous remontez
         sur votre cheval que vous lancez au galop sur le chemin orienté au sud.`,
 
-        decision: `Rendez-vous au 118.`,
-
         links: [
             {
-                id: 118
+                id: 118,
+                text: "Continuer"
             }
         ]
     },
@@ -1784,11 +1679,10 @@ export const Paragraphs: IParagraph[] = [
         fumantes vous revient en mémoire, et vous serrez les dents tandis que la
         forêt s'épaissit autour de vous.`,
 
-        decision: `Rendez-vous au 19.`,
-
         links: [
             {
-                id: 19
+                id: 19,
+                text: "Continuer"
             }
         ]
     },
@@ -1803,21 +1697,18 @@ export const Paragraphs: IParagraph[] = [
         vous fait face s'ouvre à la volée. Le visage furieux d'un garde du corps
         apparaît alors dans l'encadrement.`,
 
-        decision: `Si vous souhaitez lui expliquer que
-        vous êtes un Seigneur Kaï, porteur d'un message urgent destiné au Roi,
-        rendez-vous au 132. Si vous choisissez de lui
-        offrir de l'Or pour payer votre voyage jusqu'à la capitale, rendez-vous
-        au 12. Enfin, si vous décidez d'attaquer le garde avec votre arme, rendez-vous au 220.`,
-
         links: [
             {
-                id: 132
+                id: 132,
+                text: "Lui expliquer que vous êtes un Seigneur Kaï, porteur d'un message urgent destiné au Roi"
             },
             {
-                id: 12
+                id: 12,
+                text: "Lui offrir de l'Or pour payer votre voyage jusqu'à la capitale"
             },
             {
-                id: 220
+                id: 220,
+                text: "Attaquer le garde avec votre arme"
             }
         ]
     },
@@ -1828,11 +1719,10 @@ export const Paragraphs: IParagraph[] = [
         De l'autre côté du pont, le chemin s'oriente au sud. Vous décidez de
         franchir le pont et de suivre le sentier.`,
 
-        decision: `Rendez-vous au 204.`,
-
         links: [
             {
-                id: 204
+                id: 204,
+                text: "Continuer"
             }
         ]
     },
@@ -1845,11 +1735,10 @@ export const Paragraphs: IParagraph[] = [
         Sage et son Voleur vous attrapent. Vous parvenez à rejoindre la
         grand-rue et vous vous fondez dans la foule.`,
 
-        decision: `Rendez-vous au 7.`,
-
         links: [
             {
-                id: 7
+                id: 7,
+                text: "Continuer"
             }
         ]
     },
@@ -1863,15 +1752,14 @@ export const Paragraphs: IParagraph[] = [
         la cavalerie royale qui portent l'uniforme blanc des armées de Sa
         Majesté.`,
 
-        decision: `Si vous souhaitez leur faire signe, rendez-vous au 138. Si vous préférez poursuivre votre chemin
-        vers le sud en longeant la lisière de la forêt, rendez-vous au 200.`,
-
         links: [
             {
-                id: 138
+                id: 138,
+                text: "Leur faire signe"
             },
             {
-                id: 200
+                id: 200,
+                text: "Poursuivre votre chemin vers le sud en longeant la lisière de la forêt" 
             }
         ]
     },
@@ -1899,11 +1787,10 @@ export const Paragraphs: IParagraph[] = [
         l'ennemi repart à l'assaut du pont et les échos d'une féroce bataille
         retentissent encore longtemps à vos oreilles.`,
 
-        decision: `Rendez-vous au 235.`,
-
         links: [
             {
-                id: 235
+                id: 235,
+                text: "Continuer"
             }
         ]
     },
@@ -1916,22 +1803,22 @@ export const Paragraphs: IParagraph[] = [
         sont tachés de sang et ils ont négligé de se raser. Leur chef porte une
         tunique de la garnison de Toran.`,
 
-        decision: `Si vous décidez de leur obéir, rendez-vous au 205. Si vous préférez vous
-        préparer à les combattre, rendez-vous au 180. Si vous souhaitez leur demander ce qu'ils veulent, rendez-vous au 232.
-        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 45.`,
-
         links: [
             {
-                id: 205
+                id: 205,
+                text: "Leur obéir"
             },
             {
-                id: 180
+                id: 180,
+                text: "Vous préparer à les combattre"
             },
             {
-                id: 232
+                id: 232,
+                text: "Leur demander ce qu'ils veulent"
             },
             {
                 id: 45,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -1946,11 +1833,10 @@ export const Paragraphs: IParagraph[] = [
         des arbres ; mais il vous reste une trentaine de mètres à parcourir et
         le Kraan se prépare à fondre sur vous une nouvelle fois.`,
 
-        decision: `Rendez-vous au 188.`,
-
         links: [
             {
-                id: 188
+                id: 188,
+                text: "Continuer"
             }
         ]
     },
@@ -1964,16 +1850,14 @@ export const Paragraphs: IParagraph[] = [
         apercevez alors avec un frémissement d'horreur la silhouette noire et
         sinistre d'un Kraan qui fond sur vous.`,
 
-        decision: `Si vous décidez de dégainer votre arme pour le combattre, rendez-vous au 229.
-        Si vous préférez essayer de vous enfuir en courant vers le sud pour vous enfoncer plus profondément dans la forêt,
-        rendez-vous au 99.`,
-
         links: [
             {
-                id: 229
+                id: 229,
+                text: "Dégainer votre arme pour le combattre"
             },
             {
-                id: 99
+                id: 99,
+                text: "Essayer de vous enfuir en courant vers le sud pour vous enfoncer plus profondément dans la forêt"
             }
         ]
     },
@@ -1982,23 +1866,22 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Vous atteignez bientôt un nouveau croisement.`,
 
-        decision: `Si vous voulez aller vers
-        l'est, rendez-vous au 6. Si vous préférez prendre la direction du nord,
-        rendez-vous au 35. Si vous estimez plus judicieux d'aller vers le sud, rendez-vous au 167.
-        Si enfin vous décidez plutôt de tourner vers l'ouest, rendez-vous au 42.`,
-
         links: [
             {
-                id: 6
+                id: 6,
+                text: "Aller vers l'est"
             },
             {
-                id: 35
+                id: 35,
+                text: "Prendre la direction du nord"
             },
             {
-                id: 167
+                id: 167,
+                text: "Aller vers le sud"
             },
             {
-                id: 42
+                id: 42,
+                text: "Tourner vers l'ouest"
             }
         ]
     },
@@ -2025,11 +1908,10 @@ export const Paragraphs: IParagraph[] = [
         jambes et vous traversez l'effroyable cimetière en direction de la porte
         sud de la capitale.`,
 
-        decision: `Rendez-vous au 61.`,
-
         links: [
             {
-                id: 61
+                id: 61,
+                text: "Continuer"
             }
         ]
     },
@@ -2044,17 +1926,15 @@ export const Paragraphs: IParagraph[] = [
         Lorsque vous vous approchez de lui, il bat des paupières. « Soignez-moi,
         supplie-t-il, je ne sens plus mon bras. »`,
 
-        decision: `Si vous maîtrisez la Discipline Kaï de la Guérison et que vous désirez en faire bénéficier
-        cet homme, rendez-vous au 216. Si vous ne maîtrisez pas cette Discipline, ou si vous ne voulez pas en faire usage,
-        rendez-vous au 31.`,
-
         links: [
             {
                 id: 216,
+                text: "Utiliser votre Discipline Kaï de la Guérison sur cet homme",
                 skill: "Guérison"
             },
             {
-                id: 31
+                id: 31,
+                text: "Continuer"
             }
         ]
     },
@@ -2065,18 +1945,18 @@ export const Paragraphs: IParagraph[] = [
         et de cailloux. Le Kraan continue de tournoyer au-dessus de votre tête
         comme pour guider les Gloks vers vous.`,
 
-        decision: `Utilisez la Table de Hasard pour obtenir un chiffre : si vous tirez 0 ou 1, rendez-vous au 53.
-        Entre 2 et 4, rendez-vous au 274. Entre 5 et 9, rendez-vous au 316.`,
-
         links: [
             {
-                id: 53
+                id: 53,
+                text: "Table de hasard : 0 - 1"
             },
             {
-                id: 274
+                id: 274,
+                text: "Table de hasard : 2 - 4"
             },
             {
-                id: 316
+                id: 316,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -2089,11 +1969,10 @@ export const Paragraphs: IParagraph[] = [
         vous étendez sur le sol en vous couvrant de votre cape et vous sombrez
         dans un sommeil agité.`,
 
-        decision: `Rendez-vous au 18.`,
-
         links: [
             {
-                id: 18
+                id: 18,
+                text: "Continuer"
             }
         ]
     },
@@ -2108,19 +1987,18 @@ export const Paragraphs: IParagraph[] = [
         poliment s'il peut vous être utile, vous proposant notamment un choix
         d'herbes et de potions rangées dans les cases d'un comptoir de verre.`,
 
-        decision: `Si vous souhaitez jeter un coup d'œil à ces produits, rendez-vous au 152.
-        Si vous préférez décliner son offre et ressortir, rendez-vous au 7. Enfin, si vous
-        maîtrisez la Discipline Kaï du Sixième Sens, rendez-vous au 198.`,
-
         links: [
             {
-                id: 152
+                id: 152,
+                text: "Jeter un coup d'œil à ces produits"
             },
             {
-                id: 7
+                id: 7,
+                text: "Décliner son offre et ressortir"
             },
             {
                 id: 198,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -2139,11 +2017,10 @@ export const Paragraphs: IParagraph[] = [
         forestier qui mène droit vers l'est. Vous décidez de suivre ce chemin en
         surveillant sans cesse les alentours de peur de voir surgir un ennemi.`,
 
-        decision: `Rendez-vous au 13.`,
-
         links: [
             {
-                id: 13
+                id: 13,
+                text: "Continuer"
             }
         ]
     },
@@ -2160,11 +2037,10 @@ export const Paragraphs: IParagraph[] = [
         le flanc de la colline, furieux d'avoir perdu du temps, mais en
         remerciant votre Sixième Sens de vous avoir sauvé la vie.`,
 
-        decision: `Rendez-vous au 106.`,
-
         links: [
             {
-                id: 106
+                id: 106,
+                text: "Continuer"
             }
         ]
     },
@@ -2179,11 +2055,10 @@ export const Paragraphs: IParagraph[] = [
         valeur. Il n'y a rien dans la boutique qui mérite votre attention et
         vous quittez les lieux pour rejoindre la grand-rue.`,
 
-        decision: `Rendez-vous au 7.`,
-
         links: [
             {
-                id: 7
+                id: 7,
+                text: "Continuer"
             }
         ]
     },
@@ -2192,15 +2067,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Vous arrivez bientôt sur un chemin forestier orienté nord-sud.`,
 
-        decision: `Si vous souhaitez suivre ce chemin étroit en direction du nord, rendez-vous au 240.
-        Si vous préférez aller au sud, rendez-vous au 5.`,
-
         links: [
             {
-                id: 240
+                id: 240,
+                text: "Suivre ce chemin étroit en direction du nord"
             },
             {
-                id: 5
+                id: 5,
+                text: "Aller au sud"
             }
         ]
     },
@@ -2215,16 +2089,14 @@ export const Paragraphs: IParagraph[] = [
         enfin, vous êtes sûr qu'ils se sont éloignés, vous respirez à nouveau et
         vous essuyez la sueur qui ruisselle sur votre visage.`,
 
-        decision: `Si vous souhaitez inspecter la grotte plus avant, rendez-vous au 33.
-        Si vous préférez quitter les lieux et redescendre la colline, de peur que les Gloks ne reviennent,
-        rendez-vous au 248.`,
-
         links: [
             {
-                id: 33
+                id: 33,
+                text: "Inspecter la grotte plus avant"
             },
             {
-                id: 248
+                id: 248,
+                text: "Quitter les lieux et redescendre la colline, de peur que les Gloks ne reviennent"
             }
         ]
     },
@@ -2242,15 +2114,14 @@ export const Paragraphs: IParagraph[] = [
         cheval et s'écroule sur le pont, atteint par une flèche qui lui a percé
         le flanc.`,
 
-        decision: `Si vous souhaitez vous porter au secours du Prince Pellagayo, rendez-vous au 255.
-        Si vous préférez vous enfuir dans la forêt, rendez-vous au 306.`,
-
         links: [
             {
-                id: 255
+                id: 255,
+                text: "Vous porter au secours du Prince Pellagayo"
             },
             {
-                id: 306
+                id: 306,
+                text: "Vous enfuir dans la forêt"
             }
         ]
     },
@@ -2263,11 +2134,10 @@ export const Paragraphs: IParagraph[] = [
         commencent aussitôt à s'ouvrir. Les gardes vous font alors entrer dans
         une cour intérieure tandis que les portes se referment derrière vous.`,
 
-        decision: `Rendez-vous au 139.`,
-
         links: [
             {
-                id: 139
+                id: 139,
+                text: "Continuer"
             }
         ]
     },
@@ -2281,11 +2151,10 @@ export const Paragraphs: IParagraph[] = [
         sur pied et vous vous enfoncez dans l'épaisseur de la forêt pour vous
         mettre à l'abri.`,
 
-        decision: `Rendez-vous au 222.`,
-
         links: [
             {
-                id: 222
+                id: 222,
+                text: "Continuer"
             }
         ]
     },
@@ -2299,20 +2168,18 @@ export const Paragraphs: IParagraph[] = [
         trône de granité. Devant le trône, se trouve une statue sur son socle.
         Elle représente un serpent ailé dont le corps a la forme d'un S.`,
 
-        decision: `Si vous souhaitez vous asseoir sur ce trône, rendez-vous au 161.
-        Si vous préférez examiner la statue, rendez-vous au 133. Enfin, s'il vous semble plus
-        judicieux de chercher une sortie qui vous permettrait de quitter cet
-        endroit, rendez-vous au 257.`,
-
         links: [
             {
-                id: 161
+                id: 161,
+                text: "Vous asseoir sur ce trône"
             },
             {
-                id: 133
+                id: 133,
+                text: "Examiner la statue"
             },
             {
-                id: 257
+                id: 257,
+                text: "Chercher une sortie qui vous permettrait de quitter cet endroit"
             }
         ]
     },
@@ -2331,11 +2198,10 @@ export const Paragraphs: IParagraph[] = [
         ont vu et il ne vous reste plus qu'à vous enfuir en courant aussi vite
         que possible.`,
 
-        decision: `Rendez-vous au 281.`,
-
         links: [
             {
-                id: 281
+                id: 281,
+                text: "Continuer"
             }
         ]
     },
@@ -2350,11 +2216,10 @@ export const Paragraphs: IParagraph[] = [
         cimetière, l'air se rafraîchit et devient bientôt glacial. Avec un
         sentiment de terreur, vous pénétrez alors dans cette sinistre nécropole.`,
 
-        decision: `Rendez-vous au 284.`,
-
         links: [
             {
-                id: 284
+                id: 284,
+                text: "Continuer"
             }
         ]
     },
@@ -2364,15 +2229,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Le chemin, couvert de broussailles, bifurque bientôt et un autre sentier
         permet d'aller vers l'est.`,
 
-        decision: `Si vous souhaitez emprunter ce nouveau chemin orienté à l'est, rendez-vous au 13.
-        Si vous préférez poursuivre votre route en direction du nord-est, rendez-vous au 287.`,
-
         links: [
             {
-                id: 13
+                id: 13,
+                text: "Emprunter ce nouveau chemin orienté à l'est"
             },
             {
-                id: 287
+                id: 287,
+                text: "Poursuivre votre route en direction du nord-est"
             }
         ]
     },
@@ -2386,15 +2250,14 @@ export const Paragraphs: IParagraph[] = [
         vous arrivez bientôt à un croisement : le tunnel aboutit à un couloir
         orienté nord-sud.`,
 
-        decision: `Si vous souhaitez aller au nord, rendez-vous au 26. Si vous préférez prendre la direction du sud,
-        rendez-vous au 100.`,
-
         links: [
             {
-                id: 26
+                id: 26,
+                text: "Aller au nord"
             },
             {
-                id: 100
+                id: 100,
+                text: "Prendre la direction du sud"
             }
         ]
     },
@@ -2404,16 +2267,15 @@ export const Paragraphs: IParagraph[] = [
         text1: `Un peu plus loin, vous apercevez un corbeau, d'un noir de jais, perché
         sur la branche d'un vieux chêne.`,
 
-        decision: `Si vous maîtrisez la Discipline Kaï de la Communication Animale,
-        vous pouvez appeler cet oiseau en vous rendant au 298. Sinon, rendez-vous au 335.`,
-
         links: [
             {
                 id: 298,
+                text: "Utiliser votre Discipline Kaï de la Communication Animale pour appeler cet oiseau",
                 skill: "Communication Animale"
             },
             {
-                id: 335
+                id: 335,
+                text: "Continuer"
             }
         ]
     },
@@ -2424,15 +2286,14 @@ export const Paragraphs: IParagraph[] = [
         agitées d'un fort courant. Son eau blanche d'écume court parmi les rocs
         moussus et disparaît au loin, en direction de l'est.`,
 
-        decision: `Si vous désirez longer ce ruisseau vers l'est, rendez-vous au 263.
-        Si vous préférez en remonter le cours, rendez-vous au 334.`,
-
         links: [
             {
-                id: 263
+                id: 263,
+                text: "Longer ce ruisseau vers l'est"
             },
             {
-                id: 334
+                id: 334,
+                text: "En remonter le cours"
             }
         ]
     },
@@ -2448,11 +2309,10 @@ export const Paragraphs: IParagraph[] = [
         le couloir et vous quittez les lieux au moment même où une lourde herse
         s'abat à l'entrée de la pièce dont elle interdit désormais l'accès.`,
 
-        decision: `Rendez-vous au 23.`,
-
         links: [
             {
-                id: 23
+                id: 23,
+                text: "Continuer"
             }
         ]
     },
@@ -2471,8 +2331,6 @@ export const Paragraphs: IParagraph[] = [
         fois et qu'il ne reste de vous qu'un misérable petit tas de chair et
         d'os brisés. Votre mission s'achève ici, en même temps que votre vie.`,
 
-        decision: ``,
-
         links: []
     },
     {
@@ -2480,16 +2338,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Sous le tapis, vous ne trouvez que de la poussière !`,
 
-        decision: `Vous pouvez à présent examiner les bouteilles en vous rendant au 164.
-        Vous pouvez également quitter la cabane et inspecter l'écurie ; vous vous rendrez
-        alors au 308.`,
-
         links: [
             {
-                id: 164
+                id: 164,
+                text: "Examiner les bouteilles"
             },
             {
-                id: 308
+                id: 308,
+                text: "Quitter la cabane et inspecter l'écurie"
             }
         ]
     },
@@ -2501,11 +2357,10 @@ export const Paragraphs: IParagraph[] = [
         sans l'atteindre. Il vous faut agir vite si vous voulez sauver le
         Sorcier.`,
 
-        decision: `Rendez-vous au 55`,
-
         links: [
             {
-                id: 55
+                id: 55,
+                text: "Continuer"
             }
         ]
     },
@@ -2517,15 +2372,14 @@ export const Paragraphs: IParagraph[] = [
         approchez et vous jetez un coup d'œil dans la cabane à travers le
         carreau d'une fenêtre. L'endroit semble désert.`,
 
-        decision: `Si vous souhaitez entrer dans la cabane, rendez-vous au 57. Si vous
-        préférez inspecter l'écurie, rendez-vous au 308.`,
-
         links: [
             {
-                id: 57
+                id: 57,
+                text: "Entrer dans la cabane"
             },
             {
-                id: 308
+                id: 308,
+                text: "Inspecter l'écurie"
             }
         ]
     },
@@ -2542,16 +2396,16 @@ export const Paragraphs: IParagraph[] = [
 
         text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
 
-        decision: `Si vous êtes vainqueur, vous pouvez explorer la grotte plus avant en
-        vous rendant au 33. Mais vous pouvez également quitter les lieux et descendre le flanc de la
-        colline ; rendez-vous pour cela au 248.`,
-
         links: [
             {
-                id: 33
+                id: 33,
+                text: "Explorer la grotte plus avant",
+                fight: true
             },
             {
-                id: 248
+                id: 248,
+                text: "Quitter les lieux et descendre le flanc de la colline",
+                fight: true
             }
         ]
     },
@@ -2568,34 +2422,29 @@ export const Paragraphs: IParagraph[] = [
         cueilli là l'équivalent de 2 doses. Vous refermez votre Sac à Dos et
         vous poursuivez votre route.`,
 
-        decision: `Si vous souhaitez vous diriger vers le nord-est, rendez-vous au 347.
-        Si vous préférez aller à l'est, rendez-vous au 295.`,
-
         links: [
             {
-                id: 347
+                id: 347,
+                text: "Aller vers le nord-est"
             },
             {
-                id: 295
+                id: 295,
+                text: "Aller vers l'est"
             }
         ]
     },
     {
         id: 114,
 
-        text1: `Un peu plus loin, vous apercevez un corbeau, d'un noir de jais, perché
-        sur la branche d'un vieux chêne.`,
-
-        decision: `Si vous maîtrisez la Discipline Kaï de la Communication Animale, vous pouvez
-        appeler cet oiseau en vous rendant au 298. Sinon, rendez-vous au 335.`,
+        text1: `Vous amenez votre cheval à se coucher et vous le recouvrez, ainsi que vous-même, de branches et de feuilles mortes.
+        Vous entendez les battements d'ailes du Kraan lorsqu'il passe audessus des arbres : il se met à tournoyer au-dessus de vous,
+        mais repart bientôt en direction du lac qu'il traverse dans l'autre sens. Vous décidez alors de partir au plus vite de peur
+        qu'il ne revienne avec quelques-uns de ses compagnons.`,
 
         links: [
             {
-                id: 298,
-                skill: "Communication Animale"
-            },
-            {
-                id: 335
+                id: 239,
+                text: "Continuer"
             }
         ]
     },
@@ -2610,19 +2459,18 @@ export const Paragraphs: IParagraph[] = [
         maison l'ont quittée en toute hâte le matin même. Au milieu de la table
         sont posées une cruche d'eau et une miche de pain.`,
 
-        decision: `Si vous voulez prendre rapidement un Repas, rendez-vous au 150.
-        Si vous souhaitez inspecter la maison, rendez-vous au 177. Si vous préférez quitter les lieux dès
-        maintenant et reprendre votre course, rendez-vous au 83.`,
-
         links: [
             {
-                id: 150
+                id: 150,
+                text: "Prendre rapidement un Repas"
             },
             {
-                id: 177
+                id: 177,
+                text: "Inspecter la maison"
             },
             {
-                id: 83
+                id: 83,
+                text: "Quitter les lieux dès maintenant et reprendre votre course"
             }
         ]
     },
@@ -2634,11 +2482,10 @@ export const Paragraphs: IParagraph[] = [
         vous mettre à couvert et attendre que les Gloks aient quitté la rive
         opposée. Vous reprenez ensuite votre chemin en direction de la capitale.`,
 
-        decision: `Rendez-vous au 321.`,
-
         links: [
             {
-                id: 321
+                id: 321,
+                text: "Continuer"
             }
         ]
     },
@@ -2653,11 +2500,10 @@ export const Paragraphs: IParagraph[] = [
         que possible en l'allongeant sous un grand chêne, puis vous repartez en
         direction du nord-est en vous frayant un chemin dans la forêt touffue.`,
 
-        decision: `Rendez-vous au 330.`,
-
         links: [
             {
-                id: 330
+                id: 330,
+                text: "Continuer"
             }
         ]
     },
@@ -2672,11 +2518,10 @@ export const Paragraphs: IParagraph[] = [
         direction de Holmgard en surveillant le ciel clair de peur que n'y
         apparaisse la silhouette d'un Kraan.`,
 
-        decision: `Rendez-vous au 224.`,
-
         links: [
             {
-                id: 224
+                id: 224,
+                text: "Continuer"
             }
         ]
     },
@@ -2693,17 +2538,14 @@ export const Paragraphs: IParagraph[] = [
         paupières vous semblent lourdes. Bientôt, vous arrivez au bord d'une
         pente escarpée et couverte d'arbres.`,
 
-        decision: `Si vous souhaitez vous laisser
-        glisser le long de cette pente en prenant bien garde à ne pas tomber,
-        rendez-vous au 226. Si, en revanche, vous ne voulez pas prendre le risque de descendre
-        la pente dans l'état de somnolence où vous êtes, vous marcherez le long du bord en vous rendant au 38.`,
-
         links: [
             {
-                id: 226
+                id: 226,
+                text: "Vous laisser glisser le long de cette pente en prenant bien garde à ne pas tomber"
             },
             {
-                id: 38
+                id: 38,
+                text: "Ne pas prendre le risque de descendre la pente dans l'état de somnolence où vous êtes et marcher le long du bord"
             }
         ]
     },
@@ -2718,22 +2560,18 @@ export const Paragraphs: IParagraph[] = [
         c'est bien après vous qu'il en a. Le Kraan, en vérité, est même en train
         de fondre en piqué à une vitesse fulgurante !`,
 
-        decision: `Si vous souhaitez attendre
-        qu'il soit presque sur vous pour sauter au même moment de votre cheval,
-        rendez-vous au 84. Si vous préférez galoper vers les arbres pour vous
-        mettre à couvert, rendez-vous au 171. Si, enfin, il vous semble plus judicieux
-        de baisser la tête et de prier le ciel de vous protéger, tandis que vous galoperez droit devant,
-        rendez-vous au 54.`,
-
         links: [
             {
-                id: 84
+                id: 84,
+                text: "Attendre qu'il soit presque sur vous pour sauter au même moment de votre cheval"
             },
             {
-                id: 171
+                id: 171,
+                text: "Galoper vers les arbres pour vous mettre à couvert"
             },
             {
-                id: 54
+                id: 54,
+                text: "Baisser la tête et prier le ciel de vous protéger, tandis que vous galoperez droit devant"
             }
         ]
     },
@@ -2745,19 +2583,18 @@ export const Paragraphs: IParagraph[] = [
         tourne le dos, et un capuchon lui couvre la tête. Le corbeau noir que
         vous avez vu un peu plus tôt est perché sur son bras tendu.`,
 
-        decision: `Si vous souhaitez appeler cet homme, rendez-vous au 343.
-        Si vous préférez vous approcher de lui avec prudence, rendez-vous au 309.
-        Enfin, si vous estimez plus judicieux de dégainer votre arme et de l'attaquer, rendez-vous au 283.`,
-
         links: [
             {
-                id: 343
+                id: 343,
+                text: "Appeler cet homme"
             },
             {
-                id: 309
+                id: 309,
+                text: "Vous approcher de lui avec prudence"
             },
             {
-                id: 283
+                id: 283,
+                text: "Dégainer votre arme et l'attaquer"
             }
         ]
     },
@@ -2771,11 +2608,10 @@ export const Paragraphs: IParagraph[] = [
         son dos et vous le lancez sur le chemin, en prenant cette fois encore la
         direction du sud.`,
 
-        decision: `Rendez-vous au 206.`,
-
         links: [
             {
-                id: 206
+                id: 206,
+                text: "Continuer"
             }
         ]
     },
@@ -2789,15 +2625,14 @@ export const Paragraphs: IParagraph[] = [
         les herbes, près du corps en décomposition. Plus loin sur le sentier,
         vous apercevez une meute de Gloks qui se précipitent vers vous.`,
 
-        decision: `Si vous souhaitez ramasser la Pierre Précieuse, rendez-vous au 304.
-        Si vous préférez partir à l'instant en prenant vos jambes à votre cou, rendez-vous au 2.`,
-
         links: [
             {
-                id: 304
+                id: 304,
+                text: "Ramasser la Pierre Précieuse"
             },
             {
-                id: 2
+                id: 2,
+                text: "Partir à l'instant en prenant vos jambes à votre cou"
             }
         ]
     },
@@ -2808,15 +2643,14 @@ export const Paragraphs: IParagraph[] = [
         souhaitez conserver la Clé, inscrivez-la sur votre Feuille d'Aventure
         dans la case Objets Spéciaux.`,
 
-        decision: `Vous pouvez continuer à explorer le tunnel en vous rendant au 211.
-        Vous pouvez également descendre le flanc de la colline en vous rendant au 106.`,
-
         links: [
             {
-                id: 211
+                id: 211,
+                text: "Continuer à explorer le tunnel"
             },
             {
-                id: 106
+                id: 106,
+                text: "Descendre le flanc de la colline"
             }
         ]
     },
@@ -2831,19 +2665,19 @@ export const Paragraphs: IParagraph[] = [
         l'autre côté de la clairière, deux chemins s'enfoncent dans la forêt.
         L'un est orienté à l'ouest, l'autre au sud.`,
 
-        decision: `Si vous souhaitez emprunter le sentier orienté au sud, rendez-vous au 27.
-        Si vous préférez prendre celui qui va vers l'ouest, rendez-vous au 214. Enfin, si vous
-        maîtrisez la Discipline Kaï de l'Orientation, rendez-vous au 301.`,
-
         links: [
             {
-                id: 27
+                id: 27,
+                text: "Emprunter le sentier orienté au sud"
             },
             {
-                id: 214
+                id: 214,
+                text: "Prendre celui qui va vers l'ouest"
             },
             {
-                id: 301
+                id: 301,
+                text: "Utiliser votre Discipline Kaï de l'Orientation",
+                skill: "Orientation"
             }
         ]
     },
@@ -2858,16 +2692,14 @@ export const Paragraphs: IParagraph[] = [
         et vous arrêtez votre cheval. La lumière commence à décliner, il fait
         presque nuit, à présent.`,
 
-        decision: `Si vous souhaitez poursuivre votre chemin dans la même direction, rendez-vous au 46.
-        Si vous préférez aller à gauche (dans une direction parallèle au chemin que vous
-        avez laissé loin derrière), rendez-vous au 143.`,
-
         links: [
             {
-                id: 46
+                id: 46,
+                text: "Poursuivre votre chemin dans la même direction"
             },
             {
-                id: 143
+                id: 143,
+                text: "Aller à gauche (dans une direction parallèle au chemin que vous avez laissé loin derrière"
             }
         ]
     },
@@ -2883,8 +2715,6 @@ export const Paragraphs: IParagraph[] = [
         votre cou. C'est d'ailleurs le dernier son qui vous parvient en ce bas
         monde, car vous mourez à l'instant même. Votre mission s'achève ici.`,
 
-        decision: ``,
-
         links: []
     },
     {
@@ -2898,17 +2728,15 @@ export const Paragraphs: IParagraph[] = [
         frontières occidentales du royaume, en bordure des monts Durncrag.
         L'homme a reçu une sévère correction et il est à demi inconscient.`,
 
-        decision: `Si vous maîtrisez la Discipline Kaï de la Chasse, rendez-vous au 297.
-        Dans le cas contraire, vous n'avez plus qu'à attaquer les Gloks pour sauver la vie du soldat.
-        Rendez-vous alors au 336.`,
-
         links: [
             {
                 id: 297,
+                text: "Utiliser votre Discipline Kaï de la Chasse",
                 skill: "Chasse"
             },
             {
-                id: 336
+                id: 336,
+                text: "Attaquer les Gloks pour sauver la vie du soldat"
             }
         ]
     },
@@ -2924,16 +2752,14 @@ export const Paragraphs: IParagraph[] = [
         Tour de Guet. Des civils et des soldats en grand nombre courent en tous
         sens, chacun s'activant à sa tâche.`,
 
-        decision: `Si vous souhaitez continuer à suivre l'officier, rendez-vous au 3.
-        Si vous pensez que vous arriverez plus vite à la citadelle qui abrite le Palais du Roi en
-        vous débrouillant tout seul, rendez-vous au 144.`,
-
         links: [
             {
-                id: 3
+                id: 3,
+                text: "Continuer à suivre l'officier"
             },
             {
-                id: 144
+                id: 144,
+                text: "Décider que vous arriverez plus vite à la citadelle qui abrite le Palais du Roi en vous débrouillant tout seul"
             }
         ]
     },
@@ -2944,16 +2770,14 @@ export const Paragraphs: IParagraph[] = [
         trouvez un banc taillé dans le tronc d'un arbre. Vous avez faim, et il
         vous faut prendre un Repas, sinon, vous perdrez 3 points d'ENDURANCE.`,
 
-        decision: `Lorsque vous avez fini de manger, vous pourrez quitter la clairière par
-        le sud en vous rendant au 28. Mais si vous préférez emprunter le sentier plus étroit qui mène vers l'est en
-        s'enfonçant dans la forêt, rendez-vous au 201.`,
-
         links: [
             {
-                id: 28
+                id: 28,
+                text: "Quitter la clairière par le sud après avoir mangé"
             },
             {
-                id: 201
+                id: 201,
+                text: "Emprunter le sentier plus étroit qui mène vers l'est en vous enfonçant dans la forêt"
             }
         ]
     },
@@ -2993,25 +2817,22 @@ export const Paragraphs: IParagraph[] = [
         entre ses dents un long poignard à la lame recourbée et s'apprête à
         sauter sur le jeune sorcier qui se tient debout juste au-dessous de lui.`,
 
-        decision: `Si vous souhaitez crier pour avertir le sorcier du danger qui le menace,
-        rendez-vous au 241. Si vous voulez vous précipiter en avant pour attaquer le Glok
-        au moment où il bondira, rendez-vous au 55. Si vous préférez ramasser une
-        pierre dans les ruines et la jeter à la tête du Glok, rendez-vous au
-        302. Enfin, si vous estimez plus judicieux de quitter ce champ de bataille et de
-        poursuivre votre chemin en retournant dans la forêt, rendez-vous au 101.`,
-
         links: [
             {
-                id: 241
+                id: 241,
+                text: "Crier pour avertir le sorcier du danger qui le menace"
             },
             {
-                id: 55
+                id: 55,
+                text: "Vous précipiter en avant pour attaquer le Glok au moment où il bondira"
             },
             {
-                id: 302
+                id: 302,
+                text: "Ramasser une pierre dans les ruines et la jeter à la tête du Glok"
             },
             {
-                id: 101
+                id: 101,
+                text: "Quitter ce champ de bataille et poursuivre votre chemin en retournant dans la forêt"
             }
         ]
     },
@@ -3032,11 +2853,10 @@ export const Paragraphs: IParagraph[] = [
         un somptueux repas, la fatigue accumulée au cours de vos épreuves a
         raison de vous et vous sombrez dans un sommeil profond.`,
 
-        decision: `Rendez-vous au 64.`,
-
         links: [
             {
-                id: 64
+                id: 64,
+                text: "Continuer"
             }
         ]
     },
@@ -3051,11 +2871,11 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[SERPENT AILÉ] HABILETÉ : 16 / ENDURANCE : 18`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 266.`,
-
         links: [
             {
-                id: 266
+                id: 266,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -3067,15 +2887,14 @@ export const Paragraphs: IParagraph[] = [
         ne fait aucun doute que ces cruels serviteurs des Maîtres des Ténèbres
         se trouvaient là il y a moins de deux heures.`,
 
-        decision: `Si vous décidez d'inspecter les maisons, rendez-vous au 305.
-        Si vous préférez éviter cette clairière, rendez-vous au 40.`,
-
         links: [
             {
-                id: 305
+                id: 305,
+                text: "Inspecter les maisons"
             },
             {
-                id: 40
+                id: 40,
+                text: "Éviter cette clairière"
             }
         ]
     },
@@ -3087,15 +2906,14 @@ export const Paragraphs: IParagraph[] = [
         portés là par le courant. Un gros tronc d'arbre, notamment, s'est échoué
         sur la rive, à côté d'un petit canoë.`,
 
-        decision: `Si vous souhaitez utiliser le tronc d'arbre pour descendre le cours de la rivière,
-        rendez-vous au 223. Si vous préférez vous servir du canoë, rendez-vous au 4.`,
-
         links: [
             {
-                id: 223
+                id: 223,
+                text: "Utiliser le tronc d'arbre pour descendre le cours de la rivière"
             },
             {
-                id: 4
+                id: 4,
+                text: "Vous servir du canoë"
             }
         ]
     },
@@ -3114,11 +2932,11 @@ export const Paragraphs: IParagraph[] = [
 
         text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 313`,
-
         links: [
             {
-                id: 313
+                id: 313,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -3134,11 +2952,10 @@ export const Paragraphs: IParagraph[] = [
         dans votre bourse. Vous vous hâtez de quitter la Crypte et vous
         poursuivez votre chemin.`,
 
-        decision: `Rendez-vous au 23.`,
-
         links: [
             {
-                id: 23
+                id: 23,
+                text: "Continuer"
             }
         ]
     },
@@ -3152,11 +2969,11 @@ export const Paragraphs: IParagraph[] = [
 
         text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 10`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 291.`,
-
         links: [
             {
-                id: 291
+                id: 291,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -3173,11 +2990,10 @@ export const Paragraphs: IParagraph[] = [
         cour lorsqu'une voix retentit soudain : « Arrêtez cet homme ! »
         ordonne-t-elle.`,
 
-        decision: `Rendez-vous au 66.`,
-
         links: [
             {
-                id: 66
+                id: 66,
+                text: "Continuer"
             }
         ]
     },
@@ -3188,23 +3004,22 @@ export const Paragraphs: IParagraph[] = [
         une tour branlante à l'aide de troncs d'arbres grossièrement taillés. Au
         pied de la tour, trois sentiers partent dans différentes directions.`,
 
-        decision: `Si vous souhaitez prendre le sentier qui mène au sud, rendez-vous au 14.
-        Si vous préférez celui qui mène à l'est, rendez-vous au 252. Si le sentier orienté au
-        sud-ouest vous paraît plus attrayant, rendez-vous au 215. Enfin, si l'envie vous prend plutôt de
-        monter dans la tour, rendez-vous au 36.`,
-
         links: [
             {
-                id: 14
+                id: 14,
+                text: "Prendre le sentier qui mène au sud"
             },
             {
-                id: 252
+                id: 252,
+                text: "Prendre celui qui mène à l'est"
             },
             {
-                id: 215
+                id: 215,
+                text: "S'engager sur le sentier orienté au sud-ouest"
             },
             {
-                id: 36
+                id: 36,
+                text: "Monter dans la tour"
             }
         ]
     },
@@ -3216,15 +3031,14 @@ export const Paragraphs: IParagraph[] = [
         deux chemins, en quête d'éventuels survivants à massacrer. Vous pouvez
         cependant éviter ces deux sentiers en coupant par les sous-bois de la forêt.`,
 
-        decision: `Si vous souhaitez aller vers le sud, rendez-vous au 56. Si vous préférez
-        vous frayer un chemin dans le feuillage plus touffu qui s'étend au nord-est, rendez-vous au 333.`,
-
         links: [
             {
-                id: 56
+                id: 56,
+                text: "Aller vers le sud"
             },
             {
-                id: 333
+                id: 333,
+                text: "Vous frayer un chemin dans le feuillage plus touffu qui s'étend au nord-est"
             }
         ]
     },
@@ -3240,31 +3054,33 @@ export const Paragraphs: IParagraph[] = [
         Holmgard à travers les plaines. En courant vite, vous pourriez atteindre
         en une heure le camp fortifié qui se dresse autour de la ville, mais
         vous seriez la plupart du temps à découvert, offrant aux Kraans une
-        proie facile. A quelque distance devant vous, cependant, une large
+        proie facile.`,
+        
+        text2: `À quelque distance devant vous, cependant, une large
         rivière aux eaux boueuses coule paresseusement en direction du fleuve
         Eledil dans lequel elle finit par se jeter. Vous pourriez profiter de
         l'escarpement de ses berges pour nager à couvert et rejoindre ainsi la
-        capitale. À votre gauche, par ailleurs, s'étend le Cimetière des
+        capitale.`,
+        
+        text3: `À votre gauche, par ailleurs, s'étend le Cimetière des
         Anciens. En marchant parmi les tombes et les monuments funéraires en
         ruine, vous pourriez échapper aux regards et vous approcher de votre
         but, mais c'est là une zone interdite : des forces ténébreuses restent,
         en effet, tapies dans l'ombre de la nécropole, attendant qu'un passant
         téméraire s'offre à leurs maléfices.`,
 
-        decision: `Si vous voulez tenter votre chance en empruntant la grand-route, rendez-vous au 58.
-        Si vous pensez avoir plus de chance d'atteindre la capitale par la rivière, rendez-vous au 135.
-        Enfin, si vous êtes suffisamment courageux pour vous risquer dans le Cimetière des Anciens,
-        rendez-vous au 102.`,
-
         links: [
             {
-                id: 58
+                id: 58,
+                text: "Tenter votre chance en empruntant la grand-route"
             },
             {
-                id: 135
+                id: 135,
+                text: "Tenter d'atteindre la capitale par la rivière"
             },
             {
-                id: 102
+                id: 102,
+                text: "Rassembler votre courage et vous risquer dans le Cimetière des Anciens"
             }
         ]
     },
@@ -3276,11 +3092,10 @@ export const Paragraphs: IParagraph[] = [
         cheval au galop : si tout va bien vous devriez avoir atteint Holmgard
         dans la matinée.`,
 
-        decision: `Rendez-vous au 149.`,
-
         links: [
             {
-                id: 149
+                id: 149,
+                text: "Continuer"
             }
         ]
     },
@@ -3303,15 +3118,14 @@ export const Paragraphs: IParagraph[] = [
         se précipite sur vous en brandissant un couteau à viande. Il est fou à
         lier et il vous faut le combattre ou tenter de fuir.`,
 
-        decision: `Si vous choisissez de le combattre, rendez-vous au 63. Si vous
-        préférez essayer d'éviter l'affrontement, rendez-vous au 217.`,
-
         links: [
             {
-                id: 63
+                id: 63,
+                text: "Le combattre"
             },
             {
-                id: 217
+                id: 217,
+                text: "Éviter l'affrontement"
             }
         ]
     },
@@ -3323,11 +3137,10 @@ export const Paragraphs: IParagraph[] = [
         dans le dos, et avec un goût désagréable dans la bouche : celui de la
         poussière qui recouvre la route.`,
 
-        decision: `Rendez-vous au 165.`,
-
         links: [
             {
-                id: 165
+                id: 165,
+                text: "Continuer"
             }
         ]
     },
@@ -3341,11 +3154,10 @@ export const Paragraphs: IParagraph[] = [
         Drakkarims qui vous ont tendu une embuscade. Il vous faut prendre la
         fuite au plus vite en courant vous cacher parmi les arbres.`,
 
-        decision: `Rendez-vous au 154.`,
-
         links: [
             {
-                id: 154
+                id: 154,
+                text: "Continuer"
             }
         ]
     },
@@ -3357,15 +3169,14 @@ export const Paragraphs: IParagraph[] = [
         Vous avez faim et il vous faut prendre un Repas, sinon, vous perdez 3
         points d'ENDURANCE. Vous constatez bientôt que le chemin tourne vers l'est.`,
 
-        decision: `Si vous voulez continuer à le suivre, rendez-vous au 42.
-        Si vous préférez revenir sur vos pas, rendez-vous au 28.`,
-
         links: [
             {
-                id: 42
+                id: 42,
+                text: "Continuer à le suivre"
             },
             {
-                id: 28
+                id: 28,
+                text: "Revenir sur vos pas"
             }
         ]
     },
@@ -3379,20 +3190,18 @@ export const Paragraphs: IParagraph[] = [
         est désert. En vous approchant de la cheminée, vous trouvez un Marteau
         de Guerre posé contre le mur. Vous pouvez le prendre si vous le désirez.`,
 
-        decision: `Si vous souhaitez rester dans cette ferme, rendez-vous au 81.
-        Si vous pensez que vous serez plus en sécurité dans la forêt, vous pouvez courir
-        vous y réfugier en vous rendant au 320. Enfin, si vous souhaitez inspecter plus
-        avant la pièce dans laquelle vous vous trouvez, rendez-vous au 199.`,
-
         links: [
             {
-                id: 81
+                id: 81,
+                text: "Rester dans cette ferme"
             },
             {
-                id: 320
+                id: 320,
+                text: "Courir vous réfugier dans la forêt si vous pensez que vous y serez plus en sécurité"
             },
             {
-                id: 199
+                id: 199,
+                text: "Inspecter plus avant la pièce dans laquelle vous vous trouvez"
             }
         ]
     },
@@ -3408,11 +3217,10 @@ export const Paragraphs: IParagraph[] = [
         emmitouflé dans votre cape verte de Seigneur Kaï. Quelques instants plus
         tard, vous avez sombré dans un sommeil sans rêves.`,
 
-        decision: `Rendez-vous au 256.`,
-
         links: [
             {
-                id: 256
+                id: 256,
+                text: "Continuer"
             }
         ]
     },
@@ -3425,11 +3233,10 @@ export const Paragraphs: IParagraph[] = [
         demi-heure dans cette maison lorsque vous vous rendez soudain compte que
         vous êtes en train de prendre du retard.`,
 
-        decision: `Ramassez vos affaires et reprenez votre chemin en vous rendant au 83.`,
-
         links: [
             {
-                id: 83
+                id: 83,
+                text: "Ramasser vos affaires et reprendre votre chemin"
             }
         ]
     },
@@ -3443,12 +3250,10 @@ export const Paragraphs: IParagraph[] = [
         des pièges éventuels qui pourraient se déclencher lors de l'ouverture de
         la serrure.`,
 
-        decision: `Pour savoir si votre Maîtrise Psychique de la Matière se
-        révélera efficace dans le cas présent, rendez-vous au 87.`,
-
         links: [
             {
-                id: 87
+                id: 87,
+                text: "Continuer pour savoir si votre Maîtrise Psychique de la Matière se révélera efficace dans le cas présent"
             }
         ]
     },
@@ -3466,15 +3271,14 @@ export const Paragraphs: IParagraph[] = [
         mieux vous en convaincre, il vous invite à lire une inscription magique
         gravée sur la baguette.`,
 
-        decision: `Si vous souhaitez vous pencher par-dessus le comptoir pour lire l'étrange
-        inscription, rendez-vous au 49. Si vous vous intéressez davantage aux potions, rendez-vous au 231.`,
-
         links: [
             {
-                id: 49
+                id: 49,
+                text: "Vous pencher par-dessus le comptoir pour lire l'étrange inscription"
             },
             {
-                id: 231
+                id: 231,
+                text: "Vous intéresser davantage aux potions"
             }
         ]
     },
@@ -3505,20 +3309,18 @@ export const Paragraphs: IParagraph[] = [
         restent tapies dans l'ombre de la nécropole et attendent qu'un passant
         téméraire s'offre à leurs maléfices.`,
 
-        decision: `Si vous souhaitez tenter votre chance en empruntant la grand-route,
-        rendez-vous au 202. Si vous pensez que vous pourrez plus facilement atteindre
-        la capitale par la rivière, rendez-vous au 135. Si, enfin, vous vous sentez suffisamment
-        courageux pour affronter les terribles périls du Cimetière des Anciens, rendez-vous au 329.`,
-
         links: [
             {
-                id: 202
+                id: 202,
+                text: "Tenter votre chance en empruntant la grand-route"
             },
             {
-                id: 135
+                id: 135,
+                text: "Tenter d'atteindre la capitale par la rivière"
             },
             {
-                id: 329
+                id: 329,
+                text: "Rassembler votre courage et affronter les terribles périls du Cimetière des Anciens"
             }
         ]
     },
@@ -3535,8 +3337,6 @@ export const Paragraphs: IParagraph[] = [
         s'échapper de leurs lèvres, tordues en un rictus répugnant. Les quatre
         flèches s'enfoncent profondément dans votre poitrine et toute lumière
         s'éteint. Votre mission a échoué.`,
-
-        decision: ``,
 
         links: []
     },
@@ -3566,11 +3366,10 @@ export const Paragraphs: IParagraph[] = [
         envahisseurs. Puis vous leur souhaitez bonne chance au long de leur
         exode et vous reprenez vous-même votre chemin.`,
 
-        decision: `Rendez-vous au 70.`,
-
         links: [
             {
-                id: 70
+                id: 70,
+                text: "Continuer"
             }
         ]
     },
@@ -3582,17 +3381,14 @@ export const Paragraphs: IParagraph[] = [
         vous tirent dessus. De ce côté du cours d'eau, il n'y a pas d'arbres
         pour vous mettre à l'abri.`,
 
-        decision: `Si vous souhaitez plonger dans l'eau de la
-        rivière et nager au fil du courant, rendez-vous au 294. Si vous préférez
-        traverser le cours d'eau à la nage pour aller vous mettre à couvert des arbres,
-        sur la rive opposée, rendez-vous au 245.`,
-
         links: [
             {
-                id: 294
+                id: 294,
+                text: "Plonger dans l'eau de la rivière et nager au fil du courant"
             },
             {
-                id: 245
+                id: 245,
+                text: "Traverser le cours d'eau à la nage pour aller vous mettre à couvert des arbres, sur la rive opposée"
             }
         ]
     },
@@ -3604,16 +3400,14 @@ export const Paragraphs: IParagraph[] = [
         hommes et des femmes tirent des carrioles remplies d'objets, de meubles
         ou de vêtements. Ce sont des réfugiés qui fuient le nord du royaume.`,
 
-        decision: `Si vous souhaitez vous joindre à ces réfugiés qui pourront peut-être vous
-        donner des informations sur ce qui se passe dans le nord, rendez-vous au 30. Si vous préférez
-        poursuivre votre route vers le sud, mais en restant à l'abri des arbres, rendez-vous au 167.`,
-
         links: [
             {
-                id: 30
+                id: 30,
+                text: "Vous joindre à ces réfugiés qui pourront peut-être vous donner des informations sur ce qui se passe dans le nord"
             },
             {
-                id: 167
+                id: 167,
+                text: "Poursuivre votre route vers le sud, mais en restant à l'abri des arbres"
             }
         ]
     },
@@ -3639,11 +3433,10 @@ export const Paragraphs: IParagraph[] = [
         peau. Vous vous hâtez à présent de rejoindre le sentier qui redescend de
         l'autre côté de la colline.`,
 
-        decision: `Rendez-vous au 106.`,
-
         links: [
             {
-                id: 106
+                id: 106,
+                text: "Continuer"
             }
         ]
     },
@@ -3654,34 +3447,33 @@ export const Paragraphs: IParagraph[] = [
         roulotte. Et, soudain, il claque des doigts à l'adresse d'un de ses
         gardes du corps qui empoigne aussitôt le pommeau de son arme.`,
 
-        decision: `Si vous souhaitez le combattre, rendez-vous au 191. Si
-        vous préférez sauter de la roulotte, rendez-vous au 234.`,
-
         links: [
             {
-                id: 191
+                id: 191,
+                text: "Le combattre"
             },
             {
-                id: 234
+                id: 234,
+                text: "Sauter de la roulotte"
             }
         ]
     },
     {
         id: 160,
 
-        text1: ``,
-
-        decision: `Utilisez la Table de Hasard pour obtenir un chiffre : Si vous tirez
+        text1: `Utilisez la Table de Hasard pour obtenir un chiffre : Si vous tirez
         entre 0 et 4, vous avez été repéré. Rendez-vous alors au 286. Si vous tirez
         entre 5 et 9, ils ne vous ont pas vu et poursuivent leur chemin en s'éloignant de vous.
         Rendez-vous dans ce cas au 10.`,
 
         links: [
             {
-                id: 286
+                id: 286,
+                text: "Table de hasard : 0 - 4"
             },
             {
-                id: 10
+                id: 10,
+                text: "Table de hasard : 5 - 9"
             }
         ]
     },
@@ -3700,11 +3492,10 @@ export const Paragraphs: IParagraph[] = [
         (notez-la sur votre Feuille d'Aventure dans la case Objets Spéciaux) et
         vous vous hâtez de quitter les lieux par cette sortie inattendue.`,
 
-        decision: `Rendez-vous au 209.`,
-
         links: [
             {
-                id: 209
+                id: 209,
+                text: "Continuer"
             }
         ]
     },
@@ -3723,16 +3514,15 @@ export const Paragraphs: IParagraph[] = [
         réservent, et vos perspectives d'avenir ne semblent pas des plus
         réjouissantes.`,
 
-        decision: `Si vous possédez la Discipline Kaï de la Maîtrise
-        Psychique de la Matière, rendez-vous au 258. Sinon, rendez-vous au 127.`,
-
         links: [
             {
                 id: 258,
+                text: "Utiliser votre Discipline Kaï de la Maîtrise Psychique de la Matière",
                 skill: "Maîtrise Psychique de la Matière"
             },
             {
-                id: 127
+                id: 127,
+                text: "Continuer"
             }
         ]
     },
@@ -3746,11 +3536,10 @@ export const Paragraphs: IParagraph[] = [
         droite et de poursuivre votre chemin à pied. Votre équipement est au
         complet, vous n'avez rien perdu dans les eaux de la rivière.`,
 
-        decision: `Rendez-vous au 321.`,
-
         links: [
             {
-                id: 321
+                id: 321,
+                text: "Continuer"
             }
         ]
     },
@@ -3770,11 +3559,10 @@ export const Paragraphs: IParagraph[] = [
         cette Potion dans la case Objets Spéciaux de votre Feuille d'Aventure,
         et n'oubliez pas de l'effacer lorsque vous l'aurez bue.`,
 
-        decision: `Vous décidez à présent d'inspecter l'écurie en vous rendant au 308.`,
-
         links: [
             {
-                id: 308
+                id: 308,
+                text: "Inspecter l'écurie"
             }
         ]
     },
@@ -3791,11 +3579,10 @@ export const Paragraphs: IParagraph[] = [
         vous chuchote quelques mots de réconfort, mais bientôt, la lumière
         s'évanouit à nouveau et vous replongez dans les ténèbres.`,
 
-        decision: `Rendez-vous au 212.`,
-
         links: [
             {
-                id: 212
+                id: 212,
+                text: "Continuer"
             }
         ]
     },
@@ -3813,11 +3600,10 @@ export const Paragraphs: IParagraph[] = [
         vainqueur de ce véritable calvaire. Vous perdez 4 points d'ENDURANCE et
         vous entrez dans le tunnel d'un pas chancelant.`,
 
-        decision: `Rendez-vous au 104.`,
-
         links: [
             {
-                id: 104
+                id: 104,
+                text: "Continuer"
             }
         ]
     },
@@ -3827,20 +3613,18 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous avez parcouru environ deux kilomètres lorsque vous apercevez deux
         jambes qui dépassent de derrière un gros rocher.`,
 
-        decision: `Si vous voulez vous approcher pour voir de quoi il retourne, rendez-vous au 88.
-        Si vous préférez passer votre chemin et continuer droit devant, rendez-vous au 264.
-        Enfin, si vous maîtrisez la Discipline Kaï du Sixième Sens (et que vous
-        désirez en faire usage), rendez-vous au 178.`,
-
         links: [
             {
-                id: 88
+                id: 88,
+                text: "Vous approcher pour voir de quoi il retourne"
             },
             {
-                id: 264
+                id: 264,
+                text: "Passer votre chemin et continuer droit devant"
             },
             {
                 id: 178,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
                 skill: "Sixième Sens"
             }
         ]
@@ -3859,11 +3643,10 @@ export const Paragraphs: IParagraph[] = [
         fait d'avoir raison de vous et vous finissez par sombrer dans un sommeil
         agité.`,
 
-        decision: `Rendez-vous au 64.`,
-
         links: [
             {
-                id: 64
+                id: 64,
+                text: "Continuer"
             }
         ]
     },
@@ -3881,16 +3664,16 @@ export const Paragraphs: IParagraph[] = [
 
         text2: `[MONSTRES DES CRYPTES] HABILETÉ : 16 / ENDURANCE : 16`,
 
-        decision: `Après avoir livré le premier assaut (obligatoire), vous aurez le droit
-        de prendre la fuite en courant dans le couloir. Rendez-vous pour cela au 23.
-        Si vous décidez de combattre et que vous êtes vainqueur, rendez-vous au 137.`,
-
         links: [
             {
-                id: 23
+                id: 23,
+                text: "Prendre la fuite en courant dans le couloir après avoir livré le premier assaut",
+                fight: true
             },
             {
-                id: 137
+                id: 137,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -3913,11 +3696,11 @@ export const Paragraphs: IParagraph[] = [
 
         text3: `[GLÛATRE DES PROFONDEURS] HABILETÉ : 17 / ENDURANCE : 7`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 319.`,
-
         links: [
             {
-                id: 319
+                id: 319,
+                text: "Combat",
+                fight: true
             }
         ]
     },
@@ -3933,11 +3716,10 @@ export const Paragraphs: IParagraph[] = [
         arbres, laissant là votre malheureux cheval qui agonise entre les
         griffes du Kraan.`,
 
-        decision: `Rendez-vous au 303.`,
-
         links: [
             {
-                id: 303
+                id: 303,
+                text: "Continuer"
             }
         ]
     },
@@ -3956,24 +3738,19 @@ export const Paragraphs: IParagraph[] = [
         plus tard, le monstre redoutable reprend son vol et traverse le lac en
         se dirigeant vers l'endroit où vous êtes caché.`,
 
-        decision: `Si vous souhaitez vous
-        enfoncer plus profondément dans la forêt afin d'échapper au Kraan,
-        rendez-vous au 239. Si vous maîtrisez la
-        Discipline Kaï du Camouflage et que vous désirez en faire usage pour
-        vous dissimuler aux regards, vous et votre cheval, rendez-vous au 114.
-        Enfin, si vous préférez vous préparer à combattre l'ignoble créature,
-        rendez-vous au 29.`,
-
         links: [
             {
-                id: 239
+                id: 239,
+                text: "Vous enfoncer plus profondément dans la forêt afin d'échapper au Kraan"
             },
             {
                 id: 114,
+                text: "Utiliser votre Discipline Kaï du Camouflage pour vous dissimuler aux regards, vous et votre cheval",
                 skill: "Camouflage"
             },
             {
-                id: 29
+                id: 29,
+                text: "Vous préparer à combattre l'ignoble créature"
             }
         ]
     },
@@ -3984,17 +3761,15 @@ export const Paragraphs: IParagraph[] = [
         plafond s'écrase au sol, juste derrière vous. Vous faites volte-face et
         vous constatez que la sortie est à présent entièrement obstruée.`,
 
-        decision: `Si vous possédez une Clé d'Argent, vous pouvez vous en servir pour essayer
-        d'ouvrir la porte. Rendez-vous pour cela au 158.
-        Si vous n'avez pas cette Clé, rendez-vous au 259.`,
-
         links: [
             {
                 id: 158,
+                text: "Utiliser votre Clé d'Argent pour essayer d'ouvrir la porte",
                 object: "Clé d'Argent"
             },
             {
-                id: 259
+                id: 259,
+                text: "Continuer"
             }
         ]
     },
@@ -4012,11 +3787,10 @@ export const Paragraphs: IParagraph[] = [
         Armes. C'est donc privé de votre équipement que vous atteignez la rive
         boisée sur laquelle vous parvenez à vous hisser tant bien que mal.`,
 
-        decision: `Rendez-vous au 190.`,
-
         links: [
             {
-                id: 190
+                id: 190,
+                text: "Continuer"
             }
         ]
     },
@@ -4033,20 +3807,18 @@ export const Paragraphs: IParagraph[] = [
         Gardes-Frontières tandis que leurs terribles poursuivants gagnent du
         terrain.`,
 
-        decision: `Si vous voulez essayer de vous cacher là où vous êtes,
-        rendez-vous au 41. Si vous préférez traverser la rivière à la nage pour vous
-        réfugier sur l'autre berge, rendez-vous au 116. Enfin, si vous maîtrisez la Discipline
-        Kaï du Camouflage, rendez-vous au 182.`,
-
         links: [
             {
-                id: 41
+                id: 41,
+                text: "Essayer de vous cacher là où vous êtes"
             },
             {
-                id: 116
+                id: 116,
+                text: "Traverser la rivière à la nage pour vous réfugier sur l'autre berge"
             },
             {
                 id: 182,
+                text: "Utiliser votre Discipline Kaï du Camouflage",
                 skill: "Camouflage"
             }
         ]
@@ -4060,17 +3832,14 @@ export const Paragraphs: IParagraph[] = [
         sans vous remarquer, puis s'éloignent le long du sentier que vous venez
         de quitter.`,
 
-        decision: `Si vous souhaitez attaquer les autres Loups Maudits et leurs
-        cavaliers, rendez-vous au 253. Si vous préférez
-        poursuivre votre chemin en vous enfonçant plus avant dans la forêt,
-        rendez-vous au 126.`,
-
         links: [
             {
-                id: 253
+                id: 253,
+                text: "Attaquer les autres Loups Maudits et leurs cavaliers"
             },
             {
-                id: 126
+                id: 126,
+                text: "Poursuivre votre chemin en vous enfonçant plus avant dans la forêt"
             }
         ]
     },
@@ -4082,11 +3851,10 @@ export const Paragraphs: IParagraph[] = [
         vous avez perdu suffisamment de temps et vous décidez de vous remettre
         en chemin au plus vite.`,
 
-        decision: `Rendez-vous au 83.`,
-
         links: [
             {
-                id: 83
+                id: 83,
+                text: "Continuer"
             }
         ]
     },
@@ -4097,15 +3865,14 @@ export const Paragraphs: IParagraph[] = [
         les guêtres d'un soldat de l'armée royale. Vous sentez également que cet
         homme est blessé et qu'il a besoin d'aide.`,
 
-        decision: `Si vous souhaitez lui porter secours, rendez-vous au 88. Si vous préférez
-        l'abandonner à son sort et poursuivre votre chemin, rendez-vous au 264.`,
-
         links: [
             {
-                id: 88
+                id: 88,
+                text: "Lui porter secours"
             },
             {
-                id: 264
+                id: 264,
+                text: "L'abandonner à son sort et poursuivre votre chemin"
             }
         ]
     },
@@ -4114,15 +3881,14 @@ export const Paragraphs: IParagraph[] = [
 
         text1: `Vous avez été repéré par les gardes qui vous mettent en joue avec leurs arbalètes.`,
 
-        decision: `Si vous souhaitez lever les mains et avancer vers eux, rendez-vous au 318.
-        Si vous préférez prendre vos jambes à votre cou pour vous cacher parmi les arbres, rendez-vous au 51.`,
-
         links: [
             {
-                id: 318
+                id: 318,
+                text: "Lever les mains et avancer vers eux"
             },
             {
-                id: 51
+                id: 51,
+                text: "Prendre vos jambes à votre cou pour vous cacher parmi les arbres"
             }
         ]
     },
@@ -4138,15 +3904,15 @@ export const Paragraphs: IParagraph[] = [
 
         text4: `[Deuxième SOLDAT] HABILETÉ : 12 / ENDURANCE : 20`,
 
-        decision: `Si vous parvenez à les tuer tous les trois, rendez-vous au 62.
-        Si vous souhaitez prendre la fuite, rendez-vous au 22.`,
-
         links: [
             {
-                id: 62
+                id: 62,
+                text: "Combat",
+                fight: true
             },
             {
-                id: 22
+                id: 22,
+                text: "Prendre la fuite"
             }
         ]
     },
@@ -4161,11 +3927,10 @@ export const Paragraphs: IParagraph[] = [
         Vous avez perdu votre Équipement, mais pas la vie. Vous faites une brève halte pour panser l'écorchure
         causée par le carreau d'arbalète puis vous vous remettez en route en direction de la capitale.`,
 
-        decision: `Rendez-vous au 288.`,
-
         links: [
             {
-                id: 288
+                id: 288,
+                text: "Continuer"
             }
         ]
     },
@@ -4176,11 +3941,10 @@ export const Paragraphs: IParagraph[] = [
         chevauchant leurs terribles montures, des Loups Maudits. Votre science du Camouflage vous a cependant évité
         d'être vu et les Gloks diaboliques continuent leur poursuite sans même jeter un coup d'œil du côté de la rivière.`,
 
-        decision: `Rendez-vous au 174.`,
-
         links: [
             {
-                id: 174
+                id: 174,
+                text: "Continuer"
             }
         ]
     },
@@ -4191,14 +3955,14 @@ export const Paragraphs: IParagraph[] = [
         faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
         demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
 
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
         links: [
             {
-                id: 97
+                id: 97,
+                text: "Accepter sa proposition"
             },
             {
-                id: 200
+                id: 200,
+                text: "Refuser"
             }
         ]
     },
@@ -4212,11 +3976,10 @@ export const Paragraphs: IParagraph[] = [
         inscrivez-les sur votre Feuille d'Aventure. Les épreuves que vous avez subies vous ont épuisé, et il vous faut prendre un Repas.
         Vous plongerez ensuite dans un sommeil profond.`,
 
-        decision: `Rendez-vous au 64.`,
-
         links: [
             {
-                id: 64
+                id: 64,
+                text: "Continuer"
             }
         ]
     },
@@ -4230,8 +3993,6 @@ export const Paragraphs: IParagraph[] = [
         dans les ténèbres, vous contemplez dans une ultime vision le feuillage des arbres qui forme un dôme au-dessus de
         vous et une libellule qui vient se poser sur la boucle de votre ceinture. Votre mission s'achève ici. `,
 
-        decision: ``,
-
         links: []
     },
     {
@@ -4241,11 +4002,10 @@ export const Paragraphs: IParagraph[] = [
         Vous avez marché pendant près de deux heures lorsque vous entendez soudain le bruit d'une eau qui court. Vous décidez d'aller
         dans la direction d'où provient ce bruit.`,
 
-        decision: `Rendez-vous au 106.`,
-
         links: [
             {
-                id: 106
+                id: 106,
+                text: "Continuer"
             }
         ]
     },
@@ -4255,15 +4015,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Deux têtes au pelage ras apparaissent derrière le tronc. Les deux créatures jettent un coup d'œil à votre arme et poussent
         un cri d'effroi. Elles bondissent alors loin du tronc et s'enfuient dans la forêt.`,
 
-        decision: `Si vous souhaitez vous lancer à leur poursuite, rendez-vous au 186.
-        Si vous préférez les laisser partir et continuer votre chemin, rendez-vous au 228.`,
-
         links: [
             {
-                id: 186
+                id: 186,
+                text: "Vous lancer à leur poursuite"
             },
             {
-                id: 228
+                id: 228,
+                text: "Les laisser partir et continuer votre chemin"
             }
         ]
     },
@@ -4276,11 +4035,10 @@ export const Paragraphs: IParagraph[] = [
         Feuille d'Aventure. Si vous tirez un chiffre entre 7 et 9, votre Sac à Dos est intact, mais vous avez été blessé aux deux bras et vous perdez
         3 points d'ENDURANCE avant de courir vous mettre à l'abri des arbres.`,
 
-        decision: `Rendez-vous au 303 dans l'un et l'autre cas.`,
-
         links: [
             {
-                id: 303
+                id: 303,
+                text: "Continuer"
             }
         ]
     },
@@ -4291,11 +4049,10 @@ export const Paragraphs: IParagraph[] = [
         révéler tout aussi meurtrier qu'un Kraan ou un Drakkarim. Vous êtes contrarié d'avoir perdu du temps et vous vous hâtez de poursuivre votre
         chemin parmi les arbres, en direction du sud. Un peu plus loin devant vous, un large chemin mène également vers le sud.`,
 
-        decision: `Rendez-vous au 118.`,
-
         links: [
             {
-                id: 118
+                id: 118,
+                text: "Continuer"
             }
         ]
     },
@@ -4305,14 +4062,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous parcourez cinq kilomètres le long de la rivière et vous découvrez alors une épave de péniche. Il semble que quelqu'un y ait élu
         domicile car vous apercevez, au travers d'un trou dans le pont, un lit et des ustensiles de cuisine.`,
 
-        decision: `Si vous voulez fouiller cette péniche, rendez-vous au 20. Si vous préférez poursuivre votre chemin, rendez-vous au 273.`,
-
         links: [
             {
-                id: 20
+                id: 20,
+                text: "Fouiller cette péniche"
             },
             {
-                id: 273
+                id: 273,
+                text: "Poursuivre votre chemin"
             }
         ]
     },
@@ -4323,15 +4080,15 @@ export const Paragraphs: IParagraph[] = [
         
         text2: `[GARDE DU CORPS] HABILETÉ : 11 / ENDURANCE : 21`,
 
-        decision: `Si vous êtes vainqueur, rendez-vous au 24. Si vous souhaitez prendre la fuite au cours du combat,
-        vous pourrez sauter de la roulotte en vous rendant au 234.`,
-
         links: [
             {
-                id: 24
+                id: 24,
+                text: "Combat",
+                fight: true
             },
             {
-                id: 234
+                id: 234,
+                text: "Prendre la fuite au cours du combat en sautant de la roulotte"
             }
         ]
     },
@@ -4345,15 +4102,14 @@ export const Paragraphs: IParagraph[] = [
         à présent derrière vous. Vous sentez, cependant, une présence menaçante au-dessus de votre tête : c'est celle d'un Kraan qui vient
         de prendre son envol.`,
 
-        decision: `Si vous souhaitez quitter la grandroute pour vous réfugier à l'abri des arbres de la forêt, rendez-vous au 171.
-        Si vous préférez continuer tout droit en galopant à bride abattue sans vous occuper du Kraan, rendez-vous au 120.`,
-
         links: [
             {
-                id: 171
+                id: 171,
+                text: "Quitter la grand-route pour vous réfugier à l'abri des arbres de la forêt"
             },
             {
-                id: 120
+                id: 120,
+                text: "Continuer tout droit en galopant à bride abattue sans vous occuper du Kraan"
             }
         ]
     },
@@ -4364,15 +4120,14 @@ export const Paragraphs: IParagraph[] = [
         dans la ceinture du Glok. Vous pouvez le prendre et le noter sur votre Feuille d'Aventure dans la case Objets Spéciaux. Les autres
         Loups Maudits se précipitent dans votre direction, le long du sentier.`,
 
-        decision: `Si vous souhaitez les combattre, rendez-vous au 253.
-        Si vous préférez vous enfuir dans la forêt, rendez-vous au 126.`,
-
         links: [
             {
-                id: 253
+                id: 253,
+                text: "Les combattre"
             },
             {
-                id: 126
+                id: 126,
+                text: "Vous enfuir dans la forêt"
             }
         ]
     },
@@ -4384,14 +4139,14 @@ export const Paragraphs: IParagraph[] = [
         vole au-dessus du chariot et trois Gloks hurlants sautent de son dos pour atterrir à califourchon sur les chevaux de l'attelage. Il vous
         faut combattre les trois créatures ou quitter le chariot pour aller vous réfugier dans une ferme proche.`,
 
-        decision: `Si vous souhaitez combattre les Gloks, rendez-vous au 208. Si vous préférez courir vous réfugier dans la ferme, rendez-vous au 148.`,
-
         links: [
             {
-                id: 208
+                id: 208,
+                text: "Combattre les Gloks"
             },
             {
-                id: 148
+                id: 148,
+                text: "Courir vous réfugier dans la ferme"
             }
         ]
     },
@@ -4401,14 +4156,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous essuyez votre arme qui ruisselle du sang de l'ours et vous remarquez l'entrée d'une grotte cachée derrière les rochers d'où
         a surgi la bête sauvage.`,
 
-        decision: `Si vous souhaitez explorer cette grotte, rendez-vous au 59. Si vous préférez poursuivre votre chemin, rendez-vous au 106.`,
-
         links: [
             {
-                id: 59
+                id: 59,
+                text: "Explorer cette grotte"
             },
             {
-                id: 106
+                id: 106,
+                text: "Poursuivre votre chemin"
             }
         ]
     },
@@ -4418,15 +4173,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous suivez l'homme dans une petite bibliothèque contiguë. Il pousse alors l'un des nombreux livres alignés sur les étagères et vous
         entendez un déclic. Aussitôt, tout un pan d'étagères glisse sur lui-même, découvrant un passage secret.`,
 
-        decision: `Si vous souhaitez suivre cet homme dans le passage, rendez-vous au 332. Si vous ne voulez pas pénétrer dans ce sombre couloir, vous
-        quittez les lieux et vous retournez dans la rue en vous rendant au 144.`,
-
         links: [
             {
-                id: 332
+                id: 332,
+                text: "Suivre cet homme dans le passage"
             },
             {
-                id: 144
+                id: 144,
+                text: "Quitter les lieux et retourner dans la rue"
             }
         ]
     },
@@ -4437,11 +4191,10 @@ export const Paragraphs: IParagraph[] = [
         approprier si tel est votre désir. Vous jetez ensuite le corps de votre adversaire dans l'eau du lac et vous le regardez disparaître dans
         ses profondeurs glacées. Vous ramassez ensuite la perche et vous poussez le bateau sur l'autre rive où vous l'abandonnez.`,
 
-        decision: `Rendez-vous au 172.`,
-
         links: [
             {
-                id: 172
+                id: 172,
+                text: "Continuer"
             }
         ]
     },
@@ -4451,15 +4204,14 @@ export const Paragraphs: IParagraph[] = [
         text1: `Vous sentez qu'il y a quelqu'un d'autre derrière le paravent et que toute cette boutique baigne dans une aura maléfique.
         Soyez sur vos gardes, il se passe ici quelque chose de louche.`,
 
-        decision: `Si vous souhaitez retourner dans la rue, rendez-vous au 7.
-        Si vous préférez examiner les articles exposés dans la vitrine du comptoir, rendez-vous au 152.`,
-
         links: [
             {
-                id: 7
+                id: 7,
+                text: "Retourner dans la rue"
             },
             {
-                id: 152
+                id: 152,
+                text: "Examiner les articles exposés dans la vitrine du comptoir"
             }
         ]
     },
@@ -4469,11 +4221,10 @@ export const Paragraphs: IParagraph[] = [
         text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
         cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
 
-        decision: `Rendez-vous ensuite au 81.`,
-
         links: [
             {
-                id: 81
+                id: 81,
+                text: "Continuer"
             }
         ]
     },
@@ -4485,306 +4236,16 @@ export const Paragraphs: IParagraph[] = [
         chevaux ; le véhicule occupe le milieu de la chaussée et se déplace à grande vitesse parmi les piétons et les autres voitures à chevaux.
         C'est peut-être là votre chance d'atteindre la capitale plus vite que prévu.`,
 
-        decision: `Si vous souhaitez sauter sur la roulotte, rendez-vous au 78. Si vous maîtrisez la Discipline Kaï du Camouflage, vous pourrez
-        vous accrocher à la roulotte et vous dissimuler parmi les bagages attachés sur le toit en vous rendant au 168.`,
-
         links: [
             {
-                id: 78
+                id: 78,
+                text: "Sauter sur la roulotte"
             },
             {
                 id: 168,
+                text: "Utiliser votre Discipline Kaï du Camouflage pour vous accrocher à la roulotte et vous dissimuler parmi les bagages attachés sur le toit",
                 skill: "Camouflage"
             }
         ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-    {
-        id: 183,
-
-        text1: `L'officier ordonne à ses hommes de s'arrêter et vous demande ce que vous voulez. Vous lui expliquez qui vous êtes et vous lui
-        faites le récit de la destruction du Monastère. Consterné par la nouvelle qu'il vient d'apprendre, il vous donne un cheval et vous
-        demande de le suivre auprès du Prince Pellagayo, le fils du Roi.`,
-
-        decision: `Si vous acceptez sa proposition, rendez-vous au 97. Si vous refusez, rendez-vous au 200.`,
-
-        links: [
-            {
-                id: 97
-            },
-            {
-                id: 200
-            }
-        ]
-    },
-
+    }
 ]

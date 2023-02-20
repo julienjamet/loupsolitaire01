@@ -19,25 +19,22 @@ body .main p {
 body .main .buttons {
   display: flex;
   justify-content: center;
-  width: 200px;
+  width: 70%;
+  margin-top: 40px;
 }
 body .main .buttons button {
-  min-width: 50px;
-  height: 30px;
+  min-width: 100px;
+  margin-bottom: 40px;
+  margin-right: 30px;
+  margin-left: 30px;
   font-weight: bold;
   font-size: 18px;
-  background-color: rgb(47, 150, 47);
+  background-color: #bcd1c1;
   border: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 8px;
-  transition: all 600ms;
 }
 body .main .buttons button:hover {
   color: rgb(47, 150, 47);
-  background-color: white;
   cursor: pointer;
-  border: 1px solid rgb(47, 150, 47);
 }
 
 @media all and (max-width: 1000px) {
@@ -47,11 +44,10 @@ body .main .buttons button:hover {
   .main #p1, .main #p2, .main #p3, .main #p4 {
     width: 90%;
   }
-  .main #buttons {
-    width: 95%;
+  .main .buttons {
+    flex-direction: column;
   }
-  .main #buttons .button {
-    background-color: white;
-    border: 1px solid black;
+  .main .buttons #buttons {
+    width: 95%;
   }
 }/*# sourceMappingURL=styles.css.map */
