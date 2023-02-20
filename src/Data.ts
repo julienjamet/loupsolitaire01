@@ -4247,5 +4247,373 @@ export const Paragraphs: IParagraph[] = [
                 skill: "Camouflage"
             }
         ]
-    }
+    },
+    {
+        id: 201,
+
+        text1: `Vous suivez le sentier pendant une heure environ, puis vous découvrez un autre chemin plus large qui part en direction du sud.
+        Si vous souhaitez suivre ce chemin orienté au sud, rendezvous au 238. Si vous souhaitez aller à l'est, rendez-vous au 215.
+        Si vous préférez aller vers l'ouest, rendez-vous au 130.`,
+
+        links: [
+            {
+                id: 238,
+                text: "Suivre ce chemin orienté au sud"
+            },
+            {
+                id: 215,
+                text: "Aller à l'est"
+            },
+            {
+                id: 130,
+                text: "Aller vers l'ouest"
+            }
+        ]
+    },
+    {
+        id: 202,
+
+        text1: `Vous galopez le long de la grand-route qui mène à la capitale lorsque votre cheval ralentit soudain l'allure, se met à boiter,
+        puis s'arrête. Vous mettez pied à terre pour examiner sa jambe avant droite qu'il tient levée : il a perdu un fer et s'est blessé au sabot.
+        En maudissant votre mauvaise fortune, vous l'abandonnez donc sur le bas-côté et vous poursuivez à pied votre chemin.`,
+
+        links: [
+            {
+                id: 58,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 203,
+
+        text1: `Une douleur fulgurante vous traverse la poitrine alors que quelque chose vient d'exploser tout contre vous dans une gerbe d'étincelles
+        rouges. Vous perdez 10 points d'ENDURANCE et, si vous n'êtes pas déjà mort, vous voyez à travers la fumée le Sage s'apprêter à vous lancer une
+        nouvelle charge explosive. S'il vous reste 10 points d'ENDURANCE ou plus, rendez-vous au 80. S'il vous reste moins de 10 points d'endurance, rendez-vous au 344.`,
+
+        links: [
+            {
+                id: 80,
+                text: "Il vous reste 10 points d'ENDURANCE ou plus",
+            },
+            {
+                id: 344,
+                text: "Il vous reste moins de 10 points d'ENDURANCE",
+                endurance: 10
+            }
+        ]
+    },
+    {
+        id: 204,
+
+        text1: `Après avoir marché pendant une heure, vous arrivez à une bifurcation. Le sentier que vous suivez continue vers le sud et un autre chemin
+        sur votre droite part vers l'ouest. Le sentier orienté à l'ouest vous ramènerait droit au marécage et vous décidez donc de poursuivre en direction
+        du sud.`,
+
+        links: [
+            {
+                id: 111,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 205,
+
+        text1: `Leur chef ramasse votre Équipement et vous fait signe d'avancer le long du chemin. Les deux autres ont alors un sourire mauvais et vous
+        vous rendez soudain compte qu'il ne s'agit pas du tout de soldats : ce sont des brigands déguisés. Vous prenez aussitôt la fuite en courant à
+        toutes jambes vers la capitale. Mais au même instant, un frisson vous parcourt l'échiné : vous venez en effet d'entendre derrière vous le déclic
+        d'une arbalète que l'on arme. Utilisez la Table de Hasard pour obtenir un chiffre : si vous tirez un chiffre entre 0 et 4, rendez-vous au 181.
+        Entre 5 et 9, rendezvous au 145.`,
+
+        links: [
+            {
+                id: 181,
+                text: "Table de hasard : 0 - 4"
+            },
+            {
+                id: 145,
+                text: "Table de hasard : 5 - 9"
+            }
+        ]
+    },
+    {
+        id: 206,
+
+        text1: `Le sentier débouche bientôt sur une grande route où un poteau de signalisation indique Toran au nord et Holmgard au sud. Vous prenez la
+        direction du sud, vers la capitale.`,
+
+        links: [
+            {
+                id: 224,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 207,
+
+        text1: `Le sentier aboutit bientôt à une route qui traverse le cours d'eau par un pont de pierre. Un panneau de signalisation indique Toran au
+        nord et Holmgard au sud. La route est encombrée d'une foule de gens qui marchent vers le sud en poussant des carrioles remplies d'objets divers.
+        Vous vous joignez à cette colonne de réfugiés en prenant à votre tour la direction de la capitale.`,
+
+        links: [
+            {
+                id: 30,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 208,
+
+        text1: `Les répugnantes créatures brandissent leurs lances et vous attaquent. Il vous faut les combattre en les considérant comme un seul et
+        même ennemi.`,
+        
+        text2: `GLOKS HABILETÉ : 15 / ENDURANCE: 13`,
+
+        links: [
+            {
+                id: 148,
+                text: "Aller vous réfugier dans la ferme",
+                fight: true
+            },
+            {
+                id: 320,
+                text: "Retourner dans la forêt",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 209,
+
+        text1: `Devant vous un couloir monte en pente douce. Lorsque vous arrivez au bout de cette pente, une porte de pierre glisse dans le mur,
+        découvrant un autre passage. Vous franchissez la porte qui se referme aussitôt derrière vous avec un grincement.`,
+
+        links: [
+            {
+                id: 23,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 210,
+
+        text1: `A peine avez-vous franchi la porte qu'un compagnon de la Guilde vous barre le passage et vous demande ce que vous voulez. Vous lui
+        expliquez alors la nature de votre mission et il s'empresse aussitôt de vous mener dans les appartements des Maîtres de la Guilde. Un vieil
+        homme distingué vêtu d'une toge violette vous accueille et écoute votre récit. Puis, vous prenant par le bras, il vous conduit dans une
+        bibliothèque contiguë dont il ferme la porte derrière lui. Il pousse ensuite l'un des milliers de livres alignés sur les étagères et un pan de
+        mur glisse alors sur le côté, découvrant un passage secret. L'homme vous fait signe de le suivre dans ce mystérieux couloir.
+        Si vous souhaitez lui emboîter le pas, rendez-vous au 332. Si cet homme ne vous inspire pas entièrement confiance, vous pouvez quitter les lieux
+        et retourner au-dehors en vous rendant au 37.
+        `,
+
+        links: [
+            {
+                id: 332,
+                text: "Lui emboîter le pas"
+            },
+            {
+                id: 37,
+                text: "Si cet homme ne vous inspire pas entièrement confiance, quitter les lieux et retourner au-dehors"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 199,
+
+        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
+        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+
+        links: [
+            {
+                id: 81,
+                text: "Continuer"
+            }
+        ]
+    },
 ]

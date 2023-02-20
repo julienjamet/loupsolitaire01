@@ -4,7 +4,8 @@ export interface ILink {
     skill?: string | undefined,
     object?: string | undefined,
     gold?: number | undefined,
-    fight?: boolean | undefined
+    fight?: boolean | undefined,
+    endurance?: number
 }
 
 export interface IParagraph {
