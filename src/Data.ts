@@ -4422,197 +4422,710 @@ export const Paragraphs: IParagraph[] = [
         ]
     },
     {
-        id: 199,
+        id: 211,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Vous marchez le long d'un couloir plongé dans la pénombre et vous arrivez bientôt dans une grande pièce carrée. Une porte de chêne est
+        aménagée dans le mur d'en face.`,
 
         links: [
             {
-                id: 81,
+                id: 173,
+                text: "Vous diriger vers cette porte"
+            },
+            {
+                id: 244,
+                text: "Utiliser votre Discipline Kaï du Sixième Sens",
+                skill: "Sixième Sens"
+            },
+            {
+                id: 106,
+                text: "Retourner à l'air libre et poursuivre votre route"
+            }
+        ]
+    },
+    {
+        id: 212,
+
+        text1: `Lorsque vous vous réveillez, la douleur n'est plus qu'un mauvais souvenir et vous récupérez tous les points d'ENDURANCE dont vous
+        disposiez au départ de votre mission. Un homme de haute taille, vêtu d'une toge blanche, se tient debout devant vous, une coupe remplie d'herbes
+        entre les mains. Il verse les herbes dans l'eau bouillante d'un chaudron puis se tourne vers vous. « Vous avez vu la mort de près, Seigneur Kaï,
+        mais ce n'est pas encore aujourd'hui que vous irez rejoindre le troupeau des bienheureux. Votre corps est entièrement guéri en effet, pourtant,
+        il me semble que votre âme est blessée. Quelle est donc la raison de votre tourment ? » Vous reconnaissez en cet homme l'un des grands médecins
+        du Roi: il porte, en effet, brodée sur sa manche, la colombe blanche, symbole de sa vocation. Vous racontez alors au vénérable savant les tristes
+        événements qui vous ont amené jusqu'ici.`,
+        
+        text2: `Lorsque vous avez terminé votre récit, le vieil homme vous prend doucement le bras et vous fait lever
+        de votre lit en vous demandant de le suivre. C'est à cet instant seulement que vous remarquez la magnificence des lieux : vous vous trouvez en
+        effet dans une pièce richement décorée à laquelle on accède par un long couloir aux murs couverts de somptueuses tapisseries. Vous comprenez
+        alors peu à peu que vous êtes enfin parvenu au bout de vos peines car cette fastueuse demeure n'est autre que le Palais du Roi : vous êtes à
+        l'intérieur de la citadelle de Holmgard, et dans quelques instants vous apparaîtrez devant votre souverain.`,
+
+        links: [
+            {
+                id: 350,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 213,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Il y a bien deux heures à présent que vous vous frayez un chemin dans la forêt et votre crainte de vous être perdu semble bel et bien
+        justifiée. Vous n'avez décelé aucune trace témoignant de la présence de l'ennemi dans cette partie de la forêt ; seul le cri d'un Kraan au
+        lointain est venu parfois troubler la quiétude qui règne alentour. Cependant, en descendant le flanc rocheux d'une petite colline, vous
+        remarquez soudain quelque chose d'insolite dans l'enchevêtrement des sous-bois qui s'étendent devant vous.`,
 
         links: [
             {
-                id: 81,
+                id: 331,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 214,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Le sentier se rétrécit peu à peu, puis disparaît bientôt dans une végétation inextricable. Impossible de poursuivre dans cette direction,
+        il vous faut retourner à la clairière.`,
 
         links: [
             {
-                id: 81,
+                id: 125,
+                text: "Prendre le chemin orienté au sud"
+            }
+        ]
+    },
+    {
+        id: 215,
+
+        text1: `Vous arrivez dans une petite clairière au centre de laquelle reposent les os blanchis d'un énorme animal. Un sentier étroit part de la
+        clairière en direction du sud.`,
+
+        links: [
+            {
+                id: 346,
+                text: "Examiner le squelette de l'animal"
+            },
+            {
+                id: 14,
+                text: "Poursuivre votre chemin vers le sud"
+            }
+        ]
+    },
+    {
+        id: 216,
+
+        text1: `Vous posez une main sur son front et l'autre sur la plaie de son bras. Vous sentez alors la chaleur de votre Pouvoir de Guérison quitter
+        votre corps et se répandre dans celui de l'homme blessé. Des forces lui reviennent ; il parle et vous dit s'appeler Trimis. C'est un soldat de
+        l'armée du Prince Pellagayo. Le Prince et sa troupe ont engagé une bataille un peu plus loin au sud, sur le pont d'Alema, qu'une meute de
+        créatures au service des Maîtres des Ténèbres a attaqué le matin même. Le soldat vous raconte que, au cours des combats, il a été emporté dans
+        les airs par un Kraan qui l'a ensuite laissé tomber dans la forêt où vous venez de le trouver. Vous installez le blessé aussi confortablement que
+        possible et vous poursuivez votre chemin.`,
+
+        links: [
+            {
+                id: 264,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 217,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Vous vous hâtez de fuir le vieux fou et vous disparaissez dans une ruelle obscure, bordée de petites maisons serrées les unes contre les
+        autres. Au bout de la ruelle, une enseigne accrochée audessus d'une porte verte indique :`,
+        
+        text2: `KOLANIS Herboriste et Sage`,
 
         links: [
             {
-                id: 81,
+                id: 91,
+                text: "Pousser cette porte et entrer dans la boutique du Sage"
+            },
+            {
+                id: 7,
+                text: "Attendre là quelques minutes pour être sûr que le vieux fou s'en est allé, puis revenir ensuite dans la grand-rue"
+            }
+        ]
+    },
+    {
+        id: 218,
+
+        text1: `Votre Sixième Sens vous indique que ce ne sont pas seulement des chevaux qui galopent dans votre direction. Vous percevez également la
+        cavalcade d'une meute de Loups Maudits et des cris de guerre poussés par des Gloks. D'après l'intensité de ces hurlements, vous jugez qu'il doit
+        y avoir là plus d'une douzaine de Gloks et il est donc préférable de ne pas manifester votre présence, pour l'instant tout au moins. Rendez-vous
+        au 75.`,
+
+        links: [
+            {
+                id: 75,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 219,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce qui reste de vous se trouve encastré dans l'escalier, à une profondeur de deux mètres, sous la masse d'un énorme bloc de granité.
+        Votre mission s'achève ici, en même temps que votre vie.`,
+
+        links: []
+    },
+    {
+        id: 220,
+
+        text1: `Le Garde du Corps dégaine un long cimeterre et s'apprête à vous en enfoncer la lame dans la poitrine.`,
+        
+        text2: `[GARDE DU CORPS] HABILETÉ : 11 / ENDURANCE : 20`,
 
         links: [
             {
-                id: 81,
+                id: 24,
+                text: "Combat",
+                fight: true
+            },
+            {
+                id: 234,
+                text: "Prendre la fuite en sautant de la roulotte"
+            }
+        ]
+    },
+    {
+        id: 221,
+
+        text1: `Vous vous approchez prudemment de la palissade. Les rondins qui la constituent ont été grossièrement taillés et offrent de nombreuses
+        prises qui vous permettent de l'escalader. Mais lorsque vous parvenez au sommet, vous vous trouvez face à une arbalète : le soldat qui la tient
+        vous fait signe de descendre à terre en empruntant une échelle de bois fixée à la palissade. Il serait tout à fait vain de discuter, et vous vous
+        empressez donc d'obéir en descendant précautionneusement les échelons.`,
+
+        links: [
+            {
+                id: 318,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 222,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Vous arrivez bientôt sur un chemin forestier qui bifurque à cet endroit. Si vous souhaitez prendre le sentier orienté au sud, rendez-vous
+        au 140. Si vous préférez emprunter la branche est, rendez-vous au 252. Enfin, si vous maîtrisez la Discipline Kaï du Sens de l'Orientation,
+        rendez-vous au 67.`,
 
         links: [
             {
-                id: 81,
+                id: 140,
+                text: "Prendre le sentier orienté au sud"
+            },
+            {
+                id: 252,
+                text: "Emprunter la branche est"
+            },
+            {
+                id: 67,
+                text: "Utiliser votre Discipline Kaï de l'Orientation",
+                skill: "Orientation"
+            }
+        ]
+    },
+    {
+        id: 223,
+
+        text1: `Après bien des efforts, vous parvenez à dégager le tronc de tous les débris qui l'entourent. Vous attachez ensuite toutes vos affaires en
+        un paquet bien serré que vous coincez dans un creux du tronc d'arbre, puis vous vous y installez vous-même à califourchon. Le courant bientôt
+        vous emporte et vous dérivez lentement au fil de l'eau. Une vingtaine de minutes plus tard, vous entendez des chevaux galoper au loin, sur la
+        rive gauche. Si vous souhaitez vous cacher derrière le tronc, rendez-vous au 75. Si vous préférez signaler votre présence aux cavaliers qui
+        s'approchent, rendez-vous au 175,`,
+
+        links: [
+            {
+                id: 75,
+                text: "Vous cacher derrière le tronc"
+            },
+            {
+                id: 175,
+                text: "Signaler votre présence aux cavaliers qui s'approchent"
+            }
+        ]
+    },
+    {
+        id: 224,
+
+        text1: `Vous avez parcouru plusieurs kilomètres à cheval sans trouver trace de réfugiés ou d'ennemis. Vous vous dirigez alors vers un chemin qui
+        s'élève un peu plus loin à flanc de colline. Sur cette hauteur, vous devriez apercevoir la capitale. En arrivant là-haut, vous contemplez en
+        effet un spectacle qui vous remplit d'espoir, mais qui vous fait frémir également : vous n'êtes décidément pas au bout de vos peines...`,
+
+        links: [
+            {
+                id: 153,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 226,
+
+        text1: `Tout d'abord, la descente vous paraît facile mais, bientôt, votre vue se brouille et vous sentez vos jambes faiblir. Les Dents de Sommeil
+        commencent à produire leur effet et, soudain, vous trébuchez et vous perdez connaissance en tombant tête la première.`,
+
+        links: [
+            {
+                id: 277,
+                text: "Table de hasard : 0 - 4"
+            },
+            {
+                id: 338,
+                text: "Table de hasard : 5 - 9"
+            }
+        ]
+    },
+    {
+        id: 227,
+
+        text1: `Vous avez maintenant de la vase jusqu'à la ceinture, l'air est lourd et de petits insectes vous piquent le visage et vous bouchent le
+        nez. Puis soudain, quelque chose s'enroule autour de vos jambes. C'est une Vipère des Marais qu'il vous faut combattre.`,
+
+        text2: `[VIPÈRE DES MARAIS] HABILETÉ : 16 / ENDURANCE: 6`,
+
+        links: [
+            {
+                id: 271,
+                text: "Perte d'ENDURANCE pendant le combat",
+                fight: true
+            },
+            {
+                id: 348,
+                text: "Pas de perte d'ENDURANCE pendant le combat",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 228,
+
+        text1: `Le sentier continue vers l'est puis disparaît bientôt sous d'épaisses broussailles. Si vous souhaitez poursuivre vers l'est en vous
+        frayant un chemin à coups de hache, rendez-vous au 140. Si vous préférez aller vers le sud, là où les sous-bois sont moins touffus et vous
+        enfoncer plus avant dans la forêt, rendez-vous au 215.`,
+
+        links: [
+            {
+                id: 140,
+                text: "Poursuivre vers l'est en vous frayant un chemin à coups de hache"
+            },
+            {
+                id: 215,
+                text: "Aller vers le sud, là où les sous-bois sont moins touffus et vous enfoncer plus avant dans la forêt"
+            }
+        ]
+    },
+    {
+        id: 229,
+
+        text1: `Le Kraan vole au-dessus de votre tête en soulevant des nuages de poussière par le seul battement de ses ailes immenses. Bientôt, vous
+        avez le nez et les yeux pleins de poussière et vous vous mettez à tousser et à cligner les paupières. Puis, soudain, le monstre vous attaque.
+        Vous allez devoir le combattre jusqu'à la mort de l'un de vous deux, mais en raison de la poussière qui vous désavantage, il vous faut réduire de
+        1 point votre total d'HABILETÉ pendant toute la durée de l'affrontement.`,
+        
+        text2: `[KRAAN] HABILETÉ : 16 / ENDURANCE: 25`,
+
+        links: [
+            {
+                id: 267,
+                text: "Vérifier si la créature ne transportait pas quelque objet qui pourrait mériter votre intérêt",
+                fight: true
+            },
+            {
+                id: 125,
+                text: "Poursuivre votre chemin le long du sentier orienté à l'est"
+            }
+        ]
+    },
+    {
+        id: 230,
+
+        text1: `Vous distinguez au loin une rangée de péniches alignées en travers de la rivière. Des soldats se tiennent debout, arme au poing, sur le
+        pont des embarcations et vous entendez les grognements des Loups Maudits qui rebroussent chemin sur la rive opposée. Pour une fois, vous oubliez
+        toute prudence, et vous vous mettez à courir le long de la berge en direction des péniches.`,
+
+        links: [
+            {
+                id: 179,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 231,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Au moment où vous allez demander le prix des potions, un jeune homme bondit sur vous en renversant le paravent. Votre assaillant tient
+        dans sa main un poignard à la longue lame recourbée. Il vous faut le combattre.`,
+        
+        text2: `[VOLEUR AU POIGNARD] HABILETÉ : 13 / ENDURANCE : 20`,
+        
+        text3: `Si vous parvenez à le tuer en quatre assauts, ou moins, rendezvous au 94. Si, après quatre assauts, il est toujours vivant, rendez-vous au 203. Vous avez le droit de prendre la fuite après avoir livré deux assauts au moins. Vous filerez alors par la porte de la boutique et vous courrez jusqu'à la grand-rue en vous rendant au 7.`,
 
         links: [
             {
-                id: 81,
+                id: 94,
+                text: "Combat en quatre assauts ou moins",
+                fight: true
+            },
+            {
+                id: 203,
+                text: "Combat en plus de quatre assauts",
+                fight: true
+            },
+            {
+                id: 7,
+                text: "Après au moins deux assauts, fuir par la porte de la boutique et courir jusqu'à la grand-rue",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 232,
+
+        text1: `Leur chef, à l'allure patibulaire, s'approche de vous et vous déclare ceci : « Ce que nous voulons ? C'est très simple, cher monsieur :
+        votre bourse ou votre vie ! »`,
+
+        links: [
+            {
+                id: 180,
+                text: "Les combattre"
+            },
+            {
+                id: 22,
+                text: "Tenter de vous enfuir"
+            }
+        ]
+    },
+    {
+        id: 233,
+
+        text1: `Il vous faut presque une heure pour rattraper le cheval et parvenir à le calmer. Vous vous êtes éloigné de la cabane en direction du nord
+        mais vous êtes sûr de pouvoir retrouver votre chemin. Vous montez sur le dos du cheval et vous retournez jusqu'à la cabane, puis vous poursuivez
+        votre route en direction du sud.`,
+
+        links: [
+            {
+                id: 206,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 234,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Vous sautez de la roulotte qui file à bonne allure, mais vous vous recevez mal et vous vous brisez la cheville en tombant. La douleur est
+        insupportable : elle vous fait perdre connaissance. Hélas ! vous ne vous réveillerez jamais. Peut-être, cependant, serez-vous intéressé
+        d'apprendre que votre tête orne désormais la selle d'un Kraan ? Votre mission s'est achevée ici, en même temps que votre vie.`,
+
+        links: []
+    },
+    {
+        id: 235,
+
+        text1: `Le cheval du Prince est un magnifique animal, rapide et au pied sûr. Il galope le long du sentier sinueux comme s'il s'agissait d'une
+        route large et droite et, bientôt, les échos de la bataille se dissipent derrière vous. Vous avez faim, et il vous faut prendre un Repas tandis
+        que vous chevauchez l'étalon blanc, sinon, vous perdrez 3 points d'ENDURANCE. Quelques kilomètres plus loin, le sentier aboutit à un croisement
+        en forme de T. Il y a là un panneau indicateur, mais il est illisible.`,
 
         links: [
             {
-                id: 81,
+                id: 32,
+                text: "Prendre à gauche"
+            },
+            {
+                id: 146,
+                text: "Tourner à droite"
+            },
+            {
+                id: 254,
+                text: "Utiliser votre Discipline Kaï de l'Orientation",
+                skill: "Orientation"
+            }
+        ]
+    },
+    {
+        id: 236,
+
+        text1: `La Pierre Précieuse reste suspendue au-dessus de la bouche du squelette en diffusant une lueur rouge vif. Puis soudain, en une violente
+        explosion, des flammes écarlates jaillissent du sarcophage, détruisant complètement la Pierre de Vordak. Vous êtes projeté contre le mur et
+        assommé par le choc. Lorsque vous reprenez connaissance, la chambre mortuaire est complètement vide : le sarcophage et le squelette du roi ont
+        tous deux disparu. Quant à vous, les nouvelles ne sont pas bonnes : vous avez, en effet, perdu 6 points d'ENDURANCE et votre total d'HABILETÉ se
+        trouve réduit de 1 point pour le reste de vos jours. Vous vous relevez précautionneusement et vous vous dirigez vers le tunnel en titubant.`,
+
+        links: [
+            {
+                id: 104,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 237,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Déployant pleinement vos talents de Seigneur Kaï en matière de Camouflage, vous vous enfouissez dans le sol meuble du flanc de la colline.
+        Puis vous vous couvrez de votre cape et vous disposez quelques branches d'arbre sur cet abri improvisé pour mieux le dissimuler aux regards.
+        Utilisez à présent la Table de Hasard pour obtenir un chiffre. Si vous tirez un chiffre entre 0 et 4, personne ne vous découvre et vous vous
+        rendez au 265. Si en revanche vous tirez un chiffre entre 5 et 9, vous avez encore des progrès à faire dans la Discipline Kaï du Camouflage,
+        car l'un de vos ennemis a tôt fait de vous trouver et de vous attaquer. Rendez-vous alors au 72 pour voir à qui vous avez affaire.`,
 
         links: [
             {
-                id: 81,
+                id: 265,
+                text: "Table de hasard : 0 - 4"
+            },
+            {
+                id: 72,
+                text: "Table de hasard: 5 - 9"
+            }
+        ]
+    },
+    {
+        id: 238,
+
+        text1: `Le sentier contourne plusieurs tertres et collines aux flancs boisés, puis aboutit enfin à une petite cabane en rondins incendiée. Il
+        semble qu'elle ait brûlé tout récemment car les cendres sont encore chaudes, et il s'en élève un filet de fumée. Il se peut que cet endroit soit
+        dangereux.`,
+
+        links: [
+            {
+                id: 42,
+                text: "Repartir par le sentier orienté au sud"
+            },
+            {
+                id: 68,
+                text: "Emprunter le chemin qui mène vers le nord"
+            }
+        ]
+    },
+    {
+        id: 239,
+
+        text1: `Tandis que vous vous enfoncez dans la forêt, vous entendez battre les ailes du Kraan qui passe en volant au-dessus des arbres avant de
+        disparaître en direction du nord. Vous chevauchez pendant environ une heure, puis vous arrivez à une clairière. De l'autre côté, face à vous, un
+        sentier mène vers le sud. Si vous souhaitez traverser la clairière pour prendre ce sentier orienté au sud, rendez-vous au 34. Si vous préférez
+        rejoindre ce même chemin en contournant la clairière, rendez-vous au 118.`,
+
+        links: [
+            {
+                id: 34,
+                text: "Traverser la clairière pour prendre ce sentier orienté au sud"
+            },
+            {
+                id: 118,
+                text: "Rejoindre ce même chemin en contournant la clairière"
+            }
+        ]
+    },
+    {
+        id: 240,
+
+        text1: `Le chemin longe une chaîne de petites collines, puis s'oriente vers l'est.`,
+
+        links: [
+            {
+                id: 79,
                 text: "Continuer"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
-                text: "Continuer"
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
-                text: "Continuer"
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
-                text: "Continuer"
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
-                text: "Continuer"
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
             }
         ]
     },
     {
-        id: 199,
+        id: 225,
 
-        text1: `La plupart des placards et des tiroirs sont vides. Les habitants de cette maison ont presque tout emporté avec eux ; vous parvenez
-        cependant à trouver dans la cave suffisamment de fruits pour vous faire un Repas. Notez-le sur votre Feuille d'Aventure.`,
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
 
         links: [
             {
-                id: 81,
-                text: "Continuer"
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 225,
+
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
+
+        links: [
+            {
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 225,
+
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
+
+        links: [
+            {
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 225,
+
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
+
+        links: [
+            {
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 225,
+
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
+
+        links: [
+            {
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+            }
+        ]
+    },
+    {
+        id: 225,
+
+        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
+        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
+        étrange dialecte. Que désirez-vous leur dire ?`,
+
+        links: [
+            {
+                id: 187,
+                text: "« N'ayez pas peur, je viens en ami »"
+            },
+            {
+                id: 39,
+                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
             }
         ]
     },
