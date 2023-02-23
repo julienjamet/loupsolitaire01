@@ -4950,182 +4950,168 @@ export const Paragraphs: IParagraph[] = [
         ]
     },
     {
-        id: 225,
+        id: 241,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Le sorcier entend votre cri et fait aussitôt volte-face, juste à temps pour projeter un nouvel éclair en direction du Glok. La tête de
+        la créature explose aussitôt en une gerbe de flammes et son corps s'écrase en un petit tas au pied de la colonne. Le chef des Gloks vous voit et
+        se met à hurler : « Groh gaï oh ! Groh gaï oh ! » à ses troupes pour les inciter à repartir à l'attaque ; mais les Gloks apeurés abandonnent
+        bientôt les ruines pour courir se réfugier dans la forêt. Le jeune sorcier s'essuie alors le front et s'avance vers vous, la main tendue en
+        signe de gratitude et d'amitié. Rendez-vous au 349.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 349,
+                text: "Continuer"
             }
         ]
     },
     {
-        id: 225,
+        id: 242,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Le couvercle du sarcophage glisse à terre avec un bruit sourd. Vous contemplez alors les restes d'un ancien roi qui repose parmi ses
+        richesses. Une couronne ciselée coiffe son crâne et les mâchoires grandes ouvertes de son squelette ressemblent à l'orifice d'un puits sans fond.
+        Un lointain grondement s'élève bientôt des profondeurs de la terre. Si vous maîtrisez la Discipline Kaï du Bouclier Psychique, rendez-vous au 166.
+        Dans le cas contraire, rendez-vous au 9.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
+                id: 166,
+                text: "Utiliser votre Discipline Kaï du Bouclier Psychique",
+                skill: "Bouclier Psychique"
             },
             {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 9,
+                text: "Continuer"
             }
         ]
     },
     {
-        id: 225,
+        id: 243,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `En courant dans la forêt, vous trébuchez bientôt contre une racine et vous dévalez une pente escarpée en roulant sur vousmême. Vous
+        atterrissez sur un petit chemin caché sous les arbres et vous y découvrez un cadavre étendu parmi les broussailles. C'est celui d'un Glok, une
+        de ces créatures monstrueuses et répugnantes que les Maîtres des Ténèbres emploient à leurs services. Il y a bien longtemps, les ancêtres des
+        Gloks servaient d'esclaves aux Maîtres des Ténèbres et ceux-ci leur firent bâtir la ville infernale d'Helgedad située dans les déserts
+        volcaniques qui s'étendent au-delà des monts Durncrag. La construction de cette cité représenta un long et douloureux cauchemar pour ces
+        créatures, dont seules les plus fortes survécurent à la terrible épreuve. La chaleur et les vapeurs empoisonnées qui se dégageaient des terrains
+        alentour se révélaient, en effet, mortelles pour la plupart d'entre elles. Le monstre mort qui gît à vos pieds est, comme tous ses congénères,
+        un descendant de ces anciens esclaves Gloks. Il a été tué par un coup d'épée en pleine tête et une Masse d'Armes est posée à côté de lui. Vous
+        pouvez prendre cette arme si vous le souhaitez en n'oubliant pas de l'inscrire sur votre Feuille d'Aventure.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 97,
+                text: "Poursuivre votre chemin le long du sentier"
             }
         ]
     },
     {
-        id: 225,
+        id: 244,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Votre Sixième Sens vous révèle que vous n'êtes pas seul et que vous courez un très grand danger. Il vous faut donc revenir à l'air libre
+        le plus vite possible.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 93,
+                text: "Continuer"
             }
         ]
     },
     {
-        id: 225,
+        id: 245,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Des flèches viennent frapper la surface de la rivière sans vous faire le moindre mal : vous nagez sous l'eau, en effet, et il est
+        impossible de vous atteindre. Vous touchez bientôt la rive opposée et vous vous hissez sur la terre ferme avant de courir vous mettre à l'abri
+        dans la forêt. Vous êtes maintenant hors d'atteinte des Gloks qui enfourchent à nouveau leurs Loups Maudits et reprennent leur poursuite.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 190,
+                text: "Continuer"
             }
         ]
     },
     {
-        id: 225,
+        id: 246,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Lorsque l'embarcation se trouve au beau milieu du lac, l'homme ramène soudain sa perche et s'avance vers vous en éclatant d'un rire
+        sinistre. Il rejette alors le capuchon qui lui couvre la tête et vous vous apercevez qu'il s'agit là d'un terrible Drakkarim. Il va falloir le
+        combattre.`,
+        
+        text2: `[DRAKKARIM] HABILETÉ : 15 / ENDURANCE: 23`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 197,
+                text: "Combat",
+                fight: true
             }
         ]
     },
     {
-        id: 225,
+        id: 247,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: ` Le marchand a l'air furieux. Il appelle son garde du corps et il vous faut prendre une décision rapide.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
+                id: 159,
+                text: "Lui offrir quelque chose de plus grande valeur, parmi les objets que contient votre Sac à Dos"
             },
             {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 220,
+                text: "Combattre le garde du corps"
             }
         ]
     },
     {
-        id: 225,
+        id: 248,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Vous parvenez au pied de la colline et vous vous hâtez de courir dans la forêt. Quelques minutes plus tard, vous découvrez un ancien
+        sentier forestier qui forme ici une courbe à angle droit.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
+                id: 44,
+                text: "Suivre ce sentier en direction du nord"
             },
             {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 300,
+                text: "Le suivre en direction de l'est"
             }
         ]
     },
     {
-        id: 225,
+        id: 249,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Vous descendez une volée de marches qui mène à une vaste crypte où vous attend un spectacle peu réjouissant. L'étrange lumière verte
+        est, en effet, produite par deux rangées de crânes dont chacun repose sur un socle de pierre. Ces crânes se font face de part et d'autre de la
+        pièce, formant ainsi une allée macabre. De l'autre côté de la crypte, dans le mur du fond, une arcade sculptée ouvre sur un couloir qui s'enfonce
+        dans les ténèbres.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
+                id: 169,
+                text: "Traverser la pièce pour aller explorer le couloir"
             },
             {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 107,
+                text: "Attaquer ces crânes"
             }
         ]
     },
     {
-        id: 225,
+        id: 250,
 
-        text1: `Ce langage est celui des Kakarmis, une race d'animaux forestiers, doués d'intelligence, qui habitent les forêts du Sommerlund. Vous
-        n'avez rien à redouter de ces créatures timides et paisibles et votre Sens de la Communication Animale vous permet de leur parler dans leur
-        étrange dialecte. Que désirez-vous leur dire ?`,
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
 
         links: [
             {
-                id: 187,
-                text: "« N'ayez pas peur, je viens en ami »"
-            },
-            {
-                id: 39,
-                text: "« Je suis un Seigneur Kaï, je ne vous veux aucun mal, je souhaite simplement parler avec vous »"
+                id: 186,
+                text: "Les suivre"
             }
         ]
     },
