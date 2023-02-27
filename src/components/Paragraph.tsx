@@ -11,17 +11,14 @@ export const Paragraph: FC = () => {
 
     const client: IClient = {
         id: 123,
-        skills: ["Guérison", "Sixième Sens", "Communication Animale", "Maîtrise Psychique de la Matière", "Camouflage", "Orientation"],
+        skills: ["Sixième Sens"],
         objects: [],
         gold: 0
     }
 
     const handleClick = (link: ILink): void => {
 
-        if (link.skill !== undefined && !client.skills.includes(link.skill)) {
-            alert(`Vous ne maîtrisez pas la discipline Kaï : ${link.skill} !`)
-        }
-        else if (link.object !== undefined && !client.objects.includes(link.object)) {
+        if (link.object !== undefined && !client.objects.includes(link.object)) {
             alert(`Vous ne possédez pas l'objet : ${link.object} !`)
         }
         else if (link.gold !== undefined && client.gold < link.gold) {
@@ -42,6 +39,7 @@ export const Paragraph: FC = () => {
             {Paragraphs[paragraph].text2 && <p id="p2">{Paragraphs[paragraph].text2}</p>}
             {Paragraphs[paragraph].text3 && <p id="p3">{Paragraphs[paragraph].text3}</p>}
             {Paragraphs[paragraph].text4 && <p id="p3">{Paragraphs[paragraph].text4}</p>}
+            {Paragraphs[paragraph].text5 && <p id="p3">{Paragraphs[paragraph].text5}</p>}
 
             <div className="buttons" id="buttons">
                 {Paragraphs[paragraph].links.map((link) => {

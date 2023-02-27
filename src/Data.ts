@@ -5115,4 +5115,572 @@ export const Paragraphs: IParagraph[] = [
             }
         ]
     },
+    {
+        id: 251,
+
+        text1: `Vous avez de la chance : ils ne semblent pas vous avoir repéré. Ils avancent avec lenteur et finissent par disparaître à l'autre bout de
+        la corniche. Vous reprenez alors votre course.`,
+
+        links: [
+            {
+                id: 10,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 252,
+
+        text1: `Au milieu d'une clairière, trois hommes, une femme et deux enfants parlent avec vivacité en faisant de grands gestes. Ils portent en
+        bandoulière des sacs remplis d'objets et de vêtements. Leurs habits semblent de bonne coupe, mais ils sont sales et déchirés.`,
+
+        links: [
+            {
+                id: 155,
+                text: "Vous approcher d'eux et leur demander qui ils sont"
+            },
+            {
+                id: 70,
+                text: "Les éviter et poursuivre votre route"
+            }
+        ]
+    },
+    {
+        id: 253,
+
+        text1: `Les Loups Maudits sont bientôt sur vous et il vous faut les combattre un par un.`,
+        
+        text2: `[Premier LOUP MAUDIT] HABILETÉ : 13 / ENDURANCE : 24`,
+
+        text3: `[Deuxième LOUP MAUDIT] HABILETÉ : 14 / ENDURANCE : 23`,
+        
+        text4: `[Troisième LOUP MAUDIT] HABILETÉ : 14 / ENDURANCE : 22`,
+
+        text5: `[Quatrième LOUP MAUDIT] HABILETÉ : 15 / ENDURANCE : 21`,
+        
+        links: [
+            {
+                id: 278,
+                text: "Combat",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 254,
+
+        text1: `Votre Sens Kaï de l'Orientation vous permet de distinguer plusieurs séries de traces qui partent du chemin de droite en direction du
+        chemin de gauche. Ces traces ont été laissées par des Loups de grande taille. Ces animaux sont utilisés comme éclaireurs par les armées des
+        Maîtres des Ténèbres. Ce sont des créatures malfaisantes et cruelles, souvent chevauchées par des Gloks. Le chemin de gauche mène vers Holmgard,
+        celui de droite vers les monts Durncrag. Quelle direction souhaitez vous prendre ? Si vous voulez tourner à gauche, rendez-vous au 32.
+        Si vous préférez aller à droite, rendez-vous au 146.`,
+
+        links: [
+            {
+                id: 32,
+                text: "Tourner à gauche"
+            },
+            {
+                id: 146,
+                text: "Aller à droite"
+            }
+        ]
+    },
+    {
+        id: 255,
+
+        text1: `La créature qui vous fait face à présent est un Gourgaz, un de ces reptiles monstrueux qui infestent les profondeurs des marais de
+        Maakenmire. Leur nourriture préférée est la chair humaine... L'épée du Prince repose à vos pieds. Vous pouvez la ramasser et vous en servir pour
+        combattre si vous le désirez. Le Gourgaz s'apprête à vous frapper. Il vous faut l'affronter jusqu'à la mort de l'un d'entre vous. Ce monstre est
+        insensible à la Discipline Kaï de la Puissance Psychique`,
+        
+        text2: `[GOURGAZ] HABILETÉ : 20 / ENDURANCE : 30`,
+
+        links: [
+            {
+                id: 82,
+                text: "Combat",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 256,
+
+        text1: `Vous êtes réveillé par des Kraans qui poussent leurs cris sinistres dans le ciel bleu du matin. Vous vous frottez les yeux, puis vous
+        jetez un regard à travers les feuillages qui forment un dôme audessus de vous : les répugnantes créatures volent en direction du nord. Vous êtes
+        sûr que les Kraans ne vous ont pas vu, mais vous estimez préférable cependant, par simple prudence, de repartir sans délai. Vous remontez donc
+        sur votre cheval et vous galopez sur la grand-route en direction du sud.`,
+
+        links: [
+            {
+                id: 224,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 257,
+
+        text1: `Vous trouvez une grande porte de pierre aménagée dans le mur est, mais il semble tout à fait impossible de l'ouvrir.`,
+
+        links: [
+            {
+                id: 133,
+                text: "Examiner la statue"
+            },
+            {
+                id: 161,
+                text: "Vous asseoir sur le trône"
+            }
+        ]
+    },
+    {
+        id: 258,
+
+        text1: `Grâce à votre Maîtrise Psychique de la Matière, vous parvenez en quelques instants à dénouer vos liens. Vous attendez alors le moment
+        propice pour vous enfuir et, soudain, vous vous mettez à courir à toutes jambes en direction des sous-bois touffus. Des flèches noires sifflent à
+        vos oreilles mais, bientôt, vous vous êtes enfoncé suffisamment loin dans l'épaisse végétation pour être sûr d'avoir échappé à vos poursuivants.
+        Vous avez perdu votre Sac à Dos et vos Armes, mais vous êtes indemne. Il ne vous reste plus à présent qu'à poursuivre votre chemin parmi les
+        arbres de la forêt. Rendez-vous au 50.`,
+
+        links: [
+            {
+                id: 50,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 259,
+
+        text1: `La pièce devient de plus en plus froide. Peu à peu, vous sentez une odeur de soufre puis, bientôt, les échos d'un chant vous parviennent :
+        il y a quelqu'un d'autre dans ces souterrains. Soudain, une brèche s'ouvre dans le mur et l'extrémité d'un bâton noir apparaît. Un éclair bleu
+        jaillit alors de ce bâton et vient vous frapper en pleine poitrine. Vos forces lentement vous quittent tandis que la silhouette d'un vieil homme
+        vêtu d'une ample toge noire se dessine devant vous, dans une sorte de brouillard. L'homme lève un poignard et s'apprête à vous égorger : c'est la
+        dernière vision que vous emporterez de ce monde. Votre mission s'achève ici, en même temps que votre vie.`,
+
+        links: []
+    },
+    {
+        id: 260,
+
+        text1: `En nageant vers la rive, vous apercevez la silhouette du soldat étendu sur la berge, les bras en croix. Vous vous approchez de lui, mais
+        il n'y a plus rien à faire : il s'est rompu le cou en tombant et il est déjà mort. Or tandis que vous êtes agenouillé auprès de lui, deux Gloks
+        bondissent soudain sur vous et il vous faut les combattre. Vous n'avez pas d'armes et vous devrez donc vous battre à mains nues. De ce fait,
+        votre total d'HABILETÉ se trouvera diminué de 4 points. Vous affronterez les deux Gloks à tour de rôle.`,
+
+        text2: `[Premier GLOK] HABILETÉ : 11 / ENDURANCE : 18`,
+
+        text3: `[Deuxième GLOK] HABILETÉ : 12 / ENDURANCE : 17`,
+
+        links: [
+            {
+                id: 156,
+                text: "Combat",
+                fight: true
+            }
+        ]
+    },
+    {
+        id: 261,
+
+        text1: `Ruisselant de sueur et le souffle court vous écartez les feuillages sous lesquels vous vous êtes réfugié et vous apercevez un Kraan qui
+        vole au-dessus du chariot. Trois Gloks, au rictus diabolique, sautent du Kraan et se laissent tomber par terre, devant les chevaux effrayés. Ils
+        s'avancent alors vers les enfants sans défense en brandissant leurs lances.`,
+
+        links: [
+            {
+                id: 208,
+                text: "Retourner vers le chariot pour porter secours aux enfants"
+            },
+            {
+                id: 164,
+                text: "Vous enfoncer plus avant dans la forêt"
+            }
+        ]
+    },
+    {
+        id: 262,
+
+        text1: `Le marchand prend votre or et claque des doigts. Son garde du corps vous attaque aussitôt.`,
+
+        links: [
+            {
+                id: 191,
+                text: "Le combattre"
+            },
+            {
+                id: 234,
+                text: "Éviter l'affrontement en sautant en marche de la roulotte"
+            }
+        ]
+    },
+    {
+        id: 263,
+
+        text1: `Vous suivez prudemment le cours d'eau qui coule vers l'est puis soudain, vous vous immobilisez : vous venez, en effet, d'apercevoir la
+        silhouette d'un Kraan mort qui gît dans l'eau tel un grand barrage noir. En restant à l'abri du feuillage, vous avancez avec précaution vers le
+        cadavre de la créature : trois flèches sont profondément enfoncées dans son poitrail. Un autre corps est coincé sous le Kraan mort: c'est celui
+        d'un Glok qui le chevauchait. Les Gloks sont des êtres méprisables et malfaisants entièrement dévoués à la cause des Maîtres des Ténèbres. Il y a
+        bien longtemps, les ancêtres des Gloks servaient d'esclaves aux Maîtres des Ténèbres et ceux-ci leur firent bâtir la ville infernale d'Helgedad,
+        située dans les déserts volcaniques qui s'étendent au-delà des monts Durncrag. La construction de cette cité représenta un long et douloureux
+        cauchemar pour ces créatures, dont seules les plus fortes survécurent à la terrible épreuve. La chaleur et les vapeurs empoisonnées qui se
+        dégageaient des terrains alentour se révélaient, en effet, mortelles pour la plupart d'entre eux. Le monstre mort qui repose dans le lit du cours
+        d'eau est l'un des descendants de ces anciens esclaves. Apparemment, il s'est noyé. Dans une bourse accrochée à sa ceinture, vous trouvez 3 Pièces
+        d'Or que vous pouvez prendre si vous le souhaitez.`,
+
+        links: [
+            {
+                id: 70,
+                text: "Continuer votre chemin le long du cours d'eau"
+            },
+            {
+                id: 157,
+                text: "Quitter sa berge et prendre la direction du sud"
+            }
+        ]
+    },
+    {
+        id: 264,
+
+        text1: `Après avoir parcouru quelques centaines de mètres, vous entendez les échos d'une bataille qui fait rage un peu plus loin vers l'ouest.`,
+
+        links: [
+            {
+                id: 97,
+                text: "Vous approcher de ce champ de bataille"
+            },
+            {
+                id: 6,
+                text: "Poursuivre votre chemin en direction du sud"
+            }
+        ]
+    },
+    {
+        id: 265,
+
+        text1: `Vous vous hâtez de disparaître dans la forêt avant que d'autres ennemis, Loups Maudits ou Kraan, se montrent. Au bout d'une heure de
+        marche, vous atteignez le sommet d'une colline rocheuse. De l'autre côté vous attend une vision d'espoir, mais vous êtes loin cependant d'être
+        au bout de vos peines, car de nombreux dangers vous menacent encore.`,
+
+        links: [
+            {
+                id: 142,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 266,
+
+        text1: `Tandis que le serpent ailé se tord de douleur dans les derniers soubresauts de son agonie, la porte aménagée dans le mur s'ouvre avec un
+        déclic, découvrant un passage secret dans lequel vous vous hâtez de vous engouffrer. Aussitôt après, la porte se referme violemment derrière vous.`,
+
+        links: [
+            {
+                id: 209,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 267,
+
+        text1: `En vous couvrant le nez d'un pan de votre cape, vous vous approchez avec précaution du Kraan mort. L'odeur infecte qui se dégage de son
+        sang noir vous retourne l'estomac, mais vous êtes décidé malgré tout à examiner son cadavre. Vous remarquez alors un sac attaché au corps du
+        monstre par une sangle. A l'intérieur du sac, vous trouvez un Message écrit sur une peau d'animal. Tout au fond du sac, il y a également un
+        Poignard. Vous pouvez conserver ce Message et ce Poignard si vous le désirez. Vous abandonnez ensuite le cadavre du monstre et vous poursuivez
+        votre chemin en direction de l'est.`,
+
+        links: [
+            {
+                id: 125,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 268,
+
+        text1: `Quelques minutes plus tard, vous reprenez vos esprits tandis que l'on vous fait boire une rasade d'eau-de-vie. Epuisé mais heureux d'être
+        toujours vivant, vous avancez d'un pas chancelant, soutenu par les soldats du Roi, en direction du camp fortifié.`,
+
+        links: [
+            {
+                id: 288,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 269,
+
+        text1: `Le cadavre du vieux fou est étendu à vos pieds. Deux soldats apparaissent alors dans l'encadrement de la porte cochère et vous félicitent
+        chaudement. Ils vous expliquent que le vieillard était un dément échappé d'un asile et qu'ils essayaient depuis deux jours de le rattraper. L'un
+        des soldats vous offre 10 Pièces d'Or en guise de récompense et vous propose de vous conduire à la citadelle qui abrite le Palais du Roi.`,
+
+        links: [
+            {
+                id: 314,
+                text: "Accepter son offre"
+            },
+            {
+                id: 7,
+                text: "Ne compter que sur vous-même pour rejoindre la citadelle"
+            }
+        ]
+    },
+    {
+        id: 270,
+
+        text1: `Vous entendez les hurlements furieux de l'ennemi qui vous parviennent de l'autre côté du lac. Il vous faut partir au plus vite avant que
+        d'autres Kraans apparaissent. Vous remontez donc sur votre cheval et vous poursuivez votre chemin en vous enfonçant plus avant dans la forêt.`,
+
+        links: [
+            {
+                id: 21,
+                text: "Continuer"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+    {
+        id: 250,
+
+        text1: `Deux petites créatures au pelage ras se cachent derrière le tronc. Ce sont des Kakarmis, une race d'animaux doués d'intelligence qui
+        habitent les forêts du Sommerlund. Vous avez sauté du tronc juste en face d'eux et avant que vous ayez eu le temps de vous expliquer, les deux
+        Kakarmis, affolés par votre apparition soudaine, s'enfuient dans la forêt.`,
+
+        links: [
+            {
+                id: 186,
+                text: "Les suivre"
+            }
+        ]
+    },
+
 ]

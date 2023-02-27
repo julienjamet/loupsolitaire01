@@ -14,6 +14,7 @@ export interface IParagraph {
     text2?: string | undefined,
     text3?: string | undefined,
     text4?: string | undefined,
+    text5?: string | undefined,
     links: ILink[]
 }
 
